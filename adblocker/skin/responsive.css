@@ -1,0 +1,69 @@
+ @media (max-width:1200px) {
+	.content-sec h2{font-size:42px;} 
+	
+ }
+ @media (max-width:991px) {
+	.image-responsive{width:100%; }
+	 .navbar-brand { width: 260px;} 
+	 .navbar-default .navbar-nav > li > a{ padding-top: 10px; font-size:14px; }
+	 .content-sec h2{font-size:32px;}
+	 .content-sec h3{font-size:16px;}
+	 .features li{font-size:14px; }
+	 .feature h4{font-size:36px;}
+	 .feature p{font-size:18px;}
+	 .feature-sec h6{font-size:20px;}
+	 .feature-sec p{font-size:14px;}
+	 .feature-sec img{width:45%;}
+	 .feature-sec {margin: 35px 0 0;}
+	 .install-sec p{font-size:16px;}
+	 .install-sec h6{font-size:30px;}
+	 .install-btn ul li{ height: 70px; width: 280px;}
+	  .install-btn ul li a#platform-firefox {background-position: 0 -99px;}
+	  .footer-nav ul li a{font-size:12px; padding: 0 14px;}
+	  .feature-banner-content h2{font-size:32px;}
+	  .feature-banner-content h3{font-size:16px;}
+	  .feature-banner{background-position:right -382px top;}
+	  .top-sec.white-shape-bg .content.border { border-right: none;}
+	  .mrg-tp{margin-top:20px; margin-bottom:20px;}
+	  .blocks img{width:100%;}
+	 
+ }
+ 
+ @media (max-width:767px) {
+.header.fixed{position:relative;}	
+	.feature-sec img {width: auto;} 
+	.feature h4 { font-size: 28px;}
+	.feature p { font-size: 15px;}
+	.feature-sec p { font-size: 14px;}
+	.install-sec h6 { font-size: 20px;}
+	.install-sec p{width:85%;}
+	.navbar-toggle{margin-top:17px;}
+	.navbar-default .navbar-toggle { border-color: #C10017;}
+	.navbar-default .navbar-toggle .icon-bar {  background-color: #C10017;}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {  background-color: #C10017;}
+	.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{background-color: #fff;} 
+	.ad-block{padding:0;}
+	.footer-nav ul li a { font-size: 12px; line-height: 30px; padding: 0 11px;}
+	.copyright p{font-size:11px;}
+	.blocks img{width:auto;}
+	.message{font-size:26px;}
+	.top-sec h3{width:100%;}
+ }
+ @media (max-width:479px) {
+	.navbar-toggle { margin-top: 12px;}
+	.navbar-brand { width: 218px;}
+	.content-sec h2{font-size:24px; }
+	.content-sec h3 {font-size: 13px;}
+	.other-platform ul li{margin-right:8px;}
+	.feature p { font-size: 13px;}
+	.feature h4 { font-size: 22px;}
+	.install-sec p{font-size:14px; width:95%;}
+	.faq h6{font-size:20px;} 
+	.faq span{font-size:15px;}
+	.faq p{font-size:12px;}
+	.copyright p{font-size:9px;}
+	.feature-banner-content h2{font-size:24px;}
+	  .feature-banner-content h3{font-size:13px;}
+	  .message{font-size:22px; padding-top:15px;}
+ }
+ 

@@ -1,0 +1,983 @@
+﻿<!DOCTYPE html>
+<!--
+#* This file is part of StopAll Ads <http://www.stopallads.com/>,
+#* Copyright (C) 2016 Tweaking Techonologies
+
+#* StopAll Ads is a fork of the Adblock Plus version 2.7.3 extension for
+#* blocking advertisements on the web.
+#* This fork will provide the same features as Adblock Plus
+
+#* StopAll Ads is distributed in the hope that it will be useful,
+#* but WITHOUT ANY WARRANTY; without even the implied warranty of
+#* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#* GNU General Public License for more details.
+#*
+#* You should have received a copy of the GNU General Public License
+#* along with StopAll Ads.  If not, see <http://www.gnu.org/licenses/>.
+
+
+#Originally Contributed by:
+ * This file is part of Adblock Plus <https://adblockplus.org/>,
+ * Copyright (C) 2006-2016 Eyeo GmbH
+ *
+ * Adblock Plus is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * Adblock Plus is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StopAll Ads</title>
+    <link rel="stylesheet" href="skin/query.switchButton.css" type="text/css" media="screen, projection" />
+    <style type="text/css">
+                @font-face {
+                    font-family: 'open_sansbold';
+                    src: url('skin/fonts/opensans-bold-webfont.woff2') format('woff2'), url('skin/fonts/opensans-bold-webfont.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                @font-face {
+                    font-family: 'open_sanslight';
+                    src: url('skin/fonts/opensans-light-webfont.woff2') format('woff2'), url('skin/fonts/opensans-light-webfont.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                @font-face {
+                    font-family: 'open_sansregular';
+                    src: url('skin/fonts/opensans-regular-webfont.woff2') format('woff2'), url('skin/fonts/opensans-regular-webfont.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+
+                @font-face {
+                    font-family: 'open_sanssemibold';
+                    src: url('skin/fonts/opensans-semibold-webfont.woff2') format('woff2'), url('skin/fonts/opensans-semibold-webfont.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                html {
+                    /*height: 100%;*/
+                    box-sizing: border-box;
+                }
+
+
+                body {
+                    width: 245px;
+                    overflow: hidden;
+                    position: relative;
+                    margin: 0;
+                    padding: 0;
+                    -webkit-text-size-adjust: 100%;
+                    font-family: 'open_sansregular';
+                    font-size: 16px;
+                    color: #000;
+                    line-height: 1.8;
+                    background: #e1e1e1;
+                }
+
+                a {
+                    color: black;
+                    -o-transition: color 1s ease-out, background 1s ease-in;
+                    -ms-transition: color 1s ease-out, background 1s ease-in;
+                    -moz-transition: color 1s ease-out, background 1s ease-in;
+                    -webkit-transition: color 1s ease-out, background 1s ease-in;
+                    /* ...and now override with proper CSS property */
+                    transition: color 1s ease-out, background 1s ease-in;
+                }
+                /*a:hover { color:blue; }*/
+
+                h1, h2 {
+                    color: #ffffff;
+                    font-size: 54px;
+                    line-height: 60px;
+                }
+
+                a, span, div, ul, li, strong, small, lable, p, h3, h4, h5, h6, input {
+                    font-size: 16px;
+                    padding: 0;
+                    margin: 0;
+                    outline: none;
+                }
+
+                li {
+                    list-style: none;
+                }
+
+                a:focus, a:hover {
+                    text-decoration: none;
+                    outline: none;
+                }
+
+                ul li {
+                    list-style: none;
+                }
+
+                .pop-up {
+                    width: 100%;
+                    border-radius: 5px;
+                    float: left;
+                    background: #f2f2f2;
+                    font-family: 'open_sansregular';
+                    /* border: solid 1px #fff; */
+                    position: relative;
+                    margin-top: -3px;
+                    /* margin-right: 30px; */
+                    float: left;
+                    /* padding: 1px;
+            box-shadow: 0px 0 10px #333;*/
+                }
+
+                /*.pop-up{width:256px; border-radius:5px; float:left; background:#f2f2f2;  font-family: 'open_sansregular'; border:solid 1px #fff; position:relative; margin-top:10px; margin-right:30px; float:right; padding:1px; box-shadow:0px 0 10px #333;}
+        */
+
+                .arrow-up {
+                    width: 0;
+                    height: 0;
+                    border-left: 7px solid transparent;
+                    border-right: 7px solid transparent;
+                    border-bottom: 10px solid #f2f2f2;
+                    position: absolute;
+                    top: -11px;
+                    right: 10px;
+                }
+
+                .pop-up-header, .pop-up-footer {
+                    text-align: center;
+                }
+
+                .pop-up-header {
+                    padding-top: 10px;
+                    padding-bottom: 12px;
+                    border-radius: 5px 5px 0 0;
+                    position: relative;
+                }
+
+                    .pop-up-header img {
+                        margin-bottom: 0px;
+                    }
+
+                    .pop-up-header h5 {
+                        width: 100%;
+                        color: #c10017;
+                        font-size: 20px;
+                        font-family: 'open_sansbold';
+                        line-height: 20px;
+                    }
+
+                        .pop-up-header h5 span {
+                            color: #000;
+                            font-size: 20px;
+                            font-family: 'open_sansbold';
+                        }
+
+                .pop-up-content {
+                    float: left;
+                    padding: 0 15px;
+                }
+
+                    .pop-up-content ul li {
+                        cursor: pointer;
+                        background: #f4f4f4;
+                        padding: 8px 0;
+                        font-size: 13px;
+                        color: #414141;
+                        border-top: solid 1px #dbdada;
+                        float: left;
+                        width: 100%;
+                    }
+
+                        .pop-up-content ul li span {
+                            font-size: 14px;
+                        }
+
+                        .pop-up-content ul li strong {
+                            font-size: 14px;
+                        }
+
+                        .pop-up-content ul li.disabled {
+                            cursor: no-drop;
+                            color: #999999;
+                        }
+
+                        .pop-up-content ul li .licontent {
+                            padding: 0 20px;
+                        }
+
+                        .pop-up-content ul li img {
+                            padding-right: 14px;
+                            padding-top: 7px;
+                            float: left;
+                        }
+
+                            .pop-up-content ul li img.arrow-icon {
+                                float: right;
+                                margin-top: 5px;
+                                cursor: pointer;
+                            }
+
+                        .pop-up-content ul li.showli {
+                            padding-bottom: 0px;
+                            background: none;
+                        }
+
+                            .pop-up-content ul li.showli:hover {
+                                background: #eaeaea;
+                            }
+
+                            .pop-up-content ul li.showli .licontent {
+                                margin-bottom: 10px;
+                                background: url(../skin/arrow-col.png) no-repeat right 32px center;
+                            }
+
+                            .pop-up-content ul li.showli.collapsed .licontent {
+                                background: url(../skin/arrow-col.png) no-repeat right 32px center;
+                            }
+
+                .show-click {
+                    padding: 0;
+                    margin: 0;
+                    background: #f6eded, #ffffff;
+                }
+
+                .pop-up-content ul li .show-click {
+                    float: left;
+                    width: 100%;
+                }
+
+                    .pop-up-content ul li .show-click li {
+                        padding: 0;
+                        float: left;
+                        width: 100%;
+                        background: rgb(255,255,255); /* Old browsers */
+                        background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(239,239,239,1) 66%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+                    }
+
+                        .pop-up-content ul li .show-click li ul {
+                            float: left;
+                            width: 100%;
+                        }
+
+                            .pop-up-content ul li .show-click li ul li {
+                                padding: 5px 18px;
+                                border: none;
+                                width: 28%;
+                                float: left;
+                                background: none;
+                            }
+
+                    .pop-up-content ul li .show-click div {
+                        background: rgb(255,255,255); /* Old browsers */
+                        background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(239,239,239,1) 66%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+                    }
+
+                #outer-wrapper {
+                    background: rgb(255,255,255); /* Old browsers */
+                    background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(239,239,239,1) 66%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+                    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                    background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(239,239,239,1) 66%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+                }
+
+                .pop-up-content ul li .show-click li ul li:first-child {
+                    width: 36%;
+                }
+
+                .pop-up-footer {
+                    padding: 8px 0;
+                    float: left;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #2f2f2f;
+                    cursor: pointer;
+                    /*border-radius:0 0 5px 5px; */
+                    background: #e1e1e1 url('skin/border-center.png') no-repeat center center;
+                }
+
+                    .pop-up-footer img {
+                        padding-right: 6px;
+                        position: relative;
+                        top: 3px;
+                    }
+
+                    .pop-up-footer span {
+                        font-size: 13px;
+                    }
+
+                .main_btn_report img {
+                    padding-top: 0;
+                    margin-top: -8px;
+                }
+
+                #stats-report img {
+                    padding-top: 6px;
+                }
+                <!-- Report Style start -->
+                .main_btn_report {
+                    background-color: #ffffff !important;
+                    border: none !important;
+                    float: left !important;
+                    cursor: pointer !important;
+                    outline: none !important;
+                    width: 28% !important;
+                }
+
+                .main_btn_report div {
+                    height: 75px !important;
+                    width: 72px !important;
+                }
+
+                button#entire {
+                    margin-left: 8px !important;
+                    margin-right: 8px !important;
+                }
+
+                #selection_icon {
+                    background: url('skin/selection.png') no-repeat !important;
+                    background-size: 72px 96px !important;
+                }
+
+                #scroll {
+                    margin-left: 12px !important;
+                }
+
+                    #scroll:hover #selection_icon {
+                        background: url('skin/selection_hover.gif') no-repeat !important;
+                        background-size: 72px 96px !important;
+                    }
+
+                #entire_icon {
+                    background: url('skin/fullpage.png') no-repeat !important;
+                    background-size: 72px 96px !important;
+                }
+
+                #entire:hover #entire_icon {
+                    background: url('skin/fullpage_hover.gif') no-repeat !important;
+                    background-size: 72px 96px !important;
+                }
+
+                #dom_icon {
+                    background: url('skin/dom.png') no-repeat !important;
+                    background-size: 72px 96px !important;
+                }
+
+                #domcapture:hover #dom_icon {
+                    background: url('skin/dom_hover.gif') no-repeat;
+                    background-size: 72px 96px;
+                }
+
+                .main_btn_report span {
+                    font-size: 13px;
+                    font-weight: 100;
+                    color: #626262;
+                    margin-top: -14px;
+                    float: left;
+                    margin-left: 8px;
+                }
+
+                div#wrapper {
+                    float: left;
+                    /*margin-top: 15px;
+                        margin-bottom: 38px;*/
+                }
+
+                .main_btn_report:hover span {
+                }
+
+                .options_wrapper a {
+                    height: 20px;
+                    width: 20px;
+                    float: right;
+                    outline: none;
+                }
+
+                #options_icon {
+                }
+
+                    #options_icon:hover, #options_icon.active {
+                    }
+
+                    #options_icon:active {
+                    }
+
+                .options_wrapper {
+                    float: left;
+                    width: 98%;
+                    margin-top: 4px;
+                    margin-bottom: 4px;
+                }
+
+                #know_stopallads {
+                    background: url('skin/stopallads_normal.png') no-repeat;
+                    background-size: 56px 30px;
+                    height: 30px;
+                    width: 56px;
+                    float: left;
+                    margin-left: 3px;
+                    margin-top: 9px;
+                }
+
+                div#extension_option {
+                    float: left;
+                    width: 100%;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
+                    border-top: 1px solid #ccc;
+                }
+
+                .switch-button-background.checked {
+                    background: url('skin/audio_on_bg.png') no-repeat;
+                    border: none;
+                    border-radius: 0;
+                    background-size: 36px 18px;
+                    width: 36px !important;
+                    height: 18px !important;
+                }
+                /*.switch-button-background.checked .switch-button-button{
+                          left: 18px;
+                    }*/
+                .switch-button-button {
+                    background: url('skin/audio_knob.png') no-repeat;
+                    border-radius: 0px;
+                    width: 18px !important;
+                    height: 18px !important;
+                    background-size: 18px 18px;
+                    border: none;
+                    top: 0px;
+                }
+
+                .switch-button-background {
+                    border: none;
+                    border-radius: 0;
+                    float: left;
+                    margin-left: 63px;
+                    background: url('skin/audio_off_bg.png') no-repeat;
+                    background-size: 36px 18px;
+                    width: 36px !important;
+                    height: 18px !important;
+                }
+
+                span#sound-text {
+                    float: left;
+                    margin-top: 3px;
+                }
+
+                div#outer-wrapper {
+                    float: right;
+                }
+
+                #selection_arrow {
+                    background: url('skin/tutorial_selection_arrow.png') no-repeat;
+                    background-size: 67px 9px;
+                    width: 67px;
+                    height: 9px;
+                    position: absolute;
+                    left: 325px;
+                    top: 49px;
+                }
+
+                #fullpage_arrow {
+                    background: url('skin/tutorial_fullpage_arrow.png') no-repeat;
+                    background-size: 192px 20px;
+                    width: 192px;
+                    height: 20px;
+                    position: absolute;
+                    left: 355px;
+                    bottom: 120px;
+                }
+
+                #dom_arrow {
+                    background: url('skin/tutorial_dom_arrow.png') no-repeat;
+                    background-size: 9px 57px;
+                    width: 9px;
+                    height: 57px;
+                    position: absolute;
+                    left: 632px;
+                    bottom: 80px;
+                }
+
+                .tutorial_text {
+                    font-size: 18px;
+                    position: absolute;
+                    color: #666;
+                    display: none;
+                    font-weight: 200;
+                    letter-spacing: 0.02em;
+                    text-align: right;
+                }
+
+                div#selection_text {
+                    top: 29px;
+                    width: 250px;
+                    left: 81px;
+                }
+
+                div#fullpage_text {
+                    top: 120px;
+                    width: 233px;
+                    left: 100px;
+                }
+
+                div#dom_text {
+                    top: 178px;
+                    right: 55px;
+                    width: 250px;
+                }
+
+                .arrows {
+                    display: none;
+                }
+
+                .close {
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    right: 0;
+                    cursor: pointer;
+                }
+
+                .close_btn {
+                    background: url('skin/tutorial_close.png') no-repeat;
+                    background-size: 20px 20px;
+                    height: 20px;
+                }
+
+                    .close_btn:hover {
+                        background: url('skin/tutorial_close_hover.png') no-repeat;
+                        background-size: 20px 20px;
+                        height: 20px;
+                    }
+
+                    .close_btn:active {
+                        background: url('skin/tutorial_close_pressed.png') no-repeat;
+                        background-size: 20px 20px;
+                        height: 20px;
+                    }
+
+                div#close {
+                    position: absolute;
+                    left: 8px;
+                    bottom: 8px;
+                }
+
+        .feedback-s {
+            float: left;
+            width: auto;
+            text-align: center;
+            margin-right: 10px;
+            margin-top: 2px ;cursor: pointer;
+        }
+
+        .settings {
+            float: left;
+            width: auto;
+            text-align: center;
+            cursor: pointer;
+        }
+
+                    .settings img {
+                        display: inline-block;
+                    }
+
+                    .settings span {
+                        display: block;
+                    }
+
+                .page-counter {
+                    position: absolute;
+                    top: 42px;
+                    left: 130px;
+                    display: inline-block;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+
+                    .page-counter span {
+                        display: block;
+                        color: #ffffff;
+                        background: #000000;
+                        border-radius: 7px;
+                        border: solid 2px #ffffff;
+                        width: auto;
+                        padding: 0px 4px;
+                        font-size: 11px;
+                    }
+
+
+
+                /* privacy tools */
+                .privacy-tools {
+                    background: #ffe6bd url(../skin/arrow-col2.png) no-repeat right 47px center;
+                    padding: 7px 35px 5px;
+                    cursor: pointer;
+                }
+
+                    .privacy-tools:hover {
+                        background: #ffdda4 url(../skin/arrow-col2.png) no-repeat right 47px center;
+                    }
+
+                    .privacy-tools .pt-icon img {
+                        vertical-align: middle;
+                    }
+
+                    .privacy-tools span {
+                        font-size: 14px;
+                        color: #a56f18;
+                        font-family: 'open_sanssemibold';
+                        vertical-align: top;
+                    }
+                    .privacy-tools label {
+                        font-size: 14px;
+                        color: #a56f18;
+                        font-family: 'open_sanssemibold';
+                        vertical-align: top;
+                    }
+
+                span.pt-icon {
+                    margin-right: 9px;
+                }
+
+                    span.pt-icon img {
+                        margin-top: -1px;
+                    }
+
+
+                /* privacy tools detail screen */
+                .pyt-back-col {
+                    background: #eaeaea url(../skin/arrow-col3.png) no-repeat left 13px center;
+                    padding: 7px 35px 5px;
+                    cursor: pointer;
+                }
+
+                    .pyt-back-col:hover {
+                        background: #e2e2e2 url(../skin/arrow-col3.png) no-repeat left 13px center;
+                    }
+
+
+
+                    .pyt-back-col span {
+                        font-size: 14px;
+                        color: #2c2c2c;
+                        font-family: 'open_sanssemibold';
+                        vertical-align: top;
+                    }
+
+                .pt-title {
+                    color: #5c5c5c;
+                    font-size: 12px;
+                    padding: 7px 12px 12px;
+                }
+                .pt-detail-content {
+                max-height: 266px;
+                overflow: auto;
+                margin-bottom: 26px;
+                }
+                
+                .pro-dtl-col {
+                    overflow: hidden;
+                    clear: both;
+                    padding: 0 0 0 13px;
+                    margin-bottom: 18px;
+                }
+                .pro-dtl-col:last-child{ margin-bottom: 0;}
+                               
+                .pt-detail-content::-webkit-scrollbar {
+                    width: 6px;
+                    height: 6px; 
+                }
+
+                .pt-detail-content::-webkit-scrollbar-track {
+                    -webkit-box-shadow: inset -1px 0 0 #e1e1e1;
+                    background-color:#e1e1e1;
+                }
+
+                .pt-detail-content::-webkit-scrollbar-thumb {
+                    background-color: #bfbfbf;
+                    border: 2px solid #e1e1e1;
+                }
+
+
+                
+
+                    .pro-dtl-col .pro-icon {
+                        float: left;
+                        margin-right: 8px; margin-top: 6px;
+                    }
+
+                        .pro-dtl-col .pro-icon img {
+                            vertical-align: middle;
+                        }
+
+        .pro-right-text {
+            float: left;
+            width: 88%;
+        }
+
+            .pro-right-text h5 {
+                color: #060606;
+                font-size: 14px;
+                font-weight: 600;
+                margin: 4px 0 -1px;
+            }
+
+                    .pro-right-text p {
+                        color: #5c5c5c;
+                        font-size: 13px;
+                        line-height: 16px;
+                        margin: 0 0 3px;
+                        padding-right: 5px;
+                    }
+
+                .learn-more {
+                    color: #0171c8;
+                    font-size: 13px;
+                    text-decoration: underline;
+                }
+
+                    .learn-more:hover {
+                        color: #0b8bed;
+                    }
+
+                .footer-upgrade-col{
+                padding: 9px 0 12px;
+                float: left;
+                width: 100%;
+                background: #e1e1e1;
+                text-align: center;
+                }
+                .footer-upgrade-col p{ color: #262626; font-size: 11.5px; margin-bottom: 9px;}
+                .upgrade-btn{ width: 90px; display: block; margin: 0 auto; background: #0d9e00; border-radius: 4px; text-decoration: none; text-align: center;
+                color: #ffffff; font-size: 12.5px; line-height: 20px; padding: 0px 0 4px;}
+                    .upgrade-btn label {
+                        cursor: pointer;
+                        color: #ffffff;
+                        font-size: 12.5px;
+                        line-height: 20px;
+                        padding: 0px;
+                        margin: 0;
+                        margin-right: 3px;
+                    }
+                .upgrade-btn:hover{ background: #11ae03;}
+                .feedback-setting-col{ position: absolute; right: 14px; top: 14px;}
+    </style>
+
+    <script src="ext/jquery.min.js"></script>
+    <script src="ext/popup.js"></script>
+    <script src="i18n.js"></script>
+    <script src="popup.js"></script>
+    <script src="notification.js"></script>
+    <script src="stats.js"></script>
+    <script src="ext/jquery.js"></script>
+    <script src="ext/jquery-ui.min.js"></script>
+    <script src="ext/jquery.switchButton.js"></script>
+    <script src="ext/report_popup.js"></script>
+</head>
+
+<body tabindex="1" style="overflow: hidden;">
+    <div class="pop-up">
+        <!--<div class="arrow-up"></div>-->
+        <!--
+        <div id="notification" hidden="">
+        <div id="notification-content">
+          <h1>
+            <span id="notification-title"></span>
+            <span id="notification-close"></span>
+          </h1>
+          <p id="notification-message"></p>
+        </div>
+        <ul id="notification-close-content">
+          <li id="notification-hide" class="i18n_overlay_notification_closing_button_hide">Close this notification</li>
+          <li id="notification-optout" class="i18n_overlay_notification_closing_button_optout">Stop showing notifications</li>
+        </ul>
+        </div>
+        <div id="clickhide-instructions" class="i18n_clickhide_instructions">After closing this popup, click (or right-click) an element on the page.</div>
+        -->
+
+        <div class="pop-up-header">
+            <img src="skin/logo-icon.png" />
+            <h5>StopAll <span>Ads</span></h5>
+            <div class="page-counter" id="page-counter"><span>0</span></div>
+            
+            <div class="feedback-setting-col">
+                <div class="feedback-s" title="Send Feedback">
+                    <a id="SFdynamic" href="http://www.stopallads.com/en/support" target="_blank" style="font-size:13px; cursor:pointer; text-decoration: none; display:block;">
+                        <div id="Feedback-support" class="checkbox" role="checkbox" aria-checked="true"><img src="skin/feedback_icon.png" /></div>
+                        <!-- <label for="Feedback-support" style="font-size:13px;cursor:pointer;" class="i18n_stats_Feedback_support"></label> -->
+                    </a>
+                </div>
+
+                <div class="settings" id="options" role="button" title="Settings">
+                    <img src="skin/setting-icon.png" />
+                    <!-- <span class="i18n_options_short"></span> -->
+                </div>
+            </div>
+        </div>
+        <div class="privacy-tools-detail" style="display: none;">
+            <div class="pyt-back-col">
+                <span class="backl_text">
+                    <span class="i18n_stats_back"></span>
+                </span>
+            </div>
+            <div class="pt-title">
+                <label class="i18n_stats_full_protection_tools"></label>
+            </div>
+            <div class="pt-detail-content">
+                <div class="pro-dtl-col">
+                    <span class="pro-icon"><img src="skin/antivirus_icon.png" /></span>
+                    <div class="pro-right-text">
+                        <h5 class="pro-head-title">
+                            <label class="i18n_stats_sav_heading"></label>
+                       </h5>
+                        <p class="pro-desc">
+                            <label class="i18n_stats_sav_description"></label>
+                        </p>
+                        <a href="https://antivirus.systweak.com?utm_source=chromeext_stopallads_pt&utm_campaign=default&utm_content=extension" target="_blank" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+              
+                <div class="pro-dtl-col">
+                    <span class="pro-icon"><img src="skin/svpn_icon.png" /></span>
+                    <div class="pro-right-text">
+                        <h5 class="pro-head-title"> <label class="i18n_stats_vpn_heading"></label></h5>
+                        <p class="pro-desc">
+                            <label class="i18n_stats_vpn_description"></label>
+                        </p>
+                        <a href="https://systweakvpn.com?utm_source=chromeext_stopallads_pt&utm_campaign=default&utm_content=extension" target="_blank" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="pro-dtl-col">
+                    <span class="pro-icon"><img src="skin/tweakpass_icon.png" /></span>
+                    <div class="pro-right-text">
+                        <h5 class="pro-head-title">
+                            <label class="i18n_stats_tweakpass_heading"></label>
+                       </h5>
+                        <p class="pro-desc">
+                            <label class="i18n_stats_tweakpass_description"></label>
+                        </p>
+                        <a href="https://www.tweakpass.com?utm_source=chromeext_stopallads_pt&utm_campaign=default&utm_content=extension" target="_blank" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="privacy-tools">
+            <span class="pt-icon"><img src="skin/privacy-tools.png" /></span>
+            <label  style="cursor:pointer;" class="i18n_stats_show_privacy_tools"></label>
+        </div>
+        <div class="pop-up-content">
+            <ul>
+                <li id="enabled" class="menu-item" role="button">
+                    <div id="enabled-yes" class="licontent">
+                        <img src="skin/right-icon.png" />
+                        <span class="i18n_enabled_for_site"></span>
+                    </div>
+                    <div id="enabled-no" class="licontent">
+                        <img src="skin/cancle-icon.png" />
+                        <span class="i18n_disabled_for_site"></span>
+                    </div>
+                </li>
+                <li id="clickhide" class="menu-item" role="button">
+                    <div class="licontent">
+                        <img src="skin/element-icon.png" />
+                        <span class="i18n_easy_create_filter"></span>
+                    </div>
+                </li>
+                <li id="clickhide-cancel" class="menu-item" role="button">
+                    <div class="licontent">
+                        <img src="skin/element-icon.png" />
+                        <span class="i18n_cancel"></span>
+                    </div>
+                </li>
+                <!--id="stats-container"-->
+                <li id="stats-container" class="showli collapsed" title="Ads Blocked">
+                    <div class="menu-item collapse licontent" data-option="show_statsinpopup" data-collapsable="stats-container" role="button">
+                        <img src="skin/grow-icon.png" />
+                        <span class="i18n_stats_title"></span>
+
+                    </div>
+                    <!--id="stats" -->
+                    <ul id="stats" class="show-click" style="display:none;">
+                        <li>
+                            <ul>
+                                <li class="i18n_pop_onthispage"></li>
+                                <li id="stats-page"><strong>0</strong></li>
+                            </ul>
+                            <ul>
+                                <li class="i18n_pop_total"></li>
+                                <li id="stats-total"><strong>0</strong></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--For Report Section Html Start-->
+                <li id="stats-report" class="showli collapsed">
+                    <div class="menu-item collapse licontent" data-option="show_statsinpopup" data-collapsable="stats-report" role="button" title="Report an Issue">
+                        <img src="skin/report-icon.png" style="padding-right: 8px;" />
+                        <span class="i18n_stats_report"></span>
+
+                    </div>
+                    <div id="outer-wrapper" class="show-click" style="display:none;">
+                        <div id="wrapper">
+                            <button class="main_btn_report" style="height:40px;width:59px; background:none; border:none;cursor:pointer;outline: none;" id="scroll" tabindex="-1" title="Selection">
+                                <!-- <div id="selection_icon"></div> -->
+                                <img src="skin/selection.png" width="50" height="70" />
+
+                            </button>
+                            <button class="main_btn_report" style="height:40px;width:59px; background:none; border:none; cursor:pointer;outline: none;" id="entire" tabindex="-1" title="Full Page">
+                                <img src="skin/fullpage.png" width="50" height="70" />
+                                <!-- <div id="entire_icon"></div> -->
+                            </button>
+                            <button class="main_btn_report" style="height:40px;width:59px;background:none; border:none;cursor:pointer;outline: none;" id="domcapture" tabindex="-1" title="Select Element">
+                                <img src="skin/dom.png" width="50" height="80" />
+                                <!-- <div id="dom_icon"></div> -->
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <!--For Report Section Html End-->
+                <li title="Show number in icon">
+                    <div class="licontent">
+                        <div id="show-iconnumber" class="checkbox" role="checkbox" aria-checked="true"><img src="skin/right-icon.png" /></div>
+                        <label for="show-iconnumber" style="font-size:13px;cursor:pointer;" class="i18n_stats_show_iconnumber"></label>
+                    </div>
+                </li>
+
+                <!--For Report Section Html Start-->
+                <li class="showli collapsed privacy-tools-bottom" style="display: none;">
+                    <div id="show-privacytools" class="menu-item collapse licontent" title="Privacy Tools">
+                        <img src="skin/privacy-tools2.png" style="padding-right: 14px;" />
+                        <label for="show-privacytools" style="font-size:13px;cursor:pointer;" class="i18n_stats_show_privacy_tools"></label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-upgrade-col">
+            <p class="i18n_stats_Enable_web_protection"></p>
+            <a href="https://antivirus.systweak.com/price?utm_source=chromeext_stopallads_pt&utm_campaign=default&utm_content=extbottomupgrade" target="_blank" class="upgrade-btn"><span><label class="i18n_stats_upgrade"></label><img src="skin/upgrade-arrow.png" alt="Arrow"> </span> </a>
+        </div>
+
+    </div>
+</body>
+</html>

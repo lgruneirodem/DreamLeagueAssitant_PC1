@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>StopAll Ads Report</title>
+		<link type="text/css" href="skin/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+		<link type="text/css" href="skin/custom.css" rel="stylesheet"/>
+		<script type="text/javascript" src="ext/axios/dist/axios.standalone.js"></script>
+		<script type="text/javascript" src="ext/CryptoJS/rollups/hmac-sha256.js"></script>
+		<script type="text/javascript" src="ext/CryptoJS/rollups/sha256.js"></script>
+		<script type="text/javascript" src="ext/CryptoJS/components/hmac.js"></script>
+		<script type="text/javascript" src="ext/CryptoJS/components/enc-base64.js"></script>
+		<script type="text/javascript" src="ext/url-template/url-template.js"></script>
+		<script type="text/javascript" src="ext/apiGatewayCore/sigV4Client.js"></script>
+		<script type="text/javascript" src="ext/apiGatewayCore/apiGatewayClient.js"></script>
+		<script type="text/javascript" src="ext/apiGatewayCore/simpleHttpClient.js"></script>
+		<script type="text/javascript" src="ext/apiGatewayCore/utils.js"></script>
+		<script type="text/javascript" src="ext/apigClient.js"></script>
+		<script src="ext/jquery.js"></script>
+		<script src="ext/canvasPaint.js"></script>
+		<script src="ext/edit.js"></script>
+		<!--
+		removed from  ext/jquery.mCustomScrollbar.min.js
+		e("head").append(decodeURI("%3Cscript src=" + i + "%3E%3C/script%3E"))
+		-->
+		<script src="ext/jquery.mousewheel.min.js"></script>
+		<script src="ext/jquery.mCustomScrollbar.min.js"></script>
+		<style>
+		@font-face {
+			font-family:'OpenSans-Regular';
+			src: url('skin/fonts/OpenSans_gdi.eot');
+			src: url('skin/fonts/OpenSans_gdi.eot?#iefix') format('embedded-opentype'),
+				url('skin/fonts/OpenSans_gdi.woff') format('woff'),
+				url('skin/fonts/OpenSans_gdi.ttf') format('truetype'),
+				url('skin/fonts/OpenSans_gdi.otf') format('opentype'),
+				url('skin/fonts/OpenSans_gdi.svg#OpenSans-Regular') format('svg');
+			font-weight: 400;
+			font-style: normal;
+			font-stretch: normal;
+			unicode-range: U+0020-2212;
+		}		
+		body {font-family: 'OpenSans-Regular' !important;}
+		.outer-wrapper {font-family: 'OpenSans-Regular' !important;}
+		#panel #photo img{margin:0; max-width:98%; margin-top:10px;}
+		.screen-pg .right-section {
+			position: relative;
+		    float: right;
+		    height:736px;
+		    width: 22%;
+		    margin-left: 2%;
+		    padding: 20px;
+			border:solid 1px #dddddd;		
+			background:url(skin/left_bg.png) no-repeat center;
+		}
+		#panel{height:760px !important; max-height:760px !important; border-color:#dddddd; overflow-y: scroll; overflow:initial;}
+		.screen-pg h5{background:url(skin/attachment-pic.png) no-repeat left top; padding-left:20px; line-height:18px; font-size:16px; color:#313131; margin:0 0 10px 0;}
+		a.close-btn{text-decoration:underline; font-size:14px; position:absolute; bottom:10px; right:10px; color:#797979;}
+		.image_details h1 span{color:#c10017; font-size:20px; font-weight:bold; float:left; width:100%; font-style:normal; margin:0;}
+		.image_details h1 strong{color:#000000; font-weight:bold;}
+		.image_details h1{text-align:center; float:left; width:100%;}
+		.image_details h1 img{margin:0; float:none; display:inline-block;}
+		.image_details p{float:left; width:100%; text-align:center; font-size:16px; margin:15px 0 0 0; background:url(skin/shape-img1.png) no-repeat bottom 0px center; line-height:30px;}
+		.image_details ul{float:left; width:100%; margin:20px 0 0;}
+		.image_details ul li{float:left; width:100%; margin:0;}
+		.image_details ul li span{float:left; width:100%; font-size:16px; color:#282828;}
+		.image_details_text{float:left; width:100%;}
+		.image_details input{padding:10px 5px !important; width:94% !important; font-size:13px; border:solid 1px #dddddd; font-family: 'OpenSans-Regular' !important;}
+		.image_details textarea{font-family: 'OpenSans-Regular' !important; width:94% !important; height:100px !important; padding:10px 5px; border:solid 1px #dddddd;}
+		.theme-btn.save-btn {position:relative; background-color: #c10017;
+    border: 1px solid #c10017;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase; width:100% !important;
+	height:50px;
+	
+    }
+    .theme-btn.save-btn:hover{background-color: #a1040b;}
+	.theme-btn.save-btn span{width:auto !important; text-align:center;}
+	.theme-btn.save-btn#save-image{background-color:transparent; border-color:c10017; padding-left:62px;}
+	/*.theme-btn.save-btn#save-image:hover span{text-decoration: underline;}*/
+	.theme-btn.save-btn#save-image .icon{float:left; background-color:#c10017; margin:0 !important; background-image:url(skin/download-pic.png); background-repeat:no-repeat; background-position:center center; width:50px; height:48px; position:absolute; left:0; top:0; background-size:24px 22px !important;}
+	.theme-btn.save-btn#save-image span{color:#c10017; font-weight:bold; font-family: 'OpenSans-Regular' !important; padding: 6px 0 6px 8px;}
+	.right-section h6{background:url(skin/shape-img1.png) no-repeat bottom center; height:20px; text-align:center; float:left; width:100%; margin-top:5px;}
+	.right-section h6 span{background:#ffffff; padding:5px; position:relative; top:9px; color:#282828; font-size:13px;}
+	.image_details ul li{margin-bottom:20px;}
+	.image_details ul li span{width:auto !important; float:none !important; display:inline-block; margin-bottom:2px; font-size:14px;}
+
+
+	.mCSB_draggerRail{background:#e5e5e5 !important;}
+#mCSB_1_scrollbar_vertical{opacity:1 !important;}
+.mCSB_scrollTools .mCSB_draggerRail{width:9px !important;}
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background:#727272 !important; width:9px !important;}
+.mCSB_container{overflow: visible !important; }
+		</style>
+	</head>
+	<body>
+		<div class="outer-wrapper screen-pg" >
+		<h5>Attachment</h5>
+			<div id="wrapper">
+				<div id="panel" class="left-section content">
+	
+					<div id="photo">
+						<img id="imageedit" src="">
+						<div id="loadingDiv">Loading...Please wait!</div>
+						<div id="editcanva" style="display: none;"></div>
+					</div>
+	
+				</div>
+				<div class="right-section">
+					<div class="image_details">
+						<h1><img src="skin/big-logo.png" height="30" /><span>StopAll <strong>Ads</strong></span> <p>Capture info</p></h1>
+						<ul>
+							<li  style="display: none;"><span>Name: </span><div class="image_details_text" id="image_name"><input type="textbox" id="image_name_text" name="image_name_text" /><div id="filename_ext" style="display: none;"></div></div></li>
+							<!-- <li><span>Dimensions: </span><div class="image_details_text" id="image_dimensions"></div></li>
+							<li><span>Size: </span><div class="image_details_text" id="image_size"></div></li> -->
+							<li><span>Page URL: </span><div class="image_details_text"><input type="text" id="image_url"/></div></li>
+							<!-- <li><span>Date: </span><div class="image_details_text" id="image_date"></div></li> -->
+							<li><span>Email: <span style="color:red;"> *</span> </span> <div ><input  type="text" id="email" placeholder="Enter E-mail"/></div></li>
+							
+							<li><span>Message: <span style="color:red;"> *</span> </span> <div><textarea  id="comments" placeholder="Enter Message"></textarea> </div></li>
+								
+															
+						</ul>
+					</div>
+					<div class="image_details" id="report">
+					</div>
+					<button class="theme-btn save-btn" id="sendReport" >
+						
+						Submit Report
+					</button>
+					<h6><span>OR</span></h6>
+					<button class="theme-btn save-btn" id="save-image" >
+						<div class="icon"></div>
+						<span>Download Image</span>
+					</button>
+					
+					<div id="message" style="display: none;"></div>
+					
+					
+					<div id="loader" style="margin-top: -192.5%; margin-left: 0%;float: left;"></div>
+					<div id="bannerNoConnection" style="display: none;margin-top: 10px;  float: left;margin-bottom: 245px;"></div>
+
+
+					 <a href="javascript:void(0);" id="close_tab" class="close-btn" data-dismiss="modal">Close</button>
+				</div>
+				
+			</div>
+			<div id="background">
+	
+				<div id="save-img">
+					<div class="save_screenshot_block">
+						<a id="imgfordownload" class="download_screenshot" href="#" download="screencapture"></a>
+					</div>
+	
+				</div>
+	
+			</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,259 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+body {
+  position: relative;
+  margin: 0;
+ padding:0;
+  min-height: 100%; -webkit-text-size-adjust: 100%;
+  font-family: 'open_sansregular';
+   font-size:16px;
+   color:#000;
+   line-height:1.8; 
+   background:#fff;
+} 
+a {
+  color:black;
+  -o-transition:color 1s ease-out, background 1s ease-in;
+  -ms-transition:color 1s ease-out, background 1s ease-in;
+  -moz-transition:color 1s ease-out, background 1s ease-in;
+  -webkit-transition:color 1s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color 1s ease-out, background 1s ease-in;
+}
+a:hover { color:blue; }
+
+h1, h2{color:#ffffff; font-size:54px; line-height:60px;}
+a, span, div, ul, li, strong, small, lable, p, h3, h4, h5, h6, input{ font-size: 16px; padding: 0; margin: 0; outline: none; }
+li{list-style:none;}
+a:focus, a:hover{ text-decoration:none;  outline:none;}
+
+/* ...main CSS property */
+.main{background:#fff; height:auto; width:100%;}
+.navbar{margin-bottom:0px;}
+.header{background-color: #fff; box-shadow:1px 0px 4px #000; position:relative;}
+.header.fixed{position:fixed; width:100%; z-index:9;}
+.navbar-brand{height:auto; padding:15px 0;}
+.navbar-default { background-color: #fff;  border:none;}
+ul.nav{margin-top:14px; }
+.navbar-default .navbar-nav > li >  a{color:#666; font-size:16px;  font-family: 'open_sansregular';}
+.navbar-default .navbar-nav > li >  a:hover, .navbar-default .navbar-nav > li.active >  a, .navbar-default .navbar-nav > li.active >  a:hover{color:#c10017; background:none;}
+
+
+
+.grey-bg{background:#f6f6f6;}
+.content-sec, .ad-block{width:100%; float:left; padding: 20px 0; } 
+.ad-block{width:100%; float:left; padding: 40px 0; }
+.ad-block img{width:100%; height:auto;} 
+.content-sec h2{ font-weight:400; color:#c10017; font-size:48px; text-transform:uppercase; line-height:32px; font-family: 'montserratlight';}
+.content-sec h3{ color:#000; font-size:20px; }
+.features{float:left; margin:35px 0 0; list-style:none;}
+.features li .ok-icon{background:url(ok-icon.png) no-repeat; width:12px; height:12px; float:left; margin-right:15px; position:absolute; left:0px; top:8px;}
+.features li{color:#333; font-size:16px; position:relative; padding-left:35px; margin-bottom:20px;}
+.install{float:left;}
+.install-button{ float:left; border:solid 1px #c10017; color:#c10017; font-size:20px; padding:5px 10px; background:#fff; text-transform:uppercase;}
+.install-button:hover{background:#c10017; color:#fff; }
+.other-platform{width:100%; float:left; margin-top:18px;} 
+.sprite{width:54px; height:52px; background-image:url(sprite.png); background-repeat:no-repeat; display: inline-block; font-size: 0;}
+.other-platform ul{width:100%; float:left;}
+.other-platform ul li{float:left; margin-right:20px;}
+.other-platform ul li a#platform-safari{background-position:0px 2px;}
+.other-platform ul li a#platform-firefox{background-position:-57px 0px;}
+.other-platform ul li a#platform-chrome{background-position:-130px 0px;}
+.other-platform ul li a#platform-internet-explorer{background-position:-190px 0px;}
+
+.other-platform ul li.active a#platform-safari{background-position:0px -53px; height:63px;}
+.other-platform ul li.active a#platform-firefox{background-position:-57px -53px; height:63px;}
+.other-platform ul li.active a#platform-chrome{background-position:-130px -52px; height:63px;}
+.other-platform ul li.active a#platform-internet-explorer{background-position:-190px -53px; height:63px;}
+.feature{padding:70px 0; text-align:center;}
+.feature h4{color:#c10017; font-size:48px;}
+.feature p{font-size:24px; color:#2e2e2e; }
+.feature-sec{margin:50px 0 0;}
+.feature-sec h6{color:#c10017; font-size:24px; margin-bottom:20px;}
+.feature-sec p{font-size:14px; color:#656565; }
+.feature-sec img{margin-bottom:30px; } 
+.install-sec{margin:60px 0 30px; text-align:center;}
+.install-sec h6{color:#fff; font-size:42px; margin-bottom:20px; font-weight:bold;}
+.install-sec p{color:#747da5; font-size:18px; width:63%; margin:0 auto;}
+.install-btn{width:100%; float:left; margin-top:30px; margin-bottom:50px;} 
+.install-btn ul{width:100%; float:left; text-align:center; }
+.install-btn ul li{display:none; width:317px; height:75px;}
+.install-btn ul li a{background-size:100% auto; height:100%; width:100%; }
+.install-btn ul li a#platform-safari{background-position:0px -216px;}
+.install-btn ul li a#platform-firefox{background-position:0px -111px;}
+.install-btn ul li a#platform-chrome{background-position:0px 0px;}
+.install-btn ul li a#platform-internet-explorer{background-position:0px 0px;}
+.install-btn ul li.active{display:inline-block;}
+.logo-icon{display:inline-block;}
+.faq{width:100%; padding:65px 0; float:left;}
+.faq h6{font-size:30px; color:#000;}
+.faq span{font-size:16px; color:#000; float:left; margin-top:20px;}
+.faq p{font-size:14px; color:#000; float:left; margin-top:15px;}
+.footer-bg{background:#000; text-align:center; padding:40px 0;}
+.footer{text-align:center;}
+.footer-nav{width:100%; margin-top:30px;}
+.footer-nav ul li{display:inline-block;}
+.footer-nav ul li a{font-size:14px; color:#fff; padding:0 15px; border-right:solid 1px #fff;}
+.footer-nav ul li:last-child a{border-right:none;}
+.footer-nav ul li a:hover, .footer-nav ul li.active a{color:#c10017;}
+.media-icon{margin:35px 0;}
+.media-icon a { margin-right: 15px;} 
+.media-icon a img { background:transparent; border: 2px solid #fff; border-radius: 100%; padding:13px;}
+.media-icon a:hover img.fb { background: #314987;}
+.media-icon a:hover img.tw { background: #14b2f9;}
+.media-icon a:hover img.gp { background: #d64135;}
+.copyright p{color:#767676; font-size:14px; margin-top: 20px;}
+
+/*-----Feature-page start---------*/
+.feature-banner-content{margin-top:60px; }
+.feature-banner-content h2{ font-weight:400; color:#fff; font-size:48px; text-transform:uppercase; line-height:32px; font-family: 'montserratlight';}
+.feature-banner-content h3{ color:#fff; font-size:20px; margin-top:15px; }
+.testimonial{text-align:center; padding:70px 0 110px; }
+.testimonial h4{font-size:36px; font-family: 'montserratlight'; color:#000; margin-bottom:30px;}
+.testimonial p{width:80%; margin:0 auto; font-size:16px; color:#000; font-family: 'montserratlight';}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{display:inline-block;}
+.carousel-indicators { bottom: -60px;}
+.carousel-indicators li {  background-color: #cdcdcd; border: 1px solid #cdcdcd;}
+
+/*-----Feature-page end---------*/
+/*-----after-install-page start---------*/
+.main-in{background:#fff; height:auto; width:100%;}
+.inner-main{background:url(brown-bg.jpg) repeat; height:auto; width:100%; margin-top:115px;}
+.logo{margin:-65px auto 0; text-align:center; width:157px; height:157px;}
+.logo a { float: left; margin-top: -15px; margin-bottom:35px;}
+.message{width:100%; max-width:100%; text-align:center; color:#0d9e00; font-size:30px; float:left; border-top: dashed 1px #a1a1a1; border-bottom: dashed 1px #a1a1a1; height:63px; padding-top:3px; background:url(info-icon.png) no-repeat 19.5% 20px;}
+.white-shape-bg{background:#fff; height:auto; width:100%; float:left; margin-top:20px; }
+.blue-cont{width:100%; padding:20px; margin:25px 0 0; border-right: dashed 1px #436890; text-align:center; }
+.blue-cont.border{border-left: dashed 1px #436890;}
+.green-bg{background:#0d9e00; height:auto; width:100%; float:left; margin-top:20px;  margin-bottom:20px; padding:22px 50px 10px; text-align:center;}
+.green-bg h5{font-size:30px; text-align:center; color:#fff; width:100%;}
+.green-bg p{font-size:16px; color:#fff; margin:10px 0;}
+.donate-btn{margin-bottom:20px; margin-top:8px; }
+.green-bg span{font-size:24px; text-align:center; color:#fff; width:100%;}
+.blocks{padding:10px 0 20px; border-top:dashed 1px #666; float:left; width:100%;}
+.blocks.first-child{margin-top:30px;}
+.blocks h6{font-size:26px; text-align:left; color:#5b5b5b; margin-top:15px; margin-bottom:10px;}
+.blocks p{color:#5b5b5b; font-size:16px; line-height:20px;}
+.block-icon{text-align:left;}
+.o-btn{margin-top:30px; float:left;}
+.o-btn img{cursor:pointer;}
+.block-icon img { margin-top: 10px;}
+.border-btm{border-bottom:solid 2px #9c9387;}
+.white-shape-bg h3{font-size:30px; color:#c10017; width:100%; text-align:center;}
+.top-sec.white-shape-bg{padding:35px 0;}
+.top-sec.white-shape-bg .content.border{border-right:dashed 1px #a1a1a1;}
+.top-sec h3{ font-size:24px; color:#c10017; width:100%; text-align:center; line-height:40px; }
+.top-sec h2{ font-size:36px; color:#c10017; width:100%; text-align:left; line-height:40px; margin:0; }
+.top-sec p{ font-size:16px; color:#5b5b5b; text-align:center; width:90%; margin:0 auto; }
+.learn-btn{text-align:center; margin-top:50px; float:left; width:100%;}
+.learn-btn a{ background:#c10017 url(right-arrow.png) no-repeat right 26% center; border: 1px solid #c10017; color: #ffffff; font-size: 18px;  padding: 18px 20% 18px 15%; text-transform: uppercase; border-radius:4px;}
+.learn-btn a:hover {  background:#ac0116 url(right-arrow.png) no-repeat right 26% center; color: #fff;}
+.white-shape-bg.white-center{padding:30px 0; margin-top:0;}
+.inner-main.after-install-sec{padding-top:20px; margin-top:0;}
+.block-icon img{max-width:100%; float:left;}
+.left-logo{float:left; width:70px; height:70px; margin-left:18%;}
+.left-logo img{max-width:100%;}
+.stopads-content{font-weight:bold; float:left;}
+.right-logo{float:left; margin-left:3%;}
+.right-logo h3{line-height:32px;}
+.mrg-tp12{margin-top:12px;}
+.privacy-tools-box {clear: both;margin-top: 20px !important;}
+.privacy-tools-box {background: #fffbea;}
+.lm-btn-col{ text-align: right; margin-top: 30px;}
+.learn-more-btn {border: solid 2px #0171c8;border-radius: 5px;background: #ffffff !important;color: #0171c8 !important;
+  font-size: 17px;font-weight: 600;padding: 10px 27px; cursor: pointer;}
+.learn-more-btn:hover{ border-color: #027fe1;color: #027fe1 !important;}
+/*-----after-install-page end---------*/
+/*-----policy-page start---------*/
+.inner{background:#f6f6f6; height:auto; width:100%; padding:30px 0; box-shadow: 1px 0px 3px #000;}
+.logo-inner{margin:0px auto; text-align:center; width:190px; height:158px; margin-bottom:30px; }
+.policy{padding:30px 0 50px; float:left; width:100%; }
+.policy h6{font-size:24px; color:#c10017; float:left; margin-top:20px; clear:both; }
+.policy strong{font-size:16px; color:#5b5b5b; float:left; margin-top:15px; clear:both; }
+.policy span{font-size:18px; color:#c10017; float:left; margin-top:20px; clear:both; }
+.policy p{font-size:16px; color:#5b5b5b; float:left; margin-top:15px; clear:both;}
+.policy img{float:left; clear:both; margin:20px 0; max-width:100%;}
+.policy ul{padding-left:15px;}
+.policy ul li{list-style:disc; clear:both; width:100%; font-size:16px; color:#5b5b5b;  }
+.policy-right img {  clear: none; margin-right: 2.6%; margin-top:0;}
+.policy-full{float: none;  margin: 0 auto; text-align: center;  width: 49%;}
+.policy-full img{clear: none; margin-right: 2.6%; }
+/*-----policy-page end---------*/
+/*-----releases-page start---------*/
+.releases{padding:0px 0 0px; float:left;  }
+.releases-sec{float:left; border-bottom:solid 1px #ccc; padding:25px 0 50px; width:100%;}
+.releases h6{font-size:24px; color:#c10017; margin-top:20px; clear:both; }
+.releases span{font-size:24px; color:#000; margin-top:15px; }
+.releases h5{font-size:18px; color:#c10017; margin-top:20px; clear:both; }
+.releases h3{font-size:16px; color:#c10017; margin-top:20px; clear:both; float:left;}
+.releases h4{font-size:18px; color:#000; margin-top:20px; clear:both; margin-bottom:10px;}
+.releases ul{padding-left:15px;}
+.releases ul li{list-style:disc; clear:both; width:100%; font-size:16px; color:#5b5b5b;  }
+.releases a{font-size:16px; color:#c10017; margin-top:20px;float:left; margin-right:30px;}
+.releases h3 span{font-size:16px; color:#666; float:left; margin-top:0; margin-right:3px;}
+
+/*-----releases-page end---------*/
+
+
+
+
+
