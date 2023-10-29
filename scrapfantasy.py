@@ -12,6 +12,7 @@ url = 'https://mister.mundodeportivo.com/'
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('load-extension=' + r"C:\Users\pelay\Desktop\PC1\DreamLeagueAssitant_PC1\adblocker")
+options.add_argument('--disable-notifications')
 driver = webdriver.Chrome(options=options)
 driver.maximize_window()
 
