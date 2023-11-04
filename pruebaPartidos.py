@@ -46,30 +46,32 @@ except:
 with open('datospartidos.csv', mode='w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
 
-#Ir a resumen de partidos
-botonPartidos = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[1]')
+#Ir a resumen de encuentros
+botonPartidos = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[2]')
 botonPartidos.click()
 
-#Ir a la última fecha disponible
-while True:
-    try:
-        wait = WebDriverWait(driver, 4)
-        botonAnterior = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[1]')))
+#Abrir desplegable
+#botonMeses = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[2]')
+#botonMeses.click()
 
-        #Hacer click
-        botonAnterior.click()
+#Ir a la última fecha disponible
+for i in range(4):
+    try:
+        #Esperar hasta que el botón "Siguiente" sea interactuable
+        wait = WebDriverWait(driver, 10)
+        boton_siguiente = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[1]')))
+
+        #Hacer clic en el botón "Siguiente"
+        boton_siguiente.click()
+
     except:
-        pass
+        pass  #Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
 botonPartido = driver.find_element_by_class('result-1 rc')
 botonPartido.click()
 
-tablaPartido = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[6]/div')
+tablaPartido = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[6]')
 infoPartido = tablaPartido.text
-
-
-
-
-time.sleep(1)
+print(tablaPartido.text)
 
 #Extraer el resumen de partidos

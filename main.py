@@ -99,7 +99,7 @@ botonEquipo.click()
 with open('datosequipo.csv', mode='w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
 
-    #Extraer el resumen de partidos
+    #Extraer el resumen de equipos
     texto = driver.find_element(By.ID, 'statistics-team-table-summary')
     summary_text = texto.text.split('\n')
 
@@ -108,6 +108,29 @@ with open('datosequipo.csv', mode='w', newline='', encoding='utf-8') as csv_file
         # Dividir cada línea por comas (o el carácter que corresponda)
         row = line.split(',')
         csv_writer.writerow(row)
+
+#Ir a resumen de partidos
+botonPartidos = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[1]')
+botonPartidos.click()
+
+#Ir a la última fecha disponible
+try:
+    wait = WebDriverWait(driver, 4)
+    botonAnterior = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[1]')))
+
+    #Hacer click
+    botonAnterior.click()
+except:
+    pass
+
+#Crear csv para escribir
+with open('datospartidos.csv', mode='w', newline='', encoding='utf-8') as csv_file:
+    csv_writer = csv.writer(csv_file)
+
+time.sleep(1)
+
+#Extraer el resumen de partidos
+
 
 # Cierra el navegador al final del bucle
 # driver.quit()
