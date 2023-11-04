@@ -48,7 +48,7 @@ omitir_filas = 2  # Número de filas a omitir al inicio de cada página
 
 
 # Crear un archivo CSV para escribir
-with open('datos.csv', mode='w', newline='', encoding='utf-8') as csv_file:
+with open('datosjugador.csv', mode='w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
 
     for i in range(150):
@@ -89,7 +89,25 @@ with open('datos.csv', mode='w', newline='', encoding='utf-8') as csv_file:
         except:
             pass  # Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
+time.sleep(2)
 
+# Encontrar el elemento <a> con la clase "selected" y el texto "Estadísticas de Equipo"
+botonEquipo = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[3]/a')
+botonEquipo.click()
+
+# Crear un archivo CSV para escribir
+with open('datosequipo.csv', mode='w', newline='', encoding='utf-8') as csv_file:
+    csv_writer = csv.writer(csv_file)
+
+    #Extraer el resumen de partidos
+    texto = driver.find_element(By.ID, 'statistics-team-table-summary')
+    summary_text = texto.text.split('\n')
+
+    # Iterar sobre las líneas del resumen y escribirlas en el archivo CSV
+    for line in summary_text:
+        # Dividir cada línea por comas (o el carácter que corresponda)
+        row = line.split(',')
+        csv_writer.writerow(row)
 
 # Cierra el navegador al final del bucle
-driver.quit()
+# driver.quit()
