@@ -67,14 +67,26 @@ for i in range(4):
     except:
         pass  #Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
-time.sleep(10)
+time.sleep(2)
 tabla = driver.find_element(By.XPATH, '//*[@id="tournament-fixture"]')
-partidos = tabla.find_elements(By.CLASS_NAME, 'match-link')
-linkpartidos = []
-for link in partidos:
-    link = link.get_attribute('href')
-    print(link)
+desplegables = tabla.find_elements(By.CLASS_NAME, 'show-incidents')
+for desplegable in desplegables:
+    try:
+        desplegable.click()
+        time.sleep(3)
+        desplegable.click()
+        driver.execute_script("window.scrollBy(0, 100);")
+    except Exception as e:
+        pass
 
+
+# partidos = tabla.find_elements(By.CLASS_NAME, 'match-link')
+# linkpartidos = []
+# for link in partidos:
+#     link = link.get_attribute('href')
+#     linkpartidos.append(link)
+# for partido in linkpartidos:
+#     driver.get(partido)
 
 
 botonPartido = driver.find_element(By.CLASS_NAME, 'result-1 rc')
