@@ -63,9 +63,30 @@ boton_iniciar = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]/div/
 boton_iniciar.click()
 time.sleep(1)
 
+#Nos vamos al mercado
+boton_mercado = driver.find_element(By.XPATH, '/html/body/div[3]/header/div[2]/ul/li[2]')
+boton_mercado.click()
+time.sleep(1)
+
+#Le damos a evolución de mercado
+boton_evolucion = driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/button')
+boton_evolucion.click()
+time.sleep(1)
+
 time.sleep(200)
 
 #Cierra el navegador al final del bucle
 driver.quit()
+
+
+    try:
+        #Esperar hasta que el botón "Siguiente" sea interactuable
+        wait = WebDriverWait(driver, 10)
+        boton_siguiente = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[1]')))
+
+        #Hacer clic en el botón "Siguiente"
+        boton_siguiente.click()
+    except:
+        pass  #Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
 
