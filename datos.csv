@@ -3,13 +3,13 @@ Jude Bellingham
 Real Madrid, ,20, MECID
 10 ,857 ,10 ,2 ,1 ,0 ,24 ,891 ,09 ,5 ,812
 2
-Aleix García
-Girona, ,26, MC
-12 ,1080 ,3 ,4 ,1 ,0 ,14 ,911 ,05 ,4 ,748
-3
 João Cancelo
 Barcelona, ,29, DFID,MED
 71 ,647 ,2 ,1 ,2 ,0 ,09 ,832 ,05 ,3 ,747
+3
+Aleix García
+Girona, ,26, MC
+11 ,990 ,2 ,4 ,1 ,0 ,14 ,913 ,05 ,4 ,746
 4
 Antoine Griezmann
 Atletico, ,32, MPCID,DL
@@ -55,13 +55,13 @@ Andriy Lunin
 Real Madrid, ,24, POR
 2 ,180 ,0 ,0 ,0 ,0 ,0 ,922 ,0 ,0 ,749
 5
-Aleix García
-Girona, ,26, MC
-12 ,1080 ,3 ,4 ,1 ,0 ,14 ,911 ,05 ,4 ,748
-6
 João Cancelo
 Barcelona, ,29, DFID,MED
 71 ,647 ,2 ,1 ,2 ,0 ,09 ,832 ,05 ,3 ,747
+6
+Aleix García
+Girona, ,26, MC
+11 ,990 ,2 ,4 ,1 ,0 ,14 ,913 ,05 ,4 ,746
 7
 Antoine Griezmann
 Atletico, ,32, MPCID,DL
@@ -78,6 +78,8 @@ Athletic Bilbao, ,29, MPCID,DL
 Bryan Zaragoza
 Granada, ,22, Midfielder
 83 ,773 ,5 ,2 ,3 ,0 ,18 ,672 ,03 ,3 ,730
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 11
 Frenkie de Jong
 Barcelona, ,26, DFC,MC
@@ -107,37 +109,79 @@ Isco
 Real Betis, ,31, MECID,DL
 11 ,892 ,2 ,2 ,4 ,0 ,21 ,867 ,04 ,3 ,723
 18
+Sávio
+Girona, ,19, MPI
+11 ,874 ,3 ,4 ,1 ,0 ,13 ,813 ,03 ,2 ,722
+19
 Dani Carvajal
 Real Madrid, ,31, DFD
 9 ,785 ,1 ,2 ,1 ,0 ,08 ,853 ,07 ,1 ,722
-19
-Yangel Herrera
-Girona, ,25, MEC
-111 ,910 ,4 ,0 ,4 ,0 ,18 ,879 ,27 ,1 ,719
 20
 Jules Koundé
 Barcelona, ,24, DFCD
 81 ,686 ,1 ,0 ,0 ,0 ,1 ,925 ,3 ,2 ,719
+11
+Frenkie de Jong
+Barcelona, ,26, DFC,MC
+6 ,486 ,1 ,0 ,2 ,0 ,05 ,943 ,15 ,0 ,728
+12
+Diego Rico
+Getafe, ,30, DFCI,MEI
+7 ,619 ,0 ,5 ,3 ,0 ,07 ,698 ,11 ,0 ,726
+13
+Gerard Moreno
+Villarreal, ,31, MPCD,DL
+81 ,643 ,6 ,0 ,0 ,0 ,2 ,798 ,11 ,1 ,724
+14
+Antonio Raíllo
+Mallorca, ,32, DFC
+11 ,91 ,1 ,0 ,0 ,0 ,15 ,786 ,2 ,1 ,724
+15
+Federico Valverde
+Real Madrid, ,25, MECID
+101 ,881 ,1 ,2 ,0 ,0 ,19 ,898 ,03 ,2 ,723
+16
+Lucas Boyé
+Granada, ,27, MPI,DL
+7 ,589 ,3 ,2 ,1 ,1 ,29 ,782 ,19 ,0 ,723
+17
+Isco
+Real Betis, ,31, MECID,DL
+11 ,892 ,2 ,2 ,4 ,0 ,21 ,867 ,04 ,3 ,723
+18
+Sávio
+Girona, ,19, MPI
+11 ,874 ,3 ,4 ,1 ,0 ,13 ,813 ,03 ,2 ,722
+19
+Dani Carvajal
+Real Madrid, ,31, DFD
+9 ,785 ,1 ,2 ,1 ,0 ,08 ,853 ,07 ,1 ,722
+20
+Jules Koundé
+Barcelona, ,24, DFCD
+81 ,686 ,1 ,0 ,0 ,0 ,1 ,925 ,3 ,2 ,719
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 21
 João Félix
 Barcelona, ,23, MPCI,DL
 71 ,556 ,1 ,2 ,0 ,0 ,25 ,848 ,05 ,1 ,719
 22
-Sávio
-Girona, ,19, MPI
-12 ,964 ,3 ,4 ,1 ,0 ,12 ,814 ,03 ,2 ,718
-23
 Pepelu
 Valencia, ,25, MC
 11 ,986 ,1 ,0 ,0 ,0 ,09 ,839 ,25 ,3 ,717
-24
+23
 Saúl Ñíguez
 Atletico, ,28, DFCI,MECID
 65 ,585 ,0 ,5 ,2 ,0 ,05 ,868 ,12 ,2 ,716
-25
+24
 Ivan Rakitic
 Sevilla, ,35, MECI
 81 ,729 ,1 ,1 ,2 ,0 ,19 ,803 ,11 ,1 ,716
+25
+Yangel Herrera
+Girona, ,25, MEC
+101 ,820 ,4 ,0 ,3 ,0 ,18 ,891 ,19 ,1 ,715
 26
 Juanlu Sánchez
 Sevilla, ,20, DFD
@@ -158,6 +202,48 @@ Real Sociedad, ,26, MPCD,DL
 Vedat Muriqi
 Mallorca, ,29, DL
 11 ,978 ,4 ,2 ,0 ,0 ,25 ,642 ,53 ,1 ,709
+21
+João Félix
+Barcelona, ,23, MPCI,DL
+71 ,556 ,1 ,2 ,0 ,0 ,25 ,848 ,05 ,1 ,719
+22
+Pepelu
+Valencia, ,25, MC
+11 ,986 ,1 ,0 ,0 ,0 ,09 ,839 ,25 ,3 ,717
+23
+Saúl Ñíguez
+Atletico, ,28, DFCI,MECID
+65 ,585 ,0 ,5 ,2 ,0 ,05 ,868 ,12 ,2 ,716
+24
+Ivan Rakitic
+Sevilla, ,35, MECI
+81 ,729 ,1 ,1 ,2 ,0 ,19 ,803 ,11 ,1 ,716
+25
+Yangel Herrera
+Girona, ,25, MEC
+101 ,820 ,4 ,0 ,3 ,0 ,18 ,891 ,19 ,1 ,715
+26
+Juanlu Sánchez
+Sevilla, ,20, DFD
+42 ,360 ,0 ,2 ,1 ,0 ,08 ,819 ,05 ,0 ,713
+27
+Álvaro Morata
+Atletico, ,31, MPI,DL
+82 ,733 ,7 ,1 ,1 ,1 ,23 ,739 ,16 ,1 ,712
+28
+Assane Diao
+Real Betis, ,18, MPD
+5 ,391 ,2 ,0 ,1 ,0 ,12 ,803 ,16 ,0 ,710
+29
+Brais Méndez
+Real Sociedad, ,26, MPCD,DL
+101 ,907 ,2 ,3 ,4 ,0 ,21 ,834 ,09 ,1 ,710
+30
+Vedat Muriqi
+Mallorca, ,29, DL
+11 ,978 ,4 ,2 ,0 ,0 ,25 ,642 ,53 ,1 ,709
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 31
 Aurélien Tchouaméni
 Real Madrid, ,23, MC
@@ -198,14 +284,96 @@ Atletico, ,30, DFI,MECID,DL
 Toni Kroos
 Real Madrid, ,33, MEC
 65 ,603 ,1 ,3 ,2 ,0 ,15 ,953 ,03 ,1 ,702
+31
+Aurélien Tchouaméni
+Real Madrid, ,23, MC
+101 ,845 ,1 ,0 ,2 ,0 ,1 ,931 ,18 ,0 ,709
+32
+Juan Foyth
+Villarreal, ,25, DFCD,MC
+9 ,792 ,1 ,0 ,1 ,0 ,04 ,849 ,2 ,1 ,708
+33
+Mikel Merino
+Real Sociedad, ,27, MEC
+71 ,621 ,0 ,1 ,3 ,0 ,06 ,778 ,5 ,1 ,708
+34
+Samuel Lino
+Atletico, ,23, MEID,DL
+43 ,378 ,1 ,2 ,0 ,0 ,09 ,795 ,03 ,0 ,707
+35
+Gavi
+Barcelona, ,19, MPCI
+92 ,853 ,1 ,1 ,4 ,0 ,07 ,924 ,11 ,0 ,707
+36
+Robert Lewandowski
+Barcelona, ,35, DL
+72 ,691 ,5 ,3 ,2 ,0 ,31 ,71 ,12 ,0 ,704
+37
+José Gayà
+Valencia, ,28, DFI,MEI
+9 ,752 ,1 ,0 ,1 ,0 ,08 ,783 ,08 ,0 ,703
+38
+Nico Williams
+Athletic Bilbao, ,21, MPID
+8 ,563 ,0 ,3 ,0 ,0 ,13 ,77 ,01 ,1 ,703
+39
+Yannick Carrasco
+Atletico, ,30, DFI,MECID,DL
+3 ,223 ,0 ,1 ,0 ,0 ,07 ,773 ,0 ,1 ,703
+40
+Toni Kroos
+Real Madrid, ,33, MEC
+65 ,603 ,1 ,3 ,2 ,0 ,15 ,953 ,03 ,1 ,702
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 41
 Borja Mayoral
 Getafe, ,26, MPD,DL
 101 ,823 ,5 ,1 ,2 ,0 ,16 ,703 ,2 ,1 ,702
 42
-Artem Dovbyk
-Girona, ,26, DL
-84 ,653 ,6 ,4 ,0 ,0 ,23 ,728 ,09 ,1 ,700
+Rubén Peña
+Osasuna, ,32, DFID,MEID
+81 ,698 ,0 ,1 ,2 ,0 ,06 ,739 ,09 ,2 ,701
+43
+Lucas Robertone
+Almeria, ,26, MEC
+71 ,531 ,0 ,4 ,2 ,0 ,14 ,845 ,16 ,1 ,700
+44
+Unai Simón
+Athletic Bilbao, ,26, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,578 ,02 ,2 ,700
+45
+Filip Jörgensen
+Villarreal, ,21, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,768 ,05 ,3 ,700
+46
+Álex Remiro
+Real Sociedad, ,28, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,746 ,03 ,0 ,699
+47
+Sergio Ramos
+Sevilla, ,37, DFCD
+4 ,360 ,0 ,0 ,2 ,0 ,15 ,911 ,33 ,0 ,698
+48
+David López
+Girona, ,34, DFC,MC
+11 ,917 ,2 ,0 ,3 ,0 ,07 ,908 ,14 ,0 ,698
+49
+Óscar De Marcos
+Athletic Bilbao, ,34, DFID,MECD
+9 ,754 ,1 ,3 ,2 ,0 ,02 ,815 ,08 ,1 ,698
+50
+Lucas Ocampos
+Sevilla, ,29, MECID,DL
+81 ,715 ,1 ,1 ,4 ,0 ,27 ,718 ,18 ,0 ,698
+41
+Borja Mayoral
+Getafe, ,26, MPD,DL
+101 ,823 ,5 ,1 ,2 ,0 ,16 ,703 ,2 ,1 ,702
+42
+Rubén Peña
+Osasuna, ,32, DFID,MEID
+81 ,698 ,0 ,1 ,2 ,0 ,06 ,739 ,09 ,2 ,701
 43
 Lucas Robertone
 Almeria, ,26, MEC
@@ -243,225 +411,309 @@ Gorka Guruzeta
 Athletic Bilbao, ,27, DL
 101 ,727 ,4 ,0 ,1 ,0 ,15 ,641 ,25 ,1 ,697
 52
-Ante Budimir
-Osasuna, ,32, DL
-93 ,806 ,6 ,1 ,3 ,0 ,2 ,576 ,33 ,1 ,697
-53
 Ayoze Pérez
 Real Betis, ,30, MPCID,DL
 10 ,813 ,2 ,1 ,1 ,0 ,25 ,80 ,04 ,1 ,697
-54
+53
 Chris Ramos
 Cadiz, ,26, DL
 101 ,840 ,3 ,1 ,1 ,0 ,18 ,619 ,48 ,1 ,696
-55
+54
 Sergi Darder
 Mallorca, ,29, MECI
 63 ,631 ,0 ,3 ,1 ,0 ,04 ,739 ,07 ,0 ,696
-56
+55
 Mario Hermoso
 Atletico, ,28, DFCI
 11 ,952 ,0 ,0 ,4 ,0 ,05 ,864 ,22 ,1 ,696
-57
+56
 Loïc Badé
 Sevilla, ,23, DFC
 71 ,634 ,0 ,1 ,1 ,1 ,06 ,789 ,31 ,1 ,696
-58
+57
 Germán Pezzella
 Real Betis, ,32, DFC
 10 ,870 ,0 ,0 ,2 ,0 ,06 ,855 ,29 ,2 ,695
-59
+58
 Joselu
 Real Madrid, ,33, DL
 56 ,561 ,5 ,2 ,0 ,0 ,23 ,729 ,1 ,1 ,695
-60
+59
 Conan Ledesma
 Cadiz, ,30, POR
 11 ,990 ,0 ,0 ,0 ,0 ,0 ,511 ,02 ,1 ,695
-Jugador
-Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
-61
+60
 Alexander Sørloth
 Villarreal, ,27, MPD,DL
 11 ,854 ,5 ,1 ,1 ,0 ,17 ,745 ,2 ,1 ,694
-62
-Sergi Cardona
-Las Palmas, ,24, DFI
-93 ,924 ,0 ,0 ,4 ,0 ,08 ,832 ,15 ,1 ,694
-63
-Marc Guiu
-Barcelona, ,17, Forward
-01 ,11 ,1 ,0 ,1 ,0 ,1 ,100 ,0 ,0 ,694
-64
-Vinícius Júnior
-Real Madrid, ,23, MPI,DL
-71 ,539 ,2 ,1 ,1 ,0 ,2 ,805 ,0 ,0 ,693
-65
-Rubén Peña
-Osasuna, ,32, DFID,MEID
-91 ,781 ,0 ,1 ,2 ,0 ,06 ,73 ,09 ,2 ,693
-66
-Rodrigo De Paul
-Atletico, ,29, MPCID,DL
-62 ,492 ,0 ,2 ,1 ,0 ,13 ,869 ,01 ,1 ,693
-67
-Suso
-Sevilla, ,29, MPCID,DL
-72 ,576 ,1 ,1 ,2 ,0 ,19 ,867 ,04 ,1 ,692
-68
-Yuri Berchiche
-Athletic Bilbao, ,33, DFI,MEI
-71 ,582 ,1 ,1 ,1 ,0 ,08 ,771 ,15 ,0 ,692
-69
-Álvaro Vallés
-Las Palmas, ,26, POR
-12 ,1080 ,0 ,0 ,0 ,0 ,0 ,749 ,02 ,1 ,691
-70
-Jorge Cuenca
-Villarreal, ,23, DFC
-51 ,456 ,1 ,0 ,1 ,0 ,1 ,918 ,33 ,0 ,689
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 61
-Alexander Sørloth
-Villarreal, ,27, MPD,DL
-11 ,854 ,5 ,1 ,1 ,0 ,17 ,745 ,2 ,1 ,694
-62
 Sergi Cardona
 Las Palmas, ,24, DFI
 93 ,924 ,0 ,0 ,4 ,0 ,08 ,832 ,15 ,1 ,694
-63
+62
 Marc Guiu
 Barcelona, ,17, Forward
 01 ,11 ,1 ,0 ,1 ,0 ,1 ,100 ,0 ,0 ,694
-64
+63
 Vinícius Júnior
 Real Madrid, ,23, MPI,DL
 71 ,539 ,2 ,1 ,1 ,0 ,2 ,805 ,0 ,0 ,693
-65
-Rubén Peña
-Osasuna, ,32, DFID,MEID
-91 ,781 ,0 ,1 ,2 ,0 ,06 ,73 ,09 ,2 ,693
-66
+64
 Rodrigo De Paul
 Atletico, ,29, MPCID,DL
 62 ,492 ,0 ,2 ,1 ,0 ,13 ,869 ,01 ,1 ,693
-67
+65
 Suso
 Sevilla, ,29, MPCID,DL
 72 ,576 ,1 ,1 ,2 ,0 ,19 ,867 ,04 ,1 ,692
-68
+66
 Yuri Berchiche
 Athletic Bilbao, ,33, DFI,MEI
 71 ,582 ,1 ,1 ,1 ,0 ,08 ,771 ,15 ,0 ,692
-69
+67
 Álvaro Vallés
 Las Palmas, ,26, POR
 12 ,1080 ,0 ,0 ,0 ,0 ,0 ,749 ,02 ,1 ,691
-70
+68
 Jorge Cuenca
 Villarreal, ,23, DFC
 51 ,456 ,1 ,0 ,1 ,0 ,1 ,918 ,33 ,0 ,689
+69
+Luis Suárez
+Almeria, ,25, MPI,DL
+8 ,694 ,4 ,0 ,1 ,0 ,39 ,793 ,1 ,1 ,689
+70
+Hugo Duro
+Valencia, ,23, MPI,DL
+101 ,894 ,5 ,2 ,1 ,0 ,19 ,757 ,13 ,1 ,689
+61
+Sergi Cardona
+Las Palmas, ,24, DFI
+93 ,924 ,0 ,0 ,4 ,0 ,08 ,832 ,15 ,1 ,694
+62
+Marc Guiu
+Barcelona, ,17, Forward
+01 ,11 ,1 ,0 ,1 ,0 ,1 ,100 ,0 ,0 ,694
+63
+Vinícius Júnior
+Real Madrid, ,23, MPI,DL
+71 ,539 ,2 ,1 ,1 ,0 ,2 ,805 ,0 ,0 ,693
+64
+Rodrigo De Paul
+Atletico, ,29, MPCID,DL
+62 ,492 ,0 ,2 ,1 ,0 ,13 ,869 ,01 ,1 ,693
+65
+Suso
+Sevilla, ,29, MPCID,DL
+72 ,576 ,1 ,1 ,2 ,0 ,19 ,867 ,04 ,1 ,692
+66
+Yuri Berchiche
+Athletic Bilbao, ,33, DFI,MEI
+71 ,582 ,1 ,1 ,1 ,0 ,08 ,771 ,15 ,0 ,692
+67
+Álvaro Vallés
+Las Palmas, ,26, POR
+12 ,1080 ,0 ,0 ,0 ,0 ,0 ,749 ,02 ,1 ,691
+68
+Jorge Cuenca
+Villarreal, ,23, DFC
+51 ,456 ,1 ,0 ,1 ,0 ,1 ,918 ,33 ,0 ,689
+69
+Luis Suárez
+Almeria, ,25, MPI,DL
+8 ,694 ,4 ,0 ,1 ,0 ,39 ,793 ,1 ,1 ,689
+70
+Hugo Duro
+Valencia, ,23, MPI,DL
+101 ,894 ,5 ,2 ,1 ,0 ,19 ,757 ,13 ,1 ,689
 Jugador
 Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 71
-Luis Suárez
-Almeria, ,25, MPI,DL
-8 ,694 ,4 ,0 ,1 ,0 ,39 ,793 ,1 ,1 ,689
-72
-Hugo Duro
-Valencia, ,23, MPI,DL
-101 ,894 ,5 ,2 ,1 ,0 ,19 ,757 ,13 ,1 ,689
-73
 Dodi Lukébakio
 Sevilla, ,26, MPCID,DL
 61 ,474 ,2 ,0 ,0 ,0 ,29 ,879 ,07 ,0 ,689
-74
+72
 Koke
 Atletico, ,31, MECID
 8 ,534 ,0 ,2 ,2 ,0 ,03 ,908 ,04 ,0 ,689
-75
+73
 Aritz Elustondo
 Real Sociedad, ,29, DFCD
 2 ,150 ,0 ,0 ,0 ,0 ,05 ,935 ,3 ,0 ,689
-76
+74
 Pablo Barrios
 Atletico, ,20, MEC
 43 ,453 ,0 ,0 ,2 ,0 ,06 ,837 ,07 ,0 ,688
-77
+75
 Álvaro García
 Rayo Vallecano, ,31, MPI
 11 ,966 ,3 ,1 ,4 ,0 ,13 ,692 ,05 ,1 ,688
-78
+76
 Martín Zubimendi
 Real Sociedad, ,24, MC
 92 ,887 ,1 ,1 ,1 ,0 ,05 ,857 ,16 ,1 ,688
-79
+77
 Eduardo Camavinga
 Real Madrid, ,20, DFI,MC
 74 ,577 ,0 ,0 ,1 ,0 ,04 ,915 ,02 ,0 ,688
-80
+78
 Pathé Ciss
 Rayo Vallecano, ,29, MC
 65 ,627 ,1 ,0 ,1 ,0 ,13 ,832 ,18 ,1 ,687
+79
+Rodrygo
+Real Madrid, ,22, MPCID,DL
+92 ,780 ,1 ,1 ,0 ,0 ,32 ,885 ,04 ,0 ,687
+80
+Stole Dimitrievski
+Rayo Vallecano, ,29, POR
+11 ,990 ,0 ,0 ,0 ,0 ,0 ,551 ,04 ,3 ,687
 71
-Luis Suárez
-Almeria, ,25, MPI,DL
-8 ,694 ,4 ,0 ,1 ,0 ,39 ,793 ,1 ,1 ,689
-72
-Hugo Duro
-Valencia, ,23, MPI,DL
-101 ,894 ,5 ,2 ,1 ,0 ,19 ,757 ,13 ,1 ,689
-73
 Dodi Lukébakio
 Sevilla, ,26, MPCID,DL
 61 ,474 ,2 ,0 ,0 ,0 ,29 ,879 ,07 ,0 ,689
-74
+72
 Koke
 Atletico, ,31, MECID
 8 ,534 ,0 ,2 ,2 ,0 ,03 ,908 ,04 ,0 ,689
-75
+73
 Aritz Elustondo
 Real Sociedad, ,29, DFCD
 2 ,150 ,0 ,0 ,0 ,0 ,05 ,935 ,3 ,0 ,689
-76
+74
 Pablo Barrios
 Atletico, ,20, MEC
 43 ,453 ,0 ,0 ,2 ,0 ,06 ,837 ,07 ,0 ,688
-77
+75
 Álvaro García
 Rayo Vallecano, ,31, MPI
 11 ,966 ,3 ,1 ,4 ,0 ,13 ,692 ,05 ,1 ,688
-78
+76
 Martín Zubimendi
 Real Sociedad, ,24, MC
 92 ,887 ,1 ,1 ,1 ,0 ,05 ,857 ,16 ,1 ,688
-79
+77
 Eduardo Camavinga
 Real Madrid, ,20, DFI,MC
 74 ,577 ,0 ,0 ,1 ,0 ,04 ,915 ,02 ,0 ,688
-80
+78
 Pathé Ciss
 Rayo Vallecano, ,29, MC
 65 ,627 ,1 ,0 ,1 ,0 ,13 ,832 ,18 ,1 ,687
-91
+79
+Rodrygo
+Real Madrid, ,22, MPCID,DL
+92 ,780 ,1 ,1 ,0 ,0 ,32 ,885 ,04 ,0 ,687
+80
+Stole Dimitrievski
+Rayo Vallecano, ,29, POR
+11 ,990 ,0 ,0 ,0 ,0 ,0 ,551 ,04 ,3 ,687
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+81
+Artem Dovbyk
+Girona, ,26, DL
+74 ,568 ,5 ,2 ,0 ,0 ,22 ,722 ,08 ,0 ,686
+82
+Nahuel Molina
+Atletico, ,25, DFD,MED
+72 ,643 ,2 ,1 ,0 ,0 ,07 ,748 ,01 ,0 ,686
+83
+Álex Suárez
+Las Palmas, ,30, DFC
+11 ,973 ,0 ,0 ,2 ,0 ,01 ,89 ,17 ,1 ,686
+84
+Ante Budimir
+Osasuna, ,32, DL
+83 ,716 ,4 ,1 ,2 ,0 ,19 ,58 ,33 ,1 ,686
+85
+Gastón Álvarez
+Getafe, ,23, DFCI
+81 ,722 ,1 ,0 ,2 ,0 ,04 ,733 ,11 ,0 ,686
+86
+Mikel Vesga
+Athletic Bilbao, ,30, MC
+71 ,592 ,2 ,1 ,1 ,0 ,1 ,774 ,14 ,0 ,686
+87
+Iago Aspas
+Celta Vigo, ,36, MPCD,DL
+101 ,844 ,0 ,2 ,3 ,0 ,26 ,812 ,0 ,0 ,685
+88
+Abdón Prats
+Mallorca, ,30, DL
+53 ,344 ,4 ,1 ,0 ,0 ,1 ,627 ,16 ,0 ,685
+89
+Mikel Oyarzabal
+Real Sociedad, ,26, MPCID,DL
+74 ,716 ,6 ,1 ,1 ,0 ,15 ,794 ,07 ,1 ,684
+90
 Javi Guerra
 Valencia, ,20, MC
 92 ,848 ,3 ,1 ,1 ,0 ,13 ,744 ,04 ,0 ,684
-92
+81
+Artem Dovbyk
+Girona, ,26, DL
+74 ,568 ,5 ,2 ,0 ,0 ,22 ,722 ,08 ,0 ,686
+82
+Nahuel Molina
+Atletico, ,25, DFD,MED
+72 ,643 ,2 ,1 ,0 ,0 ,07 ,748 ,01 ,0 ,686
+83
+Álex Suárez
+Las Palmas, ,30, DFC
+11 ,973 ,0 ,0 ,2 ,0 ,01 ,89 ,17 ,1 ,686
+84
+Ante Budimir
+Osasuna, ,32, DL
+83 ,716 ,4 ,1 ,2 ,0 ,19 ,58 ,33 ,1 ,686
+85
+Gastón Álvarez
+Getafe, ,23, DFCI
+81 ,722 ,1 ,0 ,2 ,0 ,04 ,733 ,11 ,0 ,686
+86
+Mikel Vesga
+Athletic Bilbao, ,30, MC
+71 ,592 ,2 ,1 ,1 ,0 ,1 ,774 ,14 ,0 ,686
+87
+Iago Aspas
+Celta Vigo, ,36, MPCD,DL
+101 ,844 ,0 ,2 ,3 ,0 ,26 ,812 ,0 ,0 ,685
+88
+Abdón Prats
+Mallorca, ,30, DL
+53 ,344 ,4 ,1 ,0 ,0 ,1 ,627 ,16 ,0 ,685
+89
+Mikel Oyarzabal
+Real Sociedad, ,26, MPCID,DL
+74 ,716 ,6 ,1 ,1 ,0 ,15 ,794 ,07 ,1 ,684
+90
+Javi Guerra
+Valencia, ,20, MC
+92 ,848 ,3 ,1 ,1 ,0 ,13 ,744 ,04 ,0 ,684
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+91
 Ilkay Gündogan
 Barcelona, ,33, MEC
 101 ,911 ,1 ,2 ,1 ,0 ,1 ,894 ,01 ,0 ,684
-93
+92
 Kepa
 Real Madrid, ,29, POR
 9 ,810 ,0 ,0 ,1 ,0 ,0 ,813 ,01 ,0 ,684
-94
+93
 Ander Barrenetxea
 Real Sociedad, ,21, MEID
 82 ,625 ,3 ,1 ,0 ,0 ,15 ,732 ,02 ,0 ,683
-95
+94
 Claudio Bravo
 Real Betis, ,40, POR
 6 ,540 ,0 ,0 ,0 ,0 ,0 ,789 ,05 ,1 ,683
+95
+Viktor Tsygankov
+Girona, ,25, MPCID
+81 ,606 ,1 ,1 ,0 ,0 ,09 ,833 ,12 ,0 ,683
 96
 Axel Witsel
 Atletico, ,34, DFC,MEC
@@ -479,29 +731,29 @@ Celta Vigo, ,23, DL
 Atletico, ,28, MPCID,DL
 17 ,253 ,3 ,1 ,0 ,0 ,1 ,787 ,0 ,1 ,681
 100
-Nemanja Maksimovic
-Getafe, ,28, MEC
-11 ,985 ,1 ,0 ,2 ,0 ,12 ,799 ,21 ,1 ,681
+Sergio Herrera
+Osasuna, ,30, POR
+8 ,710 ,0 ,0 ,2 ,0 ,0 ,566 ,05 ,0 ,681
 91
-Javi Guerra
-Valencia, ,20, MC
-92 ,848 ,3 ,1 ,1 ,0 ,13 ,744 ,04 ,0 ,684
-92
 Ilkay Gündogan
 Barcelona, ,33, MEC
 101 ,911 ,1 ,2 ,1 ,0 ,1 ,894 ,01 ,0 ,684
-93
+92
 Kepa
 Real Madrid, ,29, POR
 9 ,810 ,0 ,0 ,1 ,0 ,0 ,813 ,01 ,0 ,684
-94
+93
 Ander Barrenetxea
 Real Sociedad, ,21, MEID
 82 ,625 ,3 ,1 ,0 ,0 ,15 ,732 ,02 ,0 ,683
-95
+94
 Claudio Bravo
 Real Betis, ,40, POR
 6 ,540 ,0 ,0 ,0 ,0 ,0 ,789 ,05 ,1 ,683
+95
+Viktor Tsygankov
+Girona, ,25, MPCID
+81 ,606 ,1 ,1 ,0 ,0 ,09 ,833 ,12 ,0 ,683
 96
 Axel Witsel
 Atletico, ,34, DFC,MEC
@@ -519,161 +771,329 @@ Celta Vigo, ,23, DL
 Atletico, ,28, MPCID,DL
 17 ,253 ,3 ,1 ,0 ,0 ,1 ,787 ,0 ,1 ,681
 100
-Nemanja Maksimovic
-Getafe, ,28, MEC
-11 ,985 ,1 ,0 ,2 ,0 ,12 ,799 ,21 ,1 ,681
+Sergio Herrera
+Osasuna, ,30, POR
+8 ,710 ,0 ,0 ,2 ,0 ,0 ,566 ,05 ,0 ,681
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 101
+Nemanja Maksimovic
+Getafe, ,28, MEC
+11 ,985 ,1 ,0 ,2 ,0 ,12 ,799 ,21 ,1 ,681
+102
 Luis Rioja
 Deportivo Alaves, ,30, MPI
 101 ,874 ,1 ,2 ,2 ,0 ,22 ,724 ,05 ,1 ,681
-102
+103
 Marc Pubill
 Almeria, ,20, DFD
 31 ,271 ,0 ,0 ,1 ,0 ,03 ,793 ,08 ,0 ,680
-103
+104
 Isi Palazón
 Rayo Vallecano, ,28, MPD
 101 ,812 ,2 ,0 ,2 ,0 ,19 ,746 ,09 ,0 ,680
-104
+105
 Youssouf Sabaly
 Real Betis, ,30, DFID,MED
 3 ,270 ,0 ,1 ,0 ,0 ,03 ,865 ,03 ,0 ,680
-105
-Miguel Gutiérrez
-Girona, ,22, DFI,MEI
-11 ,962 ,0 ,1 ,2 ,0 ,1 ,878 ,09 ,0 ,680
 106
 Lamine Yamal
 Barcelona, ,16, MPD
 56 ,534 ,1 ,1 ,1 ,0 ,15 ,859 ,01 ,1 ,680
 107
+Yan Couto
+Girona, ,21, DFD,MED
+73 ,661 ,1 ,3 ,3 ,0 ,1 ,799 ,03 ,0 ,679
+108
 Samú Costa
 Mallorca, ,22, MC
 83 ,801 ,1 ,0 ,2 ,0 ,06 ,795 ,22 ,0 ,679
-108
+109
 Álex Baena
 Villarreal, ,22, MPCI
 9 ,633 ,1 ,4 ,4 ,1 ,23 ,809 ,01 ,0 ,679
-109
+110
 Giorgi Mamardashvili
 Valencia, ,23, POR
 11 ,990 ,0 ,0 ,1 ,0 ,0 ,474 ,03 ,1 ,679
+101
+Nemanja Maksimovic
+Getafe, ,28, MEC
+11 ,985 ,1 ,0 ,2 ,0 ,12 ,799 ,21 ,1 ,681
+102
+Luis Rioja
+Deportivo Alaves, ,30, MPI
+101 ,874 ,1 ,2 ,2 ,0 ,22 ,724 ,05 ,1 ,681
+103
+Marc Pubill
+Almeria, ,20, DFD
+31 ,271 ,0 ,0 ,1 ,0 ,03 ,793 ,08 ,0 ,680
+104
+Isi Palazón
+Rayo Vallecano, ,28, MPD
+101 ,812 ,2 ,0 ,2 ,0 ,19 ,746 ,09 ,0 ,680
+105
+Youssouf Sabaly
+Real Betis, ,30, DFID,MED
+3 ,270 ,0 ,1 ,0 ,0 ,03 ,865 ,03 ,0 ,680
+106
+Lamine Yamal
+Barcelona, ,16, MPD
+56 ,534 ,1 ,1 ,1 ,0 ,15 ,859 ,01 ,1 ,680
+107
+Yan Couto
+Girona, ,21, DFD,MED
+73 ,661 ,1 ,3 ,3 ,0 ,1 ,799 ,03 ,0 ,679
+108
+Samú Costa
+Mallorca, ,22, MC
+83 ,801 ,1 ,0 ,2 ,0 ,06 ,795 ,22 ,0 ,679
+109
+Álex Baena
+Villarreal, ,22, MPCI
+9 ,633 ,1 ,4 ,4 ,1 ,23 ,809 ,01 ,0 ,679
 110
+Giorgi Mamardashvili
+Valencia, ,23, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,474 ,03 ,1 ,679
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+111
 Thierry Correia
 Valencia, ,24, DFD,MED
 10 ,790 ,0 ,2 ,1 ,0 ,03 ,799 ,04 ,0 ,679
-111
+112
+Paulo Gazzaniga
+Girona, ,31, POR
+11 ,990 ,0 ,0 ,2 ,0 ,0 ,709 ,02 ,1 ,678
+113
+Arnau Martínez
+Girona, ,20, DFD
+61 ,460 ,0 ,2 ,2 ,0 ,0 ,883 ,04 ,0 ,678
+114
+Miguel Gutiérrez
+Girona, ,22, DFI,MEI
+10 ,872 ,0 ,1 ,2 ,0 ,11 ,885 ,09 ,0 ,678
+115
 Dani Rodríguez
 Mallorca, ,35, MPCID
 11 ,914 ,1 ,1 ,4 ,0 ,15 ,799 ,06 ,0 ,676
-112
+116
 Jonathan Bamba
 Celta Vigo, ,27, MPCID,DL
 11 ,948 ,1 ,1 ,0 ,0 ,15 ,799 ,03 ,0 ,676
-113
+117
 Florian Lejeune
 Rayo Vallecano, ,32, DFC
 11 ,988 ,0 ,1 ,3 ,0 ,18 ,783 ,18 ,0 ,676
-114
+118
 Largie Ramazani
 Almeria, ,22, MPI,DL
 56 ,549 ,1 ,4 ,3 ,0 ,17 ,689 ,02 ,1 ,676
-115
+119
 Aihen Muñoz
 Real Sociedad, ,26, DFI
 74 ,756 ,0 ,1 ,1 ,0 ,05 ,801 ,12 ,0 ,676
-116
+120
 Alejandro Balde
 Barcelona, ,20, DFID
 91 ,793 ,0 ,1 ,1 ,0 ,01 ,876 ,09 ,0 ,676
+111
+Thierry Correia
+Valencia, ,24, DFD,MED
+10 ,790 ,0 ,2 ,1 ,0 ,03 ,799 ,04 ,0 ,679
+112
+Paulo Gazzaniga
+Girona, ,31, POR
+11 ,990 ,0 ,0 ,2 ,0 ,0 ,709 ,02 ,1 ,678
+113
+Arnau Martínez
+Girona, ,20, DFD
+61 ,460 ,0 ,2 ,2 ,0 ,0 ,883 ,04 ,0 ,678
+114
+Miguel Gutiérrez
+Girona, ,22, DFI,MEI
+10 ,872 ,0 ,1 ,2 ,0 ,11 ,885 ,09 ,0 ,678
+115
+Dani Rodríguez
+Mallorca, ,35, MPCID
+11 ,914 ,1 ,1 ,4 ,0 ,15 ,799 ,06 ,0 ,676
+116
+Jonathan Bamba
+Celta Vigo, ,27, MPCID,DL
+11 ,948 ,1 ,1 ,0 ,0 ,15 ,799 ,03 ,0 ,676
 117
+Florian Lejeune
+Rayo Vallecano, ,32, DFC
+11 ,988 ,0 ,1 ,3 ,0 ,18 ,783 ,18 ,0 ,676
+118
+Largie Ramazani
+Almeria, ,22, MPI,DL
+56 ,549 ,1 ,4 ,3 ,0 ,17 ,689 ,02 ,1 ,676
+119
+Aihen Muñoz
+Real Sociedad, ,26, DFI
+74 ,756 ,0 ,1 ,1 ,0 ,05 ,801 ,12 ,0 ,676
+120
+Alejandro Balde
+Barcelona, ,20, DFID
+91 ,793 ,0 ,1 ,1 ,0 ,01 ,876 ,09 ,0 ,676
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+121
 Kirian Rodríguez
 Las Palmas, ,27, MEC
 111 ,971 ,2 ,0 ,4 ,0 ,1 ,886 ,07 ,1 ,675
-118
+122
 Antonio Sánchez
 Mallorca, ,26, MECD
 52 ,347 ,1 ,1 ,1 ,0 ,09 ,783 ,0 ,0 ,675
-119
-Daley Blind
-Girona, ,33, DFCI,MC,MEI
-111 ,992 ,0 ,2 ,0 ,0 ,02 ,908 ,12 ,0 ,674
-120
+123
 Yeremy Pino
 Villarreal, ,21, MPID
 6 ,435 ,0 ,0 ,4 ,0 ,13 ,832 ,12 ,0 ,674
-121
+124
 Ander Herrera
 Athletic Bilbao, ,34, MEC
 33 ,289 ,0 ,0 ,2 ,0 ,05 ,86 ,03 ,0 ,674
-122
+125
+David García
+Osasuna, ,29, DFC
+10 ,900 ,0 ,0 ,2 ,0 ,06 ,837 ,33 ,0 ,674
+126
 Hamari Traoré
 Real Sociedad, ,31, DFD,MED
 101 ,859 ,0 ,1 ,3 ,0 ,02 ,834 ,13 ,0 ,674
-123
+127
 Diego López
 Valencia, ,21, MPID
 92 ,749 ,2 ,0 ,0 ,0 ,12 ,698 ,14 ,0 ,674
-124
+128
 Raphinha
 Barcelona, ,26, MPID,DL
 34 ,228 ,2 ,1 ,1 ,1 ,17 ,813 ,01 ,1 ,673
-125
+129
+Daley Blind
+Girona, ,33, DFCI,MC,MEI
+101 ,902 ,0 ,2 ,0 ,0 ,02 ,907 ,13 ,0 ,673
+130
 Matteo Gabbia
 Villarreal, ,24, DFC
 51 ,433 ,0 ,0 ,1 ,0 ,0 ,894 ,23 ,0 ,673
+121
+Kirian Rodríguez
+Las Palmas, ,27, MEC
+111 ,971 ,2 ,0 ,4 ,0 ,1 ,886 ,07 ,1 ,675
+122
+Antonio Sánchez
+Mallorca, ,26, MECD
+52 ,347 ,1 ,1 ,1 ,0 ,09 ,783 ,0 ,0 ,675
+123
+Yeremy Pino
+Villarreal, ,21, MPID
+6 ,435 ,0 ,0 ,4 ,0 ,13 ,832 ,12 ,0 ,674
+124
+Ander Herrera
+Athletic Bilbao, ,34, MEC
+33 ,289 ,0 ,0 ,2 ,0 ,05 ,86 ,03 ,0 ,674
+125
+David García
+Osasuna, ,29, DFC
+10 ,900 ,0 ,0 ,2 ,0 ,06 ,837 ,33 ,0 ,674
 126
-Paulo Gazzaniga
-Girona, ,31, POR
-12 ,1080 ,0 ,0 ,2 ,0 ,0 ,701 ,02 ,1 ,673
+Hamari Traoré
+Real Sociedad, ,31, DFD,MED
+101 ,859 ,0 ,1 ,3 ,0 ,02 ,834 ,13 ,0 ,674
 127
-Yan Couto
-Girona, ,21, DFD,MED
-83 ,731 ,1 ,3 ,3 ,0 ,11 ,801 ,03 ,0 ,673
+Diego López
+Valencia, ,21, MPID
+92 ,749 ,2 ,0 ,0 ,0 ,12 ,698 ,14 ,0 ,674
 128
+Raphinha
+Barcelona, ,26, MPID,DL
+34 ,228 ,2 ,1 ,1 ,1 ,17 ,813 ,01 ,1 ,673
+129
+Daley Blind
+Girona, ,33, DFCI,MC,MEI
+101 ,902 ,0 ,2 ,0 ,0 ,02 ,907 ,13 ,0 ,673
+130
+Matteo Gabbia
+Villarreal, ,24, DFC
+51 ,433 ,0 ,0 ,1 ,0 ,0 ,894 ,23 ,0 ,673
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+131
 Dani Vivian
 Athletic Bilbao, ,24, DFC
 11 ,975 ,0 ,0 ,2 ,0 ,05 ,851 ,09 ,0 ,673
-129
+132
 Ronald Araujo
 Barcelona, ,24, DFCD
 33 ,392 ,0 ,0 ,0 ,0 ,05 ,893 ,22 ,0 ,673
-130
-Iván Martín
-Girona, ,24, MPCD
-101 ,809 ,3 ,0 ,2 ,0 ,05 ,916 ,02 ,0 ,672
-131
-Arnau Martínez
-Girona, ,20, DFD
-71 ,550 ,0 ,2 ,3 ,0 ,0 ,889 ,04 ,0 ,672
-132
+133
 Selim Amallah
 Valencia, ,26, MPCI,DL
 43 ,324 ,0 ,1 ,1 ,1 ,1 ,765 ,11 ,0 ,672
-133
+134
 Sandro Ramírez
 Las Palmas, ,28, MPID,DL
 4 ,349 ,0 ,0 ,0 ,0 ,18 ,84 ,08 ,0 ,672
-134
+135
 Nemanja Gudelj
 Sevilla, ,31, DFC,MEC
 8 ,707 ,1 ,0 ,3 ,0 ,14 ,833 ,2 ,0 ,671
-135
+136
 Djibril Sow
 Sevilla, ,26, MEC
 62 ,498 ,1 ,1 ,1 ,0 ,13 ,879 ,05 ,0 ,671
-136
+137
 Fermín López
 Barcelona, ,20, Midfielder
 33 ,295 ,1 ,0 ,1 ,0 ,17 ,824 ,02 ,0 ,671
-137
+138
 Marcos Alonso
 Barcelona, ,32, DFCI,MEI
 22 ,161 ,0 ,0 ,0 ,0 ,08 ,909 ,05 ,0 ,671
+139
+Stefan Savic
+Atletico, ,32, DFC
+71 ,597 ,0 ,0 ,2 ,0 ,01 ,817 ,23 ,0 ,670
+140
+Alfonso Espino
+Rayo Vallecano, ,31, DFI
+11 ,949 ,0 ,0 ,3 ,0 ,05 ,732 ,06 ,0 ,670
+131
+Dani Vivian
+Athletic Bilbao, ,24, DFC
+11 ,975 ,0 ,0 ,2 ,0 ,05 ,851 ,09 ,0 ,673
+132
+Ronald Araujo
+Barcelona, ,24, DFCD
+33 ,392 ,0 ,0 ,0 ,0 ,05 ,893 ,22 ,0 ,673
+133
+Selim Amallah
+Valencia, ,26, MPCI,DL
+43 ,324 ,0 ,1 ,1 ,1 ,1 ,765 ,11 ,0 ,672
+134
+Sandro Ramírez
+Las Palmas, ,28, MPID,DL
+4 ,349 ,0 ,0 ,0 ,0 ,18 ,84 ,08 ,0 ,672
+135
+Nemanja Gudelj
+Sevilla, ,31, DFC,MEC
+8 ,707 ,1 ,0 ,3 ,0 ,14 ,833 ,2 ,0 ,671
+136
+Djibril Sow
+Sevilla, ,26, MEC
+62 ,498 ,1 ,1 ,1 ,0 ,13 ,879 ,05 ,0 ,671
+137
+Fermín López
+Barcelona, ,20, Midfielder
+33 ,295 ,1 ,0 ,1 ,0 ,17 ,824 ,02 ,0 ,671
 138
-Moi Gómez
-Osasuna, ,29, MECID
-61 ,541 ,1 ,0 ,1 ,0 ,1 ,855 ,03 ,0 ,671
+Marcos Alonso
+Barcelona, ,32, DFCI,MEI
+22 ,161 ,0 ,0 ,0 ,0 ,08 ,909 ,05 ,0 ,671
 139
 Stefan Savic
 Atletico, ,32, DFC
@@ -693,37 +1113,37 @@ Juanmi Latasa
 Getafe, ,22, DL
 65 ,619 ,2 ,0 ,3 ,0 ,11 ,443 ,55 ,0 ,670
 143
+Moi Gómez
+Osasuna, ,29, MECID
+51 ,466 ,1 ,0 ,1 ,0 ,08 ,857 ,03 ,0 ,669
+144
 Jonathan Viera
 Las Palmas, ,34, MPCID,DL
 72 ,621 ,2 ,1 ,1 ,0 ,16 ,911 ,01 ,0 ,669
-144
+145
 Kike Salas
 Sevilla, ,21, DFC
 31 ,174 ,1 ,0 ,2 ,0 ,05 ,76 ,25 ,0 ,669
-145
+146
 Mouctar Diakhaby
 Valencia, ,26, DFC,MC
 8 ,654 ,1 ,0 ,4 ,0 ,08 ,866 ,2 ,1 ,669
-146
+147
 David Alaba
 Real Madrid, ,31, DFCI,MECI
 9 ,761 ,0 ,1 ,2 ,0 ,08 ,916 ,06 ,0 ,669
-147
+148
 Saúl Coco
 Las Palmas, ,24, DFC
 63 ,578 ,1 ,0 ,2 ,0 ,07 ,909 ,12 ,1 ,668
-148
+149
 Youssef En0Nesyri
 Sevilla, ,26, DL
 63 ,604 ,3 ,0 ,0 ,0 ,2 ,631 ,22 ,0 ,668
-149
+150
 Óscar Mingueza
 Celta Vigo, ,24, DFCD
 101 ,916 ,1 ,0 ,1 ,0 ,13 ,795 ,04 ,1 ,668
-150
-Ferran Torres
-Barcelona, ,23, MPID,DL
-64 ,516 ,3 ,0 ,1 ,0 ,16 ,779 ,01 ,0 ,668
 141
 Rubén Duarte
 Deportivo Alaves, ,28, DFCI
@@ -733,161 +1153,289 @@ Juanmi Latasa
 Getafe, ,22, DL
 65 ,619 ,2 ,0 ,3 ,0 ,11 ,443 ,55 ,0 ,670
 143
+Moi Gómez
+Osasuna, ,29, MECID
+51 ,466 ,1 ,0 ,1 ,0 ,08 ,857 ,03 ,0 ,669
+144
 Jonathan Viera
 Las Palmas, ,34, MPCID,DL
 72 ,621 ,2 ,1 ,1 ,0 ,16 ,911 ,01 ,0 ,669
-144
+145
 Kike Salas
 Sevilla, ,21, DFC
 31 ,174 ,1 ,0 ,2 ,0 ,05 ,76 ,25 ,0 ,669
-145
+146
 Mouctar Diakhaby
 Valencia, ,26, DFC,MC
 8 ,654 ,1 ,0 ,4 ,0 ,08 ,866 ,2 ,1 ,669
-146
+147
 David Alaba
 Real Madrid, ,31, DFCI,MECI
 9 ,761 ,0 ,1 ,2 ,0 ,08 ,916 ,06 ,0 ,669
-147
+148
 Saúl Coco
 Las Palmas, ,24, DFC
 63 ,578 ,1 ,0 ,2 ,0 ,07 ,909 ,12 ,1 ,668
-148
+149
 Youssef En0Nesyri
 Sevilla, ,26, DL
 63 ,604 ,3 ,0 ,0 ,0 ,2 ,631 ,22 ,0 ,668
-149
+150
 Óscar Mingueza
 Celta Vigo, ,24, DFCD
 101 ,916 ,1 ,0 ,1 ,0 ,13 ,795 ,04 ,1 ,668
-150
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+151
 Ferran Torres
 Barcelona, ,23, MPID,DL
 64 ,516 ,3 ,0 ,1 ,0 ,16 ,779 ,01 ,0 ,668
-151
+152
+Iván Martín
+Girona, ,24, MPCD
+91 ,724 ,2 ,0 ,2 ,0 ,05 ,912 ,02 ,0 ,668
+153
 Sergio Akieme
 Almeria, ,25, DFI
 8 ,720 ,2 ,0 ,1 ,0 ,06 ,858 ,05 ,0 ,668
-152
+154
 Unai Núñez
 Celta Vigo, ,26, DFC
 11 ,990 ,1 ,0 ,3 ,0 ,09 ,779 ,25 ,0 ,667
-153
+155
 Joseba Zaldúa
 Cadiz, ,31, DFD
 1 ,62 ,0 ,0 ,0 ,0 ,0 ,583 ,2 ,0 ,667
-154
-David García
-Osasuna, ,29, DFC
-11 ,990 ,0 ,0 ,2 ,0 ,06 ,846 ,31 ,0 ,667
-155
+156
 Carl Starfelt
 Celta Vigo, ,28, DFC
 10 ,900 ,0 ,0 ,2 ,0 ,05 ,875 ,23 ,0 ,666
-156
+157
 Randy Nteka
 Rayo Vallecano, ,25, MPC,DL
 31 ,270 ,1 ,0 ,0 ,0 ,18 ,672 ,23 ,0 ,666
-157
+158
 Imanol García de Albéniz
 Athletic Bilbao, ,23, Defender
 31 ,259 ,0 ,0 ,0 ,0 ,03 ,862 ,13 ,0 ,666
-158
+159
 Rubén Alcaraz
 Cadiz, ,32, MC
 10 ,843 ,0 ,0 ,5 ,0 ,09 ,821 ,08 ,0 ,665
-159
+160
 Antonio Rüdiger
 Real Madrid, ,30, DFCID
 101 ,940 ,0 ,0 ,4 ,0 ,05 ,888 ,19 ,0 ,665
+151
+Ferran Torres
+Barcelona, ,23, MPID,DL
+64 ,516 ,3 ,0 ,1 ,0 ,16 ,779 ,01 ,0 ,668
+152
+Iván Martín
+Girona, ,24, MPCD
+91 ,724 ,2 ,0 ,2 ,0 ,05 ,912 ,02 ,0 ,668
+153
+Sergio Akieme
+Almeria, ,25, DFI
+8 ,720 ,2 ,0 ,1 ,0 ,06 ,858 ,05 ,0 ,668
+154
+Unai Núñez
+Celta Vigo, ,26, DFC
+11 ,990 ,1 ,0 ,3 ,0 ,09 ,779 ,25 ,0 ,667
+155
+Joseba Zaldúa
+Cadiz, ,31, DFD
+1 ,62 ,0 ,0 ,0 ,0 ,0 ,583 ,2 ,0 ,667
+156
+Carl Starfelt
+Celta Vigo, ,28, DFC
+10 ,900 ,0 ,0 ,2 ,0 ,05 ,875 ,23 ,0 ,666
+157
+Randy Nteka
+Rayo Vallecano, ,25, MPC,DL
+31 ,270 ,1 ,0 ,0 ,0 ,18 ,672 ,23 ,0 ,666
+158
+Imanol García de Albéniz
+Athletic Bilbao, ,23, Defender
+31 ,259 ,0 ,0 ,0 ,0 ,03 ,862 ,13 ,0 ,666
+159
+Rubén Alcaraz
+Cadiz, ,32, MC
+10 ,843 ,0 ,0 ,5 ,0 ,09 ,821 ,08 ,0 ,665
 160
+Antonio Rüdiger
+Real Madrid, ,30, DFCID
+101 ,940 ,0 ,0 ,4 ,0 ,05 ,888 ,19 ,0 ,665
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+161
 Oriol Romeu
 Barcelona, ,32, MC
 83 ,572 ,0 ,1 ,2 ,0 ,08 ,903 ,09 ,0 ,665
-161
+162
 Marc0André ter Stegen
 Barcelona, ,31, POR
 11 ,990 ,0 ,0 ,1 ,0 ,0 ,923 ,02 ,0 ,665
-162
+163
 Iván Balliu
 Rayo Vallecano, ,31, DFD,MED
 11 ,990 ,0 ,0 ,1 ,0 ,02 ,755 ,07 ,0 ,664
-163
+164
 Luiz Henrique
 Real Betis, ,22, MPID
 23 ,190 ,0 ,1 ,1 ,0 ,06 ,72 ,08 ,0 ,663
-164
+165
 Íñigo Ruíz de Galarreta
 Athletic Bilbao, ,30, MC
 8 ,675 ,0 ,0 ,3 ,0 ,05 ,81 ,14 ,0 ,663
-165
+166
 Rodrigo Riquelme
 Atletico, ,23, MECI
 44 ,383 ,2 ,1 ,1 ,0 ,13 ,852 ,0 ,0 ,663
-166
+167
 Andreas Christensen
 Barcelona, ,27, DFC,MC
 10 ,728 ,0 ,1 ,1 ,0 ,02 ,955 ,16 ,0 ,663
-167
+168
 Myrto Uzuni
 Granada, ,28, MPID,DL
 92 ,770 ,4 ,0 ,1 ,0 ,19 ,769 ,07 ,0 ,663
-168
+169
 Mika Mármol
 Las Palmas, ,22, DFC
 10 ,860 ,0 ,0 ,2 ,1 ,0 ,898 ,07 ,0 ,663
-169
+170
 Julián Araujo
 Las Palmas, ,22, DFD,MED
 64 ,573 ,0 ,0 ,2 ,0 ,03 ,828 ,17 ,0 ,663
+161
+Oriol Romeu
+Barcelona, ,32, MC
+83 ,572 ,0 ,1 ,2 ,0 ,08 ,903 ,09 ,0 ,665
+162
+Marc0André ter Stegen
+Barcelona, ,31, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,923 ,02 ,0 ,665
+163
+Iván Balliu
+Rayo Vallecano, ,31, DFD,MED
+11 ,990 ,0 ,0 ,1 ,0 ,02 ,755 ,07 ,0 ,664
+164
+Luiz Henrique
+Real Betis, ,22, MPID
+23 ,190 ,0 ,1 ,1 ,0 ,06 ,72 ,08 ,0 ,663
+165
+Íñigo Ruíz de Galarreta
+Athletic Bilbao, ,30, MC
+8 ,675 ,0 ,0 ,3 ,0 ,05 ,81 ,14 ,0 ,663
+166
+Rodrigo Riquelme
+Atletico, ,23, MECI
+44 ,383 ,2 ,1 ,1 ,0 ,13 ,852 ,0 ,0 ,663
+167
+Andreas Christensen
+Barcelona, ,27, DFC,MC
+10 ,728 ,0 ,1 ,1 ,0 ,02 ,955 ,16 ,0 ,663
+168
+Myrto Uzuni
+Granada, ,28, MPID,DL
+92 ,770 ,4 ,0 ,1 ,0 ,19 ,769 ,07 ,0 ,663
+169
+Mika Mármol
+Las Palmas, ,22, DFC
+10 ,860 ,0 ,0 ,2 ,1 ,0 ,898 ,07 ,0 ,663
 170
+Julián Araujo
+Las Palmas, ,22, DFD,MED
+64 ,573 ,0 ,0 ,2 ,0 ,03 ,828 ,17 ,0 ,663
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+171
 Kieran Tierney
 Real Sociedad, ,26, DFCI,MEI
 4 ,234 ,0 ,1 ,0 ,0 ,0 ,79 ,08 ,1 ,663
-171
+172
 Willian José
 Real Betis, ,31, DL
 53 ,437 ,4 ,0 ,0 ,1 ,13 ,743 ,14 ,0 ,662
-172
-Sergio Herrera
-Osasuna, ,30, POR
-9 ,800 ,0 ,0 ,2 ,0 ,0 ,571 ,04 ,0 ,662
 173
+Rubén García
+Osasuna, ,30, MPCID,DL
+54 ,389 ,2 ,0 ,0 ,0 ,07 ,708 ,09 ,0 ,662
+174
 Álvaro Carreras
 Granada, ,20, MEI
 33 ,259 ,0 ,0 ,1 ,0 ,08 ,768 ,1 ,0 ,662
-174
+175
 Dani Parejo
 Villarreal, ,34, MEC
 10 ,890 ,1 ,1 ,2 ,0 ,03 ,911 ,09 ,0 ,662
-175
+176
 Luiz Felipe
 Real Betis, ,26, DFC
 4 ,360 ,0 ,0 ,1 ,0 ,05 ,904 ,05 ,0 ,662
-176
+177
 Jan Oblak
 Atletico, ,30, POR
 11 ,990 ,0 ,0 ,1 ,0 ,0 ,733 ,02 ,0 ,661
-177
+178
 Fran Pérez
 Valencia, ,21, MPD
 92 ,722 ,1 ,3 ,2 ,0 ,06 ,841 ,0 ,0 ,661
-178
+179
 Gabriel Paulista
 Valencia, ,32, DFCD
 71 ,650 ,0 ,0 ,1 ,0 ,08 ,863 ,19 ,0 ,661
-179
+180
 Martin Valjent
 Mallorca, ,27, DFC
 11 ,990 ,0 ,0 ,1 ,0 ,02 ,801 ,16 ,1 ,660
+171
+Kieran Tierney
+Real Sociedad, ,26, DFCI,MEI
+4 ,234 ,0 ,1 ,0 ,0 ,0 ,79 ,08 ,1 ,663
+172
+Willian José
+Real Betis, ,31, DL
+53 ,437 ,4 ,0 ,0 ,1 ,13 ,743 ,14 ,0 ,662
+173
+Rubén García
+Osasuna, ,30, MPCID,DL
+54 ,389 ,2 ,0 ,0 ,0 ,07 ,708 ,09 ,0 ,662
+174
+Álvaro Carreras
+Granada, ,20, MEI
+33 ,259 ,0 ,0 ,1 ,0 ,08 ,768 ,1 ,0 ,662
+175
+Dani Parejo
+Villarreal, ,34, MEC
+10 ,890 ,1 ,1 ,2 ,0 ,03 ,911 ,09 ,0 ,662
+176
+Luiz Felipe
+Real Betis, ,26, DFC
+4 ,360 ,0 ,0 ,1 ,0 ,05 ,904 ,05 ,0 ,662
+177
+Jan Oblak
+Atletico, ,30, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,733 ,02 ,0 ,661
+178
+Fran Pérez
+Valencia, ,21, MPD
+92 ,722 ,1 ,3 ,2 ,0 ,06 ,841 ,0 ,0 ,661
+179
+Gabriel Paulista
+Valencia, ,32, DFCD
+71 ,650 ,0 ,0 ,1 ,0 ,08 ,863 ,19 ,0 ,661
 180
+Martin Valjent
+Mallorca, ,27, DFC
+11 ,990 ,0 ,0 ,1 ,0 ,02 ,801 ,16 ,1 ,660
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+181
 Gonzalo Villar
 Granada, ,25, MC
 46 ,415 ,0 ,3 ,2 ,0 ,01 ,795 ,08 ,0 ,660
-181
-Rubén García
-Osasuna, ,30, MPCID,DL
-55 ,405 ,2 ,0 ,0 ,0 ,06 ,721 ,08 ,0 ,659
 182
 Marc Roca
 Real Betis, ,26, MC
@@ -924,6 +1472,48 @@ Atletico, ,29, MPCI,DL
 Damián Suárez
 Getafe, ,35, DFD,MED
 10 ,753 ,0 ,1 ,3 ,0 ,02 ,667 ,05 ,0 ,657
+181
+Gonzalo Villar
+Granada, ,25, MC
+46 ,415 ,0 ,3 ,2 ,0 ,01 ,795 ,08 ,0 ,660
+182
+Marc Roca
+Real Betis, ,26, MC
+101 ,823 ,2 ,1 ,1 ,0 ,07 ,841 ,04 ,0 ,659
+183
+Roger Martí
+Cadiz, ,32, DL
+82 ,655 ,1 ,2 ,1 ,0 ,17 ,652 ,04 ,1 ,659
+184
+Álex Sola
+Deportivo Alaves, ,24, DFD,MED
+71 ,510 ,0 ,0 ,1 ,0 ,14 ,626 ,11 ,0 ,659
+185
+Carlos Fernández
+Real Sociedad, ,27, MPC,DL
+51 ,344 ,1 ,1 ,2 ,0 ,12 ,61 ,18 ,0 ,658
+186
+Fran Vieites
+Real Betis, ,24, Goalkeeper
+01 ,45 ,0 ,0 ,0 ,0 ,0 ,778 ,0 ,0 ,658
+187
+Iker Muñoz
+Osasuna, ,20, MC
+52 ,426 ,1 ,0 ,2 ,0 ,06 ,726 ,23 ,0 ,658
+188
+Oihan Sancet
+Athletic Bilbao, ,23, MEC,DL
+81 ,625 ,2 ,0 ,0 ,2 ,17 ,835 ,1 ,0 ,657
+189
+Memphis Depay
+Atletico, ,29, MPCI,DL
+22 ,139 ,2 ,0 ,0 ,0 ,18 ,71 ,0 ,0 ,657
+190
+Damián Suárez
+Getafe, ,35, DFD,MED
+10 ,753 ,0 ,1 ,3 ,0 ,02 ,667 ,05 ,0 ,657
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 191
 César Azpilicueta
 Atletico, ,34, DFCID,MED
@@ -953,33 +1543,75 @@ Rui Silva
 Real Betis, ,29, POR
 5 ,406 ,0 ,0 ,0 ,0 ,0 ,645 ,02 ,0 ,657
 198
-Johan Mojica
-Osasuna, ,31, DFI,MEI
-53 ,489 ,0 ,1 ,0 ,0 ,09 ,792 ,03 ,0 ,657
-199
 Guido Rodríguez
 Real Betis, ,29, MC
 91 ,719 ,1 ,0 ,5 ,0 ,08 ,877 ,07 ,0 ,656
-200
+199
 Robin Le Normand
 Real Sociedad, ,26, DFC
 81 ,687 ,1 ,0 ,4 ,0 ,02 ,878 ,32 ,0 ,656
-201
+200
 André Almeida
 Valencia, ,23, MEC,DL
 62 ,483 ,0 ,1 ,0 ,0 ,06 ,801 ,01 ,0 ,656
-202
+191
+César Azpilicueta
+Atletico, ,34, DFCID,MED
+63 ,583 ,0 ,1 ,1 ,0 ,02 ,859 ,1 ,0 ,657
+192
+Éder Militão
+Real Madrid, ,25, DFCD
+1 ,50 ,0 ,0 ,0 ,0 ,0 ,969 ,0 ,0 ,657
+193
+Nacho Vidal
+Osasuna, ,28, DFD
+03 ,60 ,1 ,0 ,0 ,0 ,07 ,632 ,0 ,0 ,657
+194
+Kike García
+Deportivo Alaves, ,33, DL
+74 ,593 ,2 ,0 ,1 ,0 ,22 ,664 ,22 ,0 ,657
+195
+Sergio Arribas
+Almeria, ,22, Midfielder
+65 ,631 ,4 ,0 ,0 ,0 ,17 ,80 ,05 ,1 ,657
+196
+Enzo Loiodice
+Las Palmas, ,22, MC
+93 ,787 ,0 ,0 ,1 ,0 ,06 ,821 ,13 ,0 ,657
+197
+Rui Silva
+Real Betis, ,29, POR
+5 ,406 ,0 ,0 ,0 ,0 ,0 ,645 ,02 ,0 ,657
+198
+Guido Rodríguez
+Real Betis, ,29, MC
+91 ,719 ,1 ,0 ,5 ,0 ,08 ,877 ,07 ,0 ,656
+199
+Robin Le Normand
+Real Sociedad, ,26, DFC
+81 ,687 ,1 ,0 ,4 ,0 ,02 ,878 ,32 ,0 ,656
+200
+André Almeida
+Valencia, ,23, MEC,DL
+62 ,483 ,0 ,1 ,0 ,0 ,06 ,801 ,01 ,0 ,656
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+201
 Adri Embarba
 Almeria, ,31, MPCID,DL
 91 ,712 ,0 ,0 ,1 ,0 ,17 ,76 ,08 ,0 ,656
-203
+202
 Predrag Rajkovic
 Mallorca, ,28, POR
 11 ,990 ,0 ,0 ,1 ,0 ,0 ,564 ,02 ,1 ,656
-204
+203
 Franco Cervi
 Celta Vigo, ,29, DFI,MECI
 21 ,134 ,0 ,0 ,0 ,0 ,0 ,85 ,1 ,0 ,656
+204
+Eric García
+Girona, ,22, DFC
+6 ,503 ,1 ,0 ,1 ,0 ,12 ,896 ,1 ,0 ,656
 205
 Ørjan Nyland
 Sevilla, ,33, POR
@@ -989,37 +1621,79 @@ Jon Guridi
 Deportivo Alaves, ,28, MEC
 91 ,768 ,0 ,3 ,1 ,0 ,12 ,822 ,13 ,0 ,655
 207
+Lucas Torró
+Osasuna, ,29, MC
+71 ,590 ,0 ,0 ,2 ,0 ,14 ,764 ,28 ,0 ,655
+208
 Joseph Aidoo
 Celta Vigo, ,28, DFC
 42 ,407 ,0 ,0 ,0 ,0 ,05 ,785 ,23 ,0 ,655
-208
+209
 Darwin Machís
 Cadiz, ,30, MPID
 63 ,425 ,3 ,0 ,0 ,1 ,17 ,76 ,03 ,0 ,654
-209
+210
 Alex Berenguer
 Athletic Bilbao, ,28, DFID,MECID,DL
 37 ,379 ,1 ,1 ,2 ,0 ,1 ,748 ,09 ,0 ,654
+201
+Adri Embarba
+Almeria, ,31, MPCID,DL
+91 ,712 ,0 ,0 ,1 ,0 ,17 ,76 ,08 ,0 ,656
+202
+Predrag Rajkovic
+Mallorca, ,28, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,564 ,02 ,1 ,656
+203
+Franco Cervi
+Celta Vigo, ,29, DFI,MECI
+21 ,134 ,0 ,0 ,0 ,0 ,0 ,85 ,1 ,0 ,656
+204
+Eric García
+Girona, ,22, DFC
+6 ,503 ,1 ,0 ,1 ,0 ,12 ,896 ,1 ,0 ,656
+205
+Ørjan Nyland
+Sevilla, ,33, POR
+6 ,540 ,0 ,0 ,0 ,0 ,0 ,63 ,05 ,0 ,656
+206
+Jon Guridi
+Deportivo Alaves, ,28, MEC
+91 ,768 ,0 ,3 ,1 ,0 ,12 ,822 ,13 ,0 ,655
+207
+Lucas Torró
+Osasuna, ,29, MC
+71 ,590 ,0 ,0 ,2 ,0 ,14 ,764 ,28 ,0 ,655
+208
+Joseph Aidoo
+Celta Vigo, ,28, DFC
+42 ,407 ,0 ,0 ,0 ,0 ,05 ,785 ,23 ,0 ,655
+209
+Darwin Machís
+Cadiz, ,30, MPID
+63 ,425 ,3 ,0 ,0 ,1 ,17 ,76 ,03 ,0 ,654
 210
+Alex Berenguer
+Athletic Bilbao, ,28, DFID,MECID,DL
+37 ,379 ,1 ,1 ,2 ,0 ,1 ,748 ,09 ,0 ,654
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+211
 Miguel Rubio
 Granada, ,25, DFC
 61 ,560 ,1 ,0 ,1 ,0 ,03 ,782 ,3 ,0 ,654
-211
+212
 Íñigo Martínez
 Barcelona, ,32, DFC
 32 ,273 ,0 ,0 ,1 ,0 ,02 ,90 ,16 ,0 ,654
-212
-Jesús Areso
-Osasuna, ,24, DFD
-74 ,642 ,0 ,1 ,1 ,0 ,01 ,842 ,05 ,0 ,653
 213
 Unai López
 Rayo Vallecano, ,28, MECD
 72 ,516 ,0 ,2 ,2 ,0 ,09 ,844 ,02 ,0 ,653
 214
-Eric García
-Girona, ,22, DFC
-7 ,593 ,1 ,0 ,1 ,0 ,1 ,898 ,09 ,0 ,653
+Johan Mojica
+Osasuna, ,31, DFI,MEI
+43 ,399 ,0 ,0 ,0 ,0 ,09 ,789 ,03 ,0 ,653
 215
 Marcos Llorente
 Atletico, ,28, DFD,MECD,DL
@@ -1033,273 +1707,567 @@ Marc Cardona
 Las Palmas, ,28, DL
 43 ,300 ,2 ,0 ,1 ,0 ,07 ,727 ,04 ,0 ,652
 218
+Cristhian Stuani
+Girona, ,37, MPCID,DL
+47 ,423 ,3 ,1 ,3 ,0 ,14 ,739 ,11 ,1 ,652
+219
 Adrià Pedrosa
 Sevilla, ,25, DFI,MEI
 44 ,458 ,0 ,1 ,1 ,0 ,05 ,745 ,06 ,0 ,652
-219
+220
 Carlos Benavídez
 Deportivo Alaves, ,25, MC
 35 ,303 ,0 ,0 ,1 ,0 ,01 ,60 ,23 ,0 ,651
+211
+Miguel Rubio
+Granada, ,25, DFC
+61 ,560 ,1 ,0 ,1 ,0 ,03 ,782 ,3 ,0 ,654
+212
+Íñigo Martínez
+Barcelona, ,32, DFC
+32 ,273 ,0 ,0 ,1 ,0 ,02 ,90 ,16 ,0 ,654
+213
+Unai López
+Rayo Vallecano, ,28, MECD
+72 ,516 ,0 ,2 ,2 ,0 ,09 ,844 ,02 ,0 ,653
+214
+Johan Mojica
+Osasuna, ,31, DFI,MEI
+43 ,399 ,0 ,0 ,0 ,0 ,09 ,789 ,03 ,0 ,653
+215
+Marcos Llorente
+Atletico, ,28, DFD,MECD,DL
+83 ,658 ,2 ,0 ,2 ,0 ,07 ,77 ,05 ,0 ,653
+216
+Óscar Valentín
+Rayo Vallecano, ,29, MC
+91 ,830 ,1 ,0 ,1 ,1 ,05 ,802 ,09 ,0 ,653
+217
+Marc Cardona
+Las Palmas, ,28, DL
+43 ,300 ,2 ,0 ,1 ,0 ,07 ,727 ,04 ,0 ,652
+218
+Cristhian Stuani
+Girona, ,37, MPCID,DL
+47 ,423 ,3 ,1 ,3 ,0 ,14 ,739 ,11 ,1 ,652
+219
+Adrià Pedrosa
+Sevilla, ,25, DFI,MEI
+44 ,458 ,0 ,1 ,1 ,0 ,05 ,745 ,06 ,0 ,652
 220
+Carlos Benavídez
+Deportivo Alaves, ,25, MC
+35 ,303 ,0 ,0 ,1 ,0 ,01 ,60 ,23 ,0 ,651
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+221
 Juan Iglesias
 Getafe, ,25, DFID,MED
 53 ,514 ,0 ,0 ,1 ,0 ,06 ,525 ,03 ,0 ,651
-221
+222
 Siebe Van der Heyden
 Mallorca, ,25, DFC
 31 ,231 ,0 ,0 ,1 ,0 ,03 ,667 ,15 ,0 ,651
-222
+223
 Pejiño
 Las Palmas, ,27, Midfielder
 53 ,344 ,0 ,0 ,1 ,0 ,1 ,816 ,01 ,0 ,651
-223
+224
 Ricard Sánchez
 Granada, ,23, DFD
 92 ,831 ,2 ,0 ,2 ,0 ,03 ,742 ,03 ,0 ,651
-224
+225
 Ferland Mendy
 Real Madrid, ,28, DFI,MEI
 41 ,339 ,0 ,0 ,1 ,0 ,02 ,946 ,02 ,0 ,651
-225
+226
 Sergi Roberto
 Barcelona, ,31, DFD,MECD
 22 ,189 ,1 ,0 ,0 ,0 ,03 ,939 ,0 ,0 ,651
-226
+227
+Alejandro Catena
+Osasuna, ,29, DFC
+10 ,894 ,0 ,1 ,2 ,1 ,04 ,813 ,22 ,0 ,651
+228
 Yeray Álvarez
 Athletic Bilbao, ,28, DFC
 23 ,184 ,0 ,0 ,1 ,0 ,06 ,795 ,16 ,0 ,651
-227
+229
 Aitor Paredes
 Athletic Bilbao, ,23, DFC
 92 ,798 ,0 ,0 ,4 ,0 ,04 ,872 ,15 ,0 ,650
-228
+230
 Ander Guevara
 Deportivo Alaves, ,26, MC
 11 ,973 ,1 ,0 ,3 ,0 ,06 ,752 ,12 ,1 ,650
+221
+Juan Iglesias
+Getafe, ,25, DFID,MED
+53 ,514 ,0 ,0 ,1 ,0 ,06 ,525 ,03 ,0 ,651
+222
+Siebe Van der Heyden
+Mallorca, ,25, DFC
+31 ,231 ,0 ,0 ,1 ,0 ,03 ,667 ,15 ,0 ,651
+223
+Pejiño
+Las Palmas, ,27, Midfielder
+53 ,344 ,0 ,0 ,1 ,0 ,1 ,816 ,01 ,0 ,651
+224
+Ricard Sánchez
+Granada, ,23, DFD
+92 ,831 ,2 ,0 ,2 ,0 ,03 ,742 ,03 ,0 ,651
+225
+Ferland Mendy
+Real Madrid, ,28, DFI,MEI
+41 ,339 ,0 ,0 ,1 ,0 ,02 ,946 ,02 ,0 ,651
+226
+Sergi Roberto
+Barcelona, ,31, DFD,MECD
+22 ,189 ,1 ,0 ,0 ,0 ,03 ,939 ,0 ,0 ,651
+227
+Alejandro Catena
+Osasuna, ,29, DFC
+10 ,894 ,0 ,1 ,2 ,1 ,04 ,813 ,22 ,0 ,651
+228
+Yeray Álvarez
+Athletic Bilbao, ,28, DFC
+23 ,184 ,0 ,0 ,1 ,0 ,06 ,795 ,16 ,0 ,651
 229
+Aitor Paredes
+Athletic Bilbao, ,23, DFC
+92 ,798 ,0 ,0 ,4 ,0 ,04 ,872 ,15 ,0 ,650
+230
+Ander Guevara
+Deportivo Alaves, ,26, MC
+11 ,973 ,1 ,0 ,3 ,0 ,06 ,752 ,12 ,1 ,650
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+231
 Cristhian Mosquera
 Valencia, ,19, DFC
 63 ,646 ,0 ,0 ,1 ,0 ,02 ,88 ,12 ,0 ,650
-230
+232
 Dion Lopy
 Almeria, ,21, MC
 82 ,663 ,0 ,0 ,0 ,0 ,04 ,859 ,08 ,0 ,650
-231
+233
 Étienne Capoue
 Villarreal, ,35, DFC,MECI
 74 ,629 ,0 ,0 ,2 ,0 ,07 ,871 ,07 ,0 ,650
-232
+234
 Mason Greenwood
 Getafe, ,22, MPD,DL
 43 ,399 ,1 ,1 ,1 ,0 ,2 ,83 ,01 ,0 ,650
-233
+235
+Jesús Areso
+Osasuna, ,24, DFD
+64 ,552 ,0 ,1 ,1 ,0 ,01 ,832 ,06 ,0 ,649
+236
 Léo Baptistão
 Almeria, ,31, MPCID,DL
 35 ,252 ,2 ,0 ,2 ,0 ,1 ,614 ,08 ,0 ,649
-234
+237
 Iza Carcelén
 Cadiz, ,30, DFD
 101 ,904 ,0 ,0 ,0 ,0 ,03 ,757 ,06 ,0 ,649
-235
+238
 Javi Hernández
 Cadiz, ,25, DFCI
 11 ,965 ,0 ,1 ,3 ,0 ,1 ,701 ,09 ,0 ,649
-236
+239
 Máximo Perrone
 Las Palmas, ,20, MC
 36 ,320 ,0 ,0 ,1 ,0 ,04 ,895 ,01 ,0 ,648
-237
-Cristhian Stuani
-Girona, ,37, MPCID,DL
-48 ,428 ,3 ,1 ,4 ,0 ,13 ,746 ,1 ,1 ,648
-238
+240
 Manu Sánchez
 Celta Vigo, ,23, DFI
 53 ,501 ,0 ,1 ,1 ,0 ,03 ,805 ,01 ,0 ,648
+231
+Cristhian Mosquera
+Valencia, ,19, DFC
+63 ,646 ,0 ,0 ,1 ,0 ,02 ,88 ,12 ,0 ,650
+232
+Dion Lopy
+Almeria, ,21, MC
+82 ,663 ,0 ,0 ,0 ,0 ,04 ,859 ,08 ,0 ,650
+233
+Étienne Capoue
+Villarreal, ,35, DFC,MECI
+74 ,629 ,0 ,0 ,2 ,0 ,07 ,871 ,07 ,0 ,650
+234
+Mason Greenwood
+Getafe, ,22, MPD,DL
+43 ,399 ,1 ,1 ,1 ,0 ,2 ,83 ,01 ,0 ,650
+235
+Jesús Areso
+Osasuna, ,24, DFD
+64 ,552 ,0 ,1 ,1 ,0 ,01 ,832 ,06 ,0 ,649
+236
+Léo Baptistão
+Almeria, ,31, MPCID,DL
+35 ,252 ,2 ,0 ,2 ,0 ,1 ,614 ,08 ,0 ,649
+237
+Iza Carcelén
+Cadiz, ,30, DFD
+101 ,904 ,0 ,0 ,0 ,0 ,03 ,757 ,06 ,0 ,649
+238
+Javi Hernández
+Cadiz, ,25, DFCI
+11 ,965 ,0 ,1 ,3 ,0 ,1 ,701 ,09 ,0 ,649
 239
+Máximo Perrone
+Las Palmas, ,20, MC
+36 ,320 ,0 ,0 ,1 ,0 ,04 ,895 ,01 ,0 ,648
+240
+Manu Sánchez
+Celta Vigo, ,23, DFI
+53 ,501 ,0 ,1 ,1 ,0 ,03 ,805 ,01 ,0 ,648
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+241
 Jon Pacheco
 Real Sociedad, ,22, DFC
 34 ,313 ,0 ,0 ,2 ,0 ,01 ,877 ,24 ,0 ,648
-240
+242
 David Soria
 Getafe, ,30, POR
 11 ,990 ,0 ,0 ,2 ,0 ,0 ,456 ,02 ,1 ,648
-241
+243
 Juan Miranda
 Real Betis, ,23, DFI
 61 ,496 ,0 ,0 ,2 ,0 ,04 ,859 ,13 ,0 ,648
-242
+244
 Luka Modric
 Real Madrid, ,38, MEC
 36 ,334 ,0 ,1 ,1 ,0 ,08 ,904 ,02 ,0 ,648
-243
+245
 Djené Dakonam
 Getafe, ,31, DFCD,MC
 91 ,772 ,0 ,0 ,5 ,0 ,03 ,775 ,08 ,0 ,648
-244
+246
 José Giménez
 Atletico, ,28, DFCD
 24 ,268 ,0 ,0 ,2 ,0 ,03 ,836 ,13 ,0 ,647
-245
+247
 Jesús Navas
 Sevilla, ,37, DFD,MED
 63 ,541 ,0 ,0 ,3 ,0 ,0 ,755 ,04 ,0 ,647
-246
-Lucas Torró
-Osasuna, ,29, MC
-81 ,680 ,0 ,0 ,3 ,0 ,14 ,772 ,27 ,0 ,647
-247
+248
 Aridane Hernández
 Rayo Vallecano, ,34, DFC
 9 ,791 ,0 ,0 ,3 ,0 ,02 ,836 ,2 ,0 ,647
-248
+249
 Marvin Park
 Las Palmas, ,23, Defender
 26 ,335 ,0 ,1 ,1 ,0 ,03 ,821 ,04 ,1 ,647
-249
+250
 Ianis Hagi
 Deportivo Alaves, ,25, MPCID
 43 ,320 ,0 ,1 ,2 ,0 ,19 ,762 ,06 ,0 ,646
+241
+Jon Pacheco
+Real Sociedad, ,22, DFC
+34 ,313 ,0 ,0 ,2 ,0 ,01 ,877 ,24 ,0 ,648
+242
+David Soria
+Getafe, ,30, POR
+11 ,990 ,0 ,0 ,2 ,0 ,0 ,456 ,02 ,1 ,648
+243
+Juan Miranda
+Real Betis, ,23, DFI
+61 ,496 ,0 ,0 ,2 ,0 ,04 ,859 ,13 ,0 ,648
+244
+Luka Modric
+Real Madrid, ,38, MEC
+36 ,334 ,0 ,1 ,1 ,0 ,08 ,904 ,02 ,0 ,648
+245
+Djené Dakonam
+Getafe, ,31, DFCD,MC
+91 ,772 ,0 ,0 ,5 ,0 ,03 ,775 ,08 ,0 ,648
+246
+José Giménez
+Atletico, ,28, DFCD
+24 ,268 ,0 ,0 ,2 ,0 ,03 ,836 ,13 ,0 ,647
+247
+Jesús Navas
+Sevilla, ,37, DFD,MED
+63 ,541 ,0 ,0 ,3 ,0 ,0 ,755 ,04 ,0 ,647
+248
+Aridane Hernández
+Rayo Vallecano, ,34, DFC
+9 ,791 ,0 ,0 ,3 ,0 ,02 ,836 ,2 ,0 ,647
+249
+Marvin Park
+Las Palmas, ,23, Defender
+26 ,335 ,0 ,1 ,1 ,0 ,03 ,821 ,04 ,1 ,647
 250
+Ianis Hagi
+Deportivo Alaves, ,25, MPCID
+43 ,320 ,0 ,1 ,2 ,0 ,19 ,762 ,06 ,0 ,646
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+251
 Pablo Maffeo
 Mallorca, ,26, DFID,MED
 71 ,578 ,0 ,0 ,1 ,1 ,04 ,667 ,15 ,0 ,646
-251
+252
 Kevin Vázquez
 Celta Vigo, ,30, DFD,MED
 2 ,118 ,0 ,0 ,1 ,0 ,0 ,816 ,15 ,0 ,646
-252
+253
 Munir El Haddadi
 Las Palmas, ,28, MPCID,DL
 111 ,892 ,1 ,1 ,1 ,0 ,18 ,795 ,08 ,0 ,645
-253
+254
 Rodri
 Real Betis, ,23, MPCID
 55 ,490 ,0 ,0 ,0 ,0 ,1 ,836 ,0 ,0 ,645
-254
+255
 Igor Zubeldia
 Real Sociedad, ,26, DFC,MC
 101 ,902 ,0 ,0 ,5 ,0 ,02 ,817 ,17 ,0 ,645
-255
+256
 Srdjan Babic
 Almeria, ,27, DFC
 1 ,90 ,0 ,0 ,0 ,0 ,1 ,935 ,3 ,0 ,645
-256
+257
 Luís Maximiano
 Almeria, ,24, POR
 8 ,720 ,0 ,0 ,0 ,0 ,0 ,627 ,01 ,0 ,645
-257
+258
 Vicente Guaita
 Celta Vigo, ,36, POR
 11 ,152 ,0 ,0 ,0 ,0 ,0 ,528 ,0 ,0 ,645
-258
+259
 Asier Villalibre
 Athletic Bilbao, ,26, DL
 06 ,139 ,1 ,1 ,0 ,0 ,07 ,689 ,17 ,0 ,645
-259
+260
 Marcos Acuña
 Sevilla, ,32, DFCI,MECI
 51 ,369 ,0 ,0 ,2 ,0 ,07 ,821 ,08 ,0 ,645
+251
+Pablo Maffeo
+Mallorca, ,26, DFID,MED
+71 ,578 ,0 ,0 ,1 ,1 ,04 ,667 ,15 ,0 ,646
+252
+Kevin Vázquez
+Celta Vigo, ,30, DFD,MED
+2 ,118 ,0 ,0 ,1 ,0 ,0 ,816 ,15 ,0 ,646
+253
+Munir El Haddadi
+Las Palmas, ,28, MPCID,DL
+111 ,892 ,1 ,1 ,1 ,0 ,18 ,795 ,08 ,0 ,645
+254
+Rodri
+Real Betis, ,23, MPCID
+55 ,490 ,0 ,0 ,0 ,0 ,1 ,836 ,0 ,0 ,645
+255
+Igor Zubeldia
+Real Sociedad, ,26, DFC,MC
+101 ,902 ,0 ,0 ,5 ,0 ,02 ,817 ,17 ,0 ,645
+256
+Srdjan Babic
+Almeria, ,27, DFC
+1 ,90 ,0 ,0 ,0 ,0 ,1 ,935 ,3 ,0 ,645
+257
+Luís Maximiano
+Almeria, ,24, POR
+8 ,720 ,0 ,0 ,0 ,0 ,0 ,627 ,01 ,0 ,645
+258
+Vicente Guaita
+Celta Vigo, ,36, POR
+11 ,152 ,0 ,0 ,0 ,0 ,0 ,528 ,0 ,0 ,645
+259
+Asier Villalibre
+Athletic Bilbao, ,26, DL
+06 ,139 ,1 ,1 ,0 ,0 ,07 ,689 ,17 ,0 ,645
 260
+Marcos Acuña
+Sevilla, ,32, DFCI,MECI
+51 ,369 ,0 ,0 ,2 ,0 ,07 ,821 ,08 ,0 ,645
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+261
 Aleksandar Sedlar
 Deportivo Alaves, ,31, DFC
 10 ,859 ,0 ,0 ,2 ,0 ,02 ,843 ,15 ,0 ,645
-261
+262
 Toni Lato
 Mallorca, ,25, DFI,MEI
 53 ,465 ,0 ,1 ,1 ,0 ,01 ,732 ,01 ,0 ,645
-262
+263
 Boubakary Soumaré
 Sevilla, ,24, MC
 22 ,210 ,0 ,0 ,2 ,0 ,03 ,867 ,08 ,0 ,644
-263
-Alejandro Catena
-Osasuna, ,29, DFC
-11 ,984 ,0 ,1 ,3 ,1 ,04 ,818 ,21 ,0 ,644
 264
+Jon Moncayola
+Osasuna, ,25, DFD,MEC
+63 ,529 ,0 ,0 ,1 ,0 ,03 ,80 ,04 ,0 ,644
+265
 Javi López
 Deportivo Alaves, ,21, DFI
 25 ,329 ,0 ,1 ,1 ,0 ,01 ,701 ,09 ,0 ,644
-265
+266
 Raúl Albiol
 Villarreal, ,38, DFC
 81 ,707 ,0 ,0 ,2 ,0 ,01 ,861 ,17 ,0 ,644
-266
+267
 Matija Nastasic
 Mallorca, ,30, DFC
 7 ,630 ,0 ,0 ,3 ,0 ,01 ,807 ,14 ,1 ,643
-267
+268
 Fran García
 Real Madrid, ,24, DFI
 62 ,453 ,0 ,2 ,1 ,0 ,04 ,894 ,03 ,0 ,643
-268
+269
 Abdul Mumin
 Rayo Vallecano, ,25, DFC
 21 ,180 ,1 ,0 ,1 ,1 ,03 ,781 ,13 ,0 ,643
-269
+270
 Adrià Alti
 Villarreal, ,22, Defender
 11 ,127 ,0 ,0 ,0 ,0 ,0 ,897 ,05 ,0 ,643
+261
+Aleksandar Sedlar
+Deportivo Alaves, ,31, DFC
+10 ,859 ,0 ,0 ,2 ,0 ,02 ,843 ,15 ,0 ,645
+262
+Toni Lato
+Mallorca, ,25, DFI,MEI
+53 ,465 ,0 ,1 ,1 ,0 ,01 ,732 ,01 ,0 ,645
+263
+Boubakary Soumaré
+Sevilla, ,24, MC
+22 ,210 ,0 ,0 ,2 ,0 ,03 ,867 ,08 ,0 ,644
+264
+Jon Moncayola
+Osasuna, ,25, DFD,MEC
+63 ,529 ,0 ,0 ,1 ,0 ,03 ,80 ,04 ,0 ,644
+265
+Javi López
+Deportivo Alaves, ,21, DFI
+25 ,329 ,0 ,1 ,1 ,0 ,01 ,701 ,09 ,0 ,644
+266
+Raúl Albiol
+Villarreal, ,38, DFC
+81 ,707 ,0 ,0 ,2 ,0 ,01 ,861 ,17 ,0 ,644
+267
+Matija Nastasic
+Mallorca, ,30, DFC
+7 ,630 ,0 ,0 ,3 ,0 ,01 ,807 ,14 ,1 ,643
+268
+Fran García
+Real Madrid, ,24, DFI
+62 ,453 ,0 ,2 ,1 ,0 ,04 ,894 ,03 ,0 ,643
+269
+Abdul Mumin
+Rayo Vallecano, ,25, DFC
+21 ,180 ,1 ,0 ,1 ,1 ,03 ,781 ,13 ,0 ,643
 270
+Adrià Alti
+Villarreal, ,22, Defender
+11 ,127 ,0 ,0 ,0 ,0 ,0 ,897 ,05 ,0 ,643
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+271
 Abner
 Real Betis, ,23, DFI,MEI
 53 ,495 ,0 ,0 ,2 ,0 ,03 ,828 ,04 ,0 ,643
-271
+272
 Luis Hernández
 Cadiz, ,34, DFCD
 61 ,542 ,1 ,0 ,3 ,0 ,01 ,78 ,09 ,1 ,643
-272
+273
+Aimar Oroz
+Osasuna, ,21, MPC
+11 ,910 ,1 ,1 ,2 ,0 ,05 ,821 ,05 ,0 ,642
+274
 Raúl de Tomás
 Rayo Vallecano, ,29, DL
 64 ,483 ,0 ,2 ,3 ,0 ,14 ,816 ,1 ,0 ,642
-273
+275
 Héctor Bellerín
 Real Betis, ,28, DFD,MED
 7 ,627 ,0 ,0 ,0 ,0 ,0 ,826 ,07 ,0 ,641
-274
+276
 Íñigo Lekue
 Athletic Bilbao, ,30, DFID,MEID
 33 ,349 ,0 ,0 ,2 ,0 ,03 ,77 ,07 ,0 ,641
-275
+277
 Iván Villar
 Celta Vigo, ,26, POR
 10 ,835 ,0 ,0 ,0 ,1 ,0 ,543 ,03 ,1 ,641
-276
+278
 Joan Jordán
 Sevilla, ,29, MEC
 4 ,256 ,0 ,0 ,1 ,0 ,08 ,85 ,1 ,0 ,641
-277
+279
 Lucas Pires
 Cadiz, ,22, DFI
 24 ,279 ,1 ,0 ,2 ,0 ,05 ,75 ,0 ,0 ,641
-278
-Aimar Oroz
-Osasuna, ,21, MPC
-12 ,993 ,1 ,1 ,2 ,0 ,05 ,823 ,05 ,0 ,641
-279
+280
 Alfonso Pedraza
 Villarreal, ,27, DFI,MEI
 71 ,516 ,0 ,2 ,2 ,1 ,04 ,813 ,04 ,0 ,641
+271
+Abner
+Real Betis, ,23, DFI,MEI
+53 ,495 ,0 ,0 ,2 ,0 ,03 ,828 ,04 ,0 ,643
+272
+Luis Hernández
+Cadiz, ,34, DFCD
+61 ,542 ,1 ,0 ,3 ,0 ,01 ,78 ,09 ,1 ,643
+273
+Aimar Oroz
+Osasuna, ,21, MPC
+11 ,910 ,1 ,1 ,2 ,0 ,05 ,821 ,05 ,0 ,642
+274
+Raúl de Tomás
+Rayo Vallecano, ,29, DL
+64 ,483 ,0 ,2 ,3 ,0 ,14 ,816 ,1 ,0 ,642
+275
+Héctor Bellerín
+Real Betis, ,28, DFD,MED
+7 ,627 ,0 ,0 ,0 ,0 ,0 ,826 ,07 ,0 ,641
+276
+Íñigo Lekue
+Athletic Bilbao, ,30, DFID,MEID
+33 ,349 ,0 ,0 ,2 ,0 ,03 ,77 ,07 ,0 ,641
+277
+Iván Villar
+Celta Vigo, ,26, POR
+10 ,835 ,0 ,0 ,0 ,1 ,0 ,543 ,03 ,1 ,641
+278
+Joan Jordán
+Sevilla, ,29, MEC
+4 ,256 ,0 ,0 ,1 ,0 ,08 ,85 ,1 ,0 ,641
+279
+Lucas Pires
+Cadiz, ,22, DFI
+24 ,279 ,1 ,0 ,2 ,0 ,05 ,75 ,0 ,0 ,641
 280
+Alfonso Pedraza
+Villarreal, ,27, DFI,MEI
+71 ,516 ,0 ,2 ,2 ,1 ,04 ,813 ,04 ,0 ,641
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+281
 Chadi Riad
 Real Betis, ,20, DFC
 51 ,495 ,0 ,0 ,0 ,0 ,02 ,908 ,15 ,0 ,640
-281
+282
 Radamel Falcao
 Rayo Vallecano, ,37, DL
 04 ,40 ,1 ,0 ,0 ,0 ,13 ,75 ,13 ,0 ,640
-282
+283
 Aitor Ruibal
 Real Betis, ,27, DFD,MEID
 33 ,242 ,0 ,1 ,2 ,0 ,05 ,835 ,0 ,0 ,640
-283
+284
 Ricardo Visus
 Real Betis, ,22, Defender
 01 ,31 ,0 ,0 ,0 ,0 ,0 ,833 ,2 ,0 ,640
-284
-Jon Moncayola
-Osasuna, ,25, DFD,MEC
-64 ,530 ,0 ,0 ,1 ,0 ,03 ,803 ,04 ,0 ,640
 285
 Ignasi Miquel
 Granada, ,31, DFC
@@ -1324,6 +2292,48 @@ Barcelona, ,21, MPI
 Óscar Trejo
 Rayo Vallecano, ,35, MECID,DL
 64 ,441 ,0 ,0 ,1 ,0 ,04 ,801 ,05 ,0 ,639
+281
+Chadi Riad
+Real Betis, ,20, DFC
+51 ,495 ,0 ,0 ,0 ,0 ,02 ,908 ,15 ,0 ,640
+282
+Radamel Falcao
+Rayo Vallecano, ,37, DL
+04 ,40 ,1 ,0 ,0 ,0 ,13 ,75 ,13 ,0 ,640
+283
+Aitor Ruibal
+Real Betis, ,27, DFD,MEID
+33 ,242 ,0 ,1 ,2 ,0 ,05 ,835 ,0 ,0 ,640
+284
+Ricardo Visus
+Real Betis, ,22, Defender
+01 ,31 ,0 ,0 ,0 ,0 ,0 ,833 ,2 ,0 ,640
+285
+Ignasi Miquel
+Granada, ,31, DFC
+11 ,946 ,0 ,1 ,3 ,0 ,09 ,811 ,17 ,0 ,640
+286
+Stefan Mitrovic
+Getafe, ,33, DFC
+9 ,681 ,1 ,0 ,3 ,0 ,01 ,752 ,13 ,0 ,640
+287
+Fali
+Cadiz, ,30, DFC,MC
+11 ,891 ,0 ,0 ,5 ,0 ,03 ,738 ,06 ,0 ,640
+288
+Nacho
+Real Madrid, ,33, DFCID
+24 ,284 ,0 ,0 ,1 ,1 ,05 ,929 ,05 ,0 ,639
+289
+Abde Ezzalzouli
+Barcelona, ,21, MPI
+02 ,67 ,0 ,0 ,0 ,0 ,2 ,692 ,05 ,0 ,639
+290
+Óscar Trejo
+Rayo Vallecano, ,35, MECID,DL
+64 ,441 ,0 ,0 ,1 ,0 ,04 ,801 ,05 ,0 ,639
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 291
 Carlos Domínguez
 Celta Vigo, ,22, DFC
@@ -1364,6 +2374,48 @@ Getafe, ,26, DFC
 Çaglar Söyüncü
 Atletico, ,27, DFC
 03 ,59 ,0 ,0 ,0 ,0 ,0 ,897 ,0 ,0 ,636
+291
+Carlos Domínguez
+Celta Vigo, ,22, DFC
+3 ,267 ,0 ,0 ,0 ,0 ,03 ,778 ,1 ,0 ,639
+292
+André Ferreira
+Granada, ,27, POR
+8 ,720 ,0 ,0 ,1 ,0 ,0 ,647 ,04 ,0 ,638
+293
+Carles Aleñá
+Getafe, ,25, MPCID
+65 ,489 ,1 ,1 ,2 ,0 ,07 ,805 ,05 ,0 ,638
+294
+José Ángel Carmona
+Getafe, ,21, DFCD,MED
+43 ,318 ,1 ,1 ,4 ,0 ,06 ,782 ,07 ,0 ,637
+295
+Álvaro Lemos
+Las Palmas, ,30, DFD
+21 ,194 ,0 ,0 ,1 ,0 ,03 ,828 ,17 ,0 ,637
+296
+Fede San Emeterio
+Cadiz, ,26, MC
+21 ,140 ,1 ,0 ,1 ,1 ,03 ,822 ,1 ,1 ,637
+297
+Daley Sinkgraven
+Las Palmas, ,28, DFI,MECI
+3 ,132 ,0 ,0 ,0 ,0 ,0 ,927 ,03 ,0 ,636
+298
+Fernando
+Sevilla, ,36, DFC,MC
+33 ,281 ,0 ,0 ,0 ,0 ,0 ,878 ,08 ,0 ,636
+299
+Omar Alderete
+Getafe, ,26, DFC
+43 ,345 ,0 ,0 ,1 ,0 ,04 ,657 ,1 ,0 ,636
+300
+Çaglar Söyüncü
+Atletico, ,27, DFC
+03 ,59 ,0 ,0 ,0 ,0 ,0 ,897 ,0 ,0 ,636
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 301
 Juan Cruz
 Osasuna, ,31, DFCI
@@ -1404,6 +2456,48 @@ Sevilla, ,28, MECID
 Bebé
 Rayo Vallecano, ,33, MPID,DL
 07 ,30 ,2 ,0 ,1 ,0 ,1 ,563 ,0 ,0 ,634
+301
+Juan Cruz
+Osasuna, ,31, DFCI
+71 ,652 ,0 ,1 ,1 ,0 ,0 ,807 ,04 ,0 ,636
+302
+Tasos Douvikas
+Celta Vigo, ,24, MPD,DL
+16 ,177 ,2 ,0 ,0 ,0 ,09 ,654 ,13 ,1 ,636
+303
+Sergi Canós
+Valencia, ,26, MEID
+13 ,135 ,0 ,0 ,0 ,0 ,13 ,708 ,0 ,0 ,636
+304
+Beñat Turrientes
+Real Sociedad, ,21, MEC
+52 ,372 ,0 ,0 ,1 ,0 ,07 ,831 ,0 ,0 ,635
+305
+Rafa Mir
+Sevilla, ,26, DL
+26 ,190 ,1 ,0 ,1 ,0 ,13 ,698 ,09 ,0 ,635
+306
+Antonio Sivera
+Deportivo Alaves, ,27, POR
+11 ,990 ,0 ,0 ,1 ,0 ,0 ,569 ,03 ,0 ,635
+307
+Brahim Díaz
+Real Madrid, ,24, MPCID
+17 ,111 ,1 ,0 ,0 ,0 ,04 ,842 ,0 ,0 ,635
+308
+Kike Pérez
+Rayo Vallecano, ,26, MEC
+44 ,310 ,1 ,0 ,2 ,0 ,09 ,774 ,05 ,0 ,635
+309
+Óliver Torres
+Sevilla, ,28, MECID
+43 ,384 ,0 ,0 ,2 ,0 ,06 ,799 ,06 ,0 ,634
+310
+Bebé
+Rayo Vallecano, ,33, MPID,DL
+07 ,30 ,2 ,0 ,1 ,0 ,1 ,563 ,0 ,0 ,634
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 311
 Lucas Vázquez
 Real Madrid, ,32, DFD,MED
@@ -1444,102 +2538,228 @@ Real Betis, ,37, DFI,MECI
 Gonzalo Escalante
 Cadiz, ,30, MC
 73 ,663 ,0 ,2 ,0 ,1 ,04 ,769 ,13 ,0 ,632
+311
+Lucas Vázquez
+Real Madrid, ,32, DFD,MED
+17 ,139 ,0 ,1 ,0 ,0 ,04 ,891 ,0 ,0 ,634
+312
+Diego Méndez
+Rayo Vallecano, ,20, Midfielder
+01 ,4 ,0 ,0 ,0 ,0 ,0 ,100 ,1 ,0 ,634
+313
+Gerard Gumbau
+Granada, ,28, MC
+10 ,817 ,0 ,2 ,5 ,0 ,13 ,728 ,04 ,0 ,633
+314
+Rafa Marín
+Deportivo Alaves, ,21, DFC
+53 ,455 ,0 ,0 ,1 ,0 ,05 ,817 ,21 ,0 ,632
+315
+Mihailo Ristic
+Celta Vigo, ,28, DFI,MEI
+4 ,356 ,0 ,0 ,0 ,0 ,05 ,782 ,13 ,0 ,632
+316
+Cyle Larin
+Mallorca, ,28, MPID,DL
+28 ,341 ,0 ,0 ,1 ,0 ,2 ,691 ,25 ,0 ,632
+317
+Giovanni González
+Mallorca, ,29, DFCD
+82 ,684 ,0 ,0 ,4 ,0 ,01 ,723 ,13 ,0 ,632
+318
+Malcom Adu
+Athletic Bilbao, ,22, Forward
+01 ,23 ,0 ,0 ,1 ,0 ,0 ,857 ,0 ,0 ,632
+319
+Andrés Guardado
+Real Betis, ,37, DFI,MECI
+26 ,249 ,0 ,0 ,1 ,0 ,03 ,887 ,04 ,0 ,632
+320
+Gonzalo Escalante
+Cadiz, ,30, MC
+73 ,663 ,0 ,2 ,0 ,1 ,04 ,769 ,13 ,0 ,632
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 321
-Portu
-Girona, ,31, MECID,DL
-08 ,173 ,1 ,1 ,0 ,0 ,05 ,795 ,03 ,0 ,632
-322
 Iván Alejo
 Cadiz, ,28, MPD
 101 ,733 ,0 ,0 ,5 ,0 ,01 ,659 ,07 ,0 ,632
-323
+322
 Edgar González
 Almeria, ,26, DFC,MC
 7 ,534 ,0 ,0 ,0 ,1 ,04 ,90 ,29 ,0 ,632
-324
+323
 Abde Ezzalzouli
 Real Betis, ,21, MPI
 16 ,225 ,1 ,0 ,0 ,0 ,14 ,872 ,01 ,0 ,631
-325
+324
 Abdel Abqar
 Deportivo Alaves, ,24, DFC
 8 ,720 ,0 ,0 ,3 ,0 ,04 ,732 ,2 ,0 ,631
-326
+325
 Óscar Rodríguez
 Getafe, ,25, MPCID
 15 ,125 ,0 ,0 ,2 ,0 ,07 ,811 ,03 ,0 ,631
-327
+326
 Antonio Blanco
 Deportivo Alaves, ,23, MC
 63 ,505 ,0 ,0 ,0 ,1 ,07 ,789 ,03 ,0 ,631
-328
+327
 Andoni Gorosabel
 Deportivo Alaves, ,27, DFD
 101 ,935 ,0 ,0 ,2 ,0 ,05 ,817 ,05 ,0 ,631
-329
+328
 Benito Ramírez
 Las Palmas, ,28, Midfielder
 04 ,79 ,1 ,0 ,0 ,0 ,1 ,833 ,0 ,0 ,631
-330
+329
 Kaiky
 Almeria, ,19, DFC
 42 ,424 ,1 ,0 ,1 ,0 ,05 ,831 ,17 ,0 ,631
-331
+330
 Jorge de Frutos
 Rayo Vallecano, ,26, MPD
 19 ,265 ,1 ,0 ,0 ,0 ,06 ,767 ,02 ,0 ,631
-332
+321
+Iván Alejo
+Cadiz, ,28, MPD
+101 ,733 ,0 ,0 ,5 ,0 ,01 ,659 ,07 ,0 ,632
+322
+Edgar González
+Almeria, ,26, DFC,MC
+7 ,534 ,0 ,0 ,0 ,1 ,04 ,90 ,29 ,0 ,632
+323
+Abde Ezzalzouli
+Real Betis, ,21, MPI
+16 ,225 ,1 ,0 ,0 ,0 ,14 ,872 ,01 ,0 ,631
+324
+Abdel Abqar
+Deportivo Alaves, ,24, DFC
+8 ,720 ,0 ,0 ,3 ,0 ,04 ,732 ,2 ,0 ,631
+325
+Óscar Rodríguez
+Getafe, ,25, MPCID
+15 ,125 ,0 ,0 ,2 ,0 ,07 ,811 ,03 ,0 ,631
+326
+Antonio Blanco
+Deportivo Alaves, ,23, MC
+63 ,505 ,0 ,0 ,0 ,1 ,07 ,789 ,03 ,0 ,631
+327
+Andoni Gorosabel
+Deportivo Alaves, ,27, DFD
+101 ,935 ,0 ,0 ,2 ,0 ,05 ,817 ,05 ,0 ,631
+328
+Benito Ramírez
+Las Palmas, ,28, Midfielder
+04 ,79 ,1 ,0 ,0 ,0 ,1 ,833 ,0 ,0 ,631
+329
+Kaiky
+Almeria, ,19, DFC
+42 ,424 ,1 ,0 ,1 ,0 ,05 ,831 ,17 ,0 ,631
+330
+Jorge de Frutos
+Rayo Vallecano, ,26, MPD
+19 ,265 ,1 ,0 ,0 ,0 ,06 ,767 ,02 ,0 ,631
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+331
 Alberto Moleiro
 Las Palmas, ,20, Midfielder
 12 ,110 ,0 ,1 ,0 ,0 ,13 ,898 ,0 ,0 ,630
+332
+Chimy Avila
+Osasuna, ,29, MPID,DL
+54 ,463 ,1 ,1 ,1 ,2 ,19 ,708 ,06 ,0 ,630
 333
 Unai Gómez
 Athletic Bilbao, ,20, Midfielder
 14 ,100 ,1 ,0 ,0 ,0 ,04 ,769 ,04 ,0 ,630
 334
-Chimy Avila
-Osasuna, ,29, MPID,DL
-64 ,538 ,1 ,1 ,2 ,2 ,18 ,71 ,05 ,0 ,630
-335
 Iker Muniain
 Athletic Bilbao, ,30, MPCID
 36 ,298 ,0 ,0 ,1 ,0 ,09 ,852 ,01 ,0 ,630
-336
+335
 Borja Iglesias
 Real Betis, ,30, DL
 34 ,263 ,0 ,1 ,1 ,0 ,11 ,824 ,07 ,0 ,630
-337
+336
 Javi Galán
 Atletico, ,28, DFI,MEI
 05 ,84 ,0 ,0 ,1 ,0 ,0 ,778 ,06 ,0 ,629
-338
+337
 Manu Morlanes
 Mallorca, ,24, MC
 46 ,341 ,0 ,0 ,1 ,0 ,03 ,85 ,04 ,0 ,629
-339
+338
 Cenk Özkacar
 Valencia, ,23, DFCI
 71 ,588 ,0 ,0 ,2 ,0 ,03 ,811 ,14 ,0 ,629
-340
+339
 Juanpe
 Girona, ,32, DFC
 05 ,117 ,0 ,0 ,2 ,0 ,0 ,866 ,12 ,0 ,628
-341
+340
 Luca de la Torre
 Celta Vigo, ,25, MECID
 91 ,759 ,0 ,2 ,1 ,1 ,09 ,858 ,05 ,0 ,628
-342
+331
+Alberto Moleiro
+Las Palmas, ,20, Midfielder
+12 ,110 ,0 ,1 ,0 ,0 ,13 ,898 ,0 ,0 ,630
+332
+Chimy Avila
+Osasuna, ,29, MPID,DL
+54 ,463 ,1 ,1 ,1 ,2 ,19 ,708 ,06 ,0 ,630
+333
+Unai Gómez
+Athletic Bilbao, ,20, Midfielder
+14 ,100 ,1 ,0 ,0 ,0 ,04 ,769 ,04 ,0 ,630
+334
+Iker Muniain
+Athletic Bilbao, ,30, MPCID
+36 ,298 ,0 ,0 ,1 ,0 ,09 ,852 ,01 ,0 ,630
+335
+Borja Iglesias
+Real Betis, ,30, DL
+34 ,263 ,0 ,1 ,1 ,0 ,11 ,824 ,07 ,0 ,630
+336
+Javi Galán
+Atletico, ,28, DFI,MEI
+05 ,84 ,0 ,0 ,1 ,0 ,0 ,778 ,06 ,0 ,629
+337
+Manu Morlanes
+Mallorca, ,24, MC
+46 ,341 ,0 ,0 ,1 ,0 ,03 ,85 ,04 ,0 ,629
+338
+Cenk Özkacar
+Valencia, ,23, DFCI
+71 ,588 ,0 ,0 ,2 ,0 ,03 ,811 ,14 ,0 ,629
+339
+Juanpe
+Girona, ,32, DFC
+05 ,117 ,0 ,0 ,2 ,0 ,0 ,866 ,12 ,0 ,628
+340
+Luca de la Torre
+Celta Vigo, ,25, MECID
+91 ,759 ,0 ,2 ,1 ,1 ,09 ,858 ,05 ,0 ,628
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+341
 Ilias Akhomach
 Villarreal, ,19, Forward
 16 ,197 ,0 ,1 ,1 ,0 ,01 ,924 ,0 ,0 ,628
-343
+342
 José Arnáiz
 Osasuna, ,28, MPI,DL
 34 ,266 ,1 ,0 ,0 ,0 ,17 ,816 ,04 ,0 ,628
-344
+343
 William Carvalho
 Real Betis, ,31, MEC
 05 ,124 ,0 ,1 ,0 ,0 ,0 ,847 ,06 ,0 ,628
+344
+Portu
+Girona, ,31, MECID,DL
+07 ,168 ,1 ,0 ,0 ,0 ,06 ,78 ,03 ,0 ,628
 345
 Marc Bartra
 Real Betis, ,32, DFCD,MC
@@ -1564,6 +2784,48 @@ Mallorca, ,30, DFC,MC
 Samu Omorodion
 Deportivo Alaves, ,19, Forward
 36 ,374 ,2 ,0 ,2 ,0 ,19 ,778 ,06 ,0 ,626
+341
+Ilias Akhomach
+Villarreal, ,19, Forward
+16 ,197 ,0 ,1 ,1 ,0 ,01 ,924 ,0 ,0 ,628
+342
+José Arnáiz
+Osasuna, ,28, MPI,DL
+34 ,266 ,1 ,0 ,0 ,0 ,17 ,816 ,04 ,0 ,628
+343
+William Carvalho
+Real Betis, ,31, MEC
+05 ,124 ,0 ,1 ,0 ,0 ,0 ,847 ,06 ,0 ,628
+344
+Portu
+Girona, ,31, MECID,DL
+07 ,168 ,1 ,0 ,0 ,0 ,06 ,78 ,03 ,0 ,628
+345
+Marc Bartra
+Real Betis, ,32, DFCD,MC
+3 ,226 ,0 ,0 ,1 ,0 ,1 ,871 ,13 ,0 ,628
+346
+Iddrisu Baba
+Almeria, ,27, MC
+83 ,718 ,0 ,0 ,2 ,0 ,04 ,85 ,14 ,0 ,628
+347
+Sory Kaba
+Las Palmas, ,28, DL
+55 ,468 ,1 ,1 ,2 ,0 ,11 ,712 ,22 ,0 ,628
+348
+Dani García
+Athletic Bilbao, ,33, MC
+44 ,364 ,1 ,0 ,2 ,0 ,05 ,826 ,03 ,0 ,627
+349
+Omar Mascarell
+Mallorca, ,30, DFC,MC
+42 ,335 ,0 ,0 ,3 ,0 ,0 ,801 ,17 ,0 ,627
+350
+Samu Omorodion
+Deportivo Alaves, ,19, Forward
+36 ,374 ,2 ,0 ,2 ,0 ,19 ,778 ,06 ,0 ,626
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 351
 Santi Comesaña
 Villarreal, ,27, MEC
@@ -1604,6 +2866,48 @@ Villarreal, ,32, DFCID
 Urko González
 Real Sociedad, ,22, Defender
 2 ,104 ,0 ,0 ,1 ,0 ,0 ,788 ,15 ,0 ,625
+351
+Santi Comesaña
+Villarreal, ,27, MEC
+35 ,294 ,0 ,0 ,4 ,0 ,05 ,903 ,05 ,0 ,626
+352
+Denis Suárez
+Villarreal, ,29, MECID
+13 ,131 ,0 ,0 ,0 ,0 ,03 ,854 ,0 ,0 ,626
+353
+Paul Akouokou
+Real Betis, ,25, MC
+02 ,26 ,0 ,0 ,0 ,0 ,0 ,941 ,0 ,0 ,626
+354
+Javi Muñoz
+Las Palmas, ,28, MEC
+84 ,721 ,0 ,0 ,1 ,0 ,08 ,857 ,03 ,0 ,626
+355
+Omenuke Mfulu
+Las Palmas, ,29, MEC
+23 ,67 ,0 ,0 ,1 ,0 ,0 ,90 ,04 ,0 ,625
+356
+Portu
+Getafe, ,31, MECID,DL
+03 ,95 ,0 ,0 ,1 ,0 ,03 ,762 ,03 ,0 ,625
+357
+Alberto Moreno
+Villarreal, ,31, DFI,MEI
+34 ,317 ,0 ,1 ,0 ,1 ,03 ,863 ,07 ,0 ,625
+358
+Nahuel Tenaglia
+Deportivo Alaves, ,27, DFCD
+12 ,84 ,0 ,0 ,0 ,0 ,0 ,72 ,03 ,0 ,625
+359
+Aïssa Mandi
+Villarreal, ,32, DFCID
+51 ,420 ,0 ,0 ,1 ,0 ,02 ,925 ,08 ,0 ,625
+360
+Urko González
+Real Sociedad, ,22, Defender
+2 ,104 ,0 ,0 ,1 ,0 ,0 ,788 ,15 ,0 ,625
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 361
 Famara Diédhiou
 Granada, ,30, DL
@@ -1644,6 +2948,48 @@ Almeria, ,29, MEC,DL
 Kiko Femenía
 Villarreal, ,32, DFID,MED
 14 ,171 ,0 ,0 ,2 ,0 ,0 ,892 ,04 ,0 ,623
+361
+Famara Diédhiou
+Granada, ,30, DL
+05 ,40 ,0 ,1 ,0 ,0 ,06 ,476 ,16 ,0 ,624
+362
+Jorge Meré
+Cadiz, ,26, DFC
+42 ,331 ,0 ,0 ,0 ,0 ,03 ,756 ,07 ,0 ,624
+363
+Mauro Arambarri
+Getafe, ,28, MC
+34 ,338 ,0 ,0 ,2 ,0 ,13 ,822 ,07 ,0 ,624
+364
+Dani Ceballos
+Real Madrid, ,27, MECI
+03 ,67 ,0 ,0 ,0 ,0 ,03 ,946 ,0 ,0 ,624
+365
+Jorge Herrando
+Osasuna, ,22, Defender
+2 ,180 ,0 ,0 ,0 ,0 ,0 ,733 ,2 ,0 ,624
+366
+Thomas Lemar
+Atletico, ,27, MPCID
+3 ,166 ,0 ,0 ,0 ,0 ,07 ,896 ,0 ,0 ,623
+367
+Carlos Romero
+Villarreal, ,22, Defender
+12 ,108 ,0 ,0 ,1 ,0 ,03 ,796 ,0 ,0 ,623
+368
+Umar Sadiq
+Real Sociedad, ,26, DL
+28 ,245 ,0 ,1 ,1 ,0 ,1 ,732 ,1 ,0 ,623
+369
+Gonzalo Melero
+Almeria, ,29, MEC,DL
+64 ,545 ,0 ,1 ,1 ,0 ,07 ,852 ,07 ,0 ,623
+370
+Kiko Femenía
+Villarreal, ,32, DFID,MED
+14 ,171 ,0 ,0 ,2 ,0 ,0 ,892 ,04 ,0 ,623
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 371
 Sergio Camello
 Rayo Vallecano, ,22, DL
@@ -1684,38 +3030,80 @@ Granada, ,36, MEID,DL
 Álvaro Odriozola
 Real Sociedad, ,27, DFD
 01 ,45 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,621
+371
+Sergio Camello
+Rayo Vallecano, ,22, DL
+36 ,371 ,0 ,1 ,2 ,0 ,07 ,798 ,01 ,0 ,623
+372
+Fran Beltrán
+Celta Vigo, ,24, MC
+101 ,816 ,0 ,0 ,2 ,0 ,07 ,866 ,04 ,0 ,623
+373
+Hugo Sotelo
+Celta Vigo, ,19, Midfielder
+24 ,202 ,0 ,0 ,0 ,0 ,05 ,947 ,0 ,0 ,623
+374
+Eric García
+Barcelona, ,22, DFC
+02 ,56 ,0 ,0 ,1 ,0 ,05 ,955 ,05 ,0 ,623
+375
+Rominigue Kouamé
+Cadiz, ,26, MC
+32 ,280 ,0 ,0 ,2 ,0 ,02 ,913 ,08 ,0 ,622
+376
+Beñat Prados
+Athletic Bilbao, ,22, Defender
+07 ,127 ,0 ,0 ,0 ,0 ,04 ,865 ,04 ,0 ,622
+377
+Ramon Terrats
+Villarreal, ,23, MC
+44 ,383 ,0 ,0 ,2 ,0 ,08 ,862 ,04 ,0 ,622
+378
+Williot Swedberg
+Celta Vigo, ,19, Midfielder
+05 ,43 ,1 ,0 ,0 ,0 ,04 ,737 ,04 ,0 ,622
+379
+José Callejón
+Granada, ,36, MEID,DL
+64 ,467 ,0 ,1 ,0 ,0 ,07 ,806 ,03 ,0 ,622
+380
+Álvaro Odriozola
+Real Sociedad, ,27, DFD
+01 ,45 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,621
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 381
-Kike Barja
-Osasuna, ,26, MPID
-27 ,212 ,0 ,0 ,2 ,0 ,03 ,845 ,02 ,0 ,621
-382
 Jaume Costa
 Mallorca, ,35, DFID,MEI
 56 ,492 ,0 ,0 ,3 ,0 ,02 ,777 ,04 ,0 ,620
-383
+382
 Sergio Ruiz
 Granada, ,28, MEC
 82 ,572 ,0 ,0 ,3 ,0 ,03 ,827 ,08 ,0 ,620
-384
+383
 Carlos Neva
 Granada, ,27, DFI,MEI
 11 ,958 ,0 ,0 ,1 ,0 ,01 ,734 ,09 ,0 ,619
-385
+384
 Renato Tapia
 Celta Vigo, ,28, DFC,MC
 14 ,132 ,0 ,0 ,1 ,0 ,04 ,766 ,02 ,0 ,619
-386
+385
 Xeber Alkain
 Deportivo Alaves, ,26, Forward
 35 ,270 ,0 ,0 ,1 ,0 ,06 ,757 ,03 ,0 ,619
-387
+386
 Jesús Vázquez
 Valencia, ,20, DFI
 02 ,23 ,0 ,0 ,0 ,0 ,0 ,60 ,05 ,0 ,619
-388
+387
 Mariano Díaz
 Sevilla, ,30, DL
 11 ,97 ,0 ,0 ,0 ,0 ,2 ,65 ,2 ,0 ,619
+388
+Kike Barja
+Osasuna, ,26, MPID
+26 ,205 ,0 ,0 ,2 ,0 ,04 ,844 ,03 ,0 ,618
 389
 Jaime Mata
 Getafe, ,35, MPI,DL
@@ -1724,102 +3112,228 @@ Getafe, ,35, MPI,DL
 Adnan Januzaj
 Sevilla, ,28, MPCID
 01 ,25 ,0 ,0 ,0 ,0 ,0 ,333 ,0 ,0 ,618
+381
+Jaume Costa
+Mallorca, ,35, DFID,MEI
+56 ,492 ,0 ,0 ,3 ,0 ,02 ,777 ,04 ,0 ,620
+382
+Sergio Ruiz
+Granada, ,28, MEC
+82 ,572 ,0 ,0 ,3 ,0 ,03 ,827 ,08 ,0 ,620
+383
+Carlos Neva
+Granada, ,27, DFI,MEI
+11 ,958 ,0 ,0 ,1 ,0 ,01 ,734 ,09 ,0 ,619
+384
+Renato Tapia
+Celta Vigo, ,28, DFC,MC
+14 ,132 ,0 ,0 ,1 ,0 ,04 ,766 ,02 ,0 ,619
+385
+Xeber Alkain
+Deportivo Alaves, ,26, Forward
+35 ,270 ,0 ,0 ,1 ,0 ,06 ,757 ,03 ,0 ,619
+386
+Jesús Vázquez
+Valencia, ,20, DFI
+02 ,23 ,0 ,0 ,0 ,0 ,0 ,60 ,05 ,0 ,619
+387
+Mariano Díaz
+Sevilla, ,30, DL
+11 ,97 ,0 ,0 ,0 ,0 ,2 ,65 ,2 ,0 ,619
+388
+Kike Barja
+Osasuna, ,26, MPID
+26 ,205 ,0 ,0 ,2 ,0 ,04 ,844 ,03 ,0 ,618
+389
+Jaime Mata
+Getafe, ,35, MPI,DL
+73 ,507 ,0 ,0 ,3 ,1 ,05 ,693 ,19 ,0 ,618
+390
+Adnan Januzaj
+Sevilla, ,28, MPCID
+01 ,25 ,0 ,0 ,0 ,0 ,0 ,333 ,0 ,0 ,618
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 391
 Copete
 Mallorca, ,24, DFC
 5 ,385 ,0 ,0 ,3 ,0 ,04 ,786 ,08 ,0 ,618
 392
+Raúl García
+Osasuna, ,23, Forward
+37 ,314 ,0 ,0 ,0 ,0 ,04 ,614 ,15 ,0 ,618
+393
 Marko Dmitrovic
 Sevilla, ,31, POR
 3 ,270 ,0 ,0 ,0 ,0 ,0 ,726 ,0 ,0 ,618
-393
+394
 Carles Pérez
 Celta Vigo, ,25, MPCD,DL
 21 ,183 ,0 ,0 ,1 ,0 ,17 ,75 ,03 ,0 ,617
-394
+395
 Javi Llabrés
 Mallorca, ,21, Forward
 05 ,79 ,0 ,0 ,1 ,0 ,04 ,667 ,02 ,0 ,616
-395
+396
 Sergi Altimira
 Real Betis, ,22, Midfielder
 12 ,93 ,0 ,0 ,0 ,0 ,03 ,863 ,0 ,0 ,616
-396
+397
 Abde Rebbach
 Deportivo Alaves, ,25, Forward
 17 ,174 ,0 ,0 ,0 ,0 ,04 ,755 ,05 ,0 ,616
-397
+398
 Dimitri Foulquier
 Valencia, ,30, DFCID,MED
 16 ,210 ,0 ,0 ,0 ,0 ,03 ,809 ,01 ,0 ,615
-398
+399
 Rubén Sobrino
 Cadiz, ,31, MPCID,DL
 29 ,366 ,0 ,0 ,5 ,0 ,02 ,742 ,04 ,0 ,615
-399
+400
 Jesús Corona
 Sevilla, ,30, DFD,MECID,DL
 02 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,615
+391
+Copete
+Mallorca, ,24, DFC
+5 ,385 ,0 ,0 ,3 ,0 ,04 ,786 ,08 ,0 ,618
+392
+Raúl García
+Osasuna, ,23, Forward
+37 ,314 ,0 ,0 ,0 ,0 ,04 ,614 ,15 ,0 ,618
+393
+Marko Dmitrovic
+Sevilla, ,31, POR
+3 ,270 ,0 ,0 ,0 ,0 ,0 ,726 ,0 ,0 ,618
+394
+Carles Pérez
+Celta Vigo, ,25, MPCD,DL
+21 ,183 ,0 ,0 ,1 ,0 ,17 ,75 ,03 ,0 ,617
+395
+Javi Llabrés
+Mallorca, ,21, Forward
+05 ,79 ,0 ,0 ,1 ,0 ,04 ,667 ,02 ,0 ,616
+396
+Sergi Altimira
+Real Betis, ,22, Midfielder
+12 ,93 ,0 ,0 ,0 ,0 ,03 ,863 ,0 ,0 ,616
+397
+Abde Rebbach
+Deportivo Alaves, ,25, Forward
+17 ,174 ,0 ,0 ,0 ,0 ,04 ,755 ,05 ,0 ,616
+398
+Dimitri Foulquier
+Valencia, ,30, DFCID,MED
+16 ,210 ,0 ,0 ,0 ,0 ,03 ,809 ,01 ,0 ,615
+399
+Rubén Sobrino
+Cadiz, ,31, MPCID,DL
+29 ,366 ,0 ,0 ,5 ,0 ,02 ,742 ,04 ,0 ,615
 400
+Jesús Corona
+Sevilla, ,30, DFD,MECID,DL
+02 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,615
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+401
 Salvi Sánchez
 Rayo Vallecano, ,32, MPD
 01 ,27 ,0 ,0 ,0 ,0 ,0 ,833 ,0 ,0 ,615
-401
+402
 Chumi
 Almeria, ,24, DFCD
 81 ,765 ,0 ,0 ,2 ,0 ,0 ,912 ,09 ,0 ,615
-402
+403
 Carlos Dotor
 Celta Vigo, ,22, Midfielder
 24 ,207 ,0 ,0 ,0 ,0 ,03 ,795 ,05 ,0 ,615
-403
-Raúl García
-Osasuna, ,23, Forward
-38 ,321 ,0 ,0 ,0 ,0 ,05 ,61 ,14 ,0 ,615
 404
 Amath Ndiaye
 Mallorca, ,27, MPID,DL
 27 ,258 ,0 ,0 ,1 ,0 ,11 ,673 ,03 ,0 ,614
 405
+Pablo Ibáñez
+Osasuna, ,25, MEC
+36 ,288 ,0 ,0 ,2 ,0 ,04 ,729 ,08 ,0 ,614
+406
 Antonio Puertas
 Granada, ,31, MEID
 46 ,443 ,0 ,2 ,0 ,1 ,1 ,781 ,07 ,0 ,614
-406
+407
 César Tárrega
 Valencia, ,21, Defender
 01 ,7 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,614
-407
+408
 Álvaro Negredo
 Cadiz, ,38, DL
 04 ,29 ,0 ,0 ,0 ,0 ,03 ,545 ,08 ,0 ,614
-408
+409
 Álex Sola
 Real Sociedad, ,24, DFD,MED
 02 ,28 ,0 ,0 ,0 ,0 ,0 ,70 ,1 ,0 ,614
-409
+410
 Maxi Gómez
 Cadiz, ,27, DL
 44 ,367 ,0 ,0 ,2 ,0 ,03 ,513 ,24 ,0 ,613
+401
+Salvi Sánchez
+Rayo Vallecano, ,32, MPD
+01 ,27 ,0 ,0 ,0 ,0 ,0 ,833 ,0 ,0 ,615
+402
+Chumi
+Almeria, ,24, DFCD
+81 ,765 ,0 ,0 ,2 ,0 ,0 ,912 ,09 ,0 ,615
+403
+Carlos Dotor
+Celta Vigo, ,22, Midfielder
+24 ,207 ,0 ,0 ,0 ,0 ,03 ,795 ,05 ,0 ,615
+404
+Amath Ndiaye
+Mallorca, ,27, MPID,DL
+27 ,258 ,0 ,0 ,1 ,0 ,11 ,673 ,03 ,0 ,614
+405
+Pablo Ibáñez
+Osasuna, ,25, MEC
+36 ,288 ,0 ,0 ,2 ,0 ,04 ,729 ,08 ,0 ,614
+406
+Antonio Puertas
+Granada, ,31, MEID
+46 ,443 ,0 ,2 ,0 ,1 ,1 ,781 ,07 ,0 ,614
+407
+César Tárrega
+Valencia, ,21, Defender
+01 ,7 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,614
+408
+Álvaro Negredo
+Cadiz, ,38, DL
+04 ,29 ,0 ,0 ,0 ,0 ,03 ,545 ,08 ,0 ,614
+409
+Álex Sola
+Real Sociedad, ,24, DFD,MED
+02 ,28 ,0 ,0 ,0 ,0 ,0 ,70 ,1 ,0 ,614
 410
+Maxi Gómez
+Cadiz, ,27, DL
+44 ,367 ,0 ,0 ,2 ,0 ,03 ,513 ,24 ,0 ,613
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
+411
 Álex Centelles
 Almeria, ,24, DFI
 3 ,226 ,0 ,0 ,0 ,0 ,03 ,70 ,1 ,0 ,613
-411
+412
 Raúl Torrente
 Granada, ,22, DFC
 42 ,403 ,0 ,0 ,1 ,0 ,02 ,779 ,1 ,0 ,613
-412
+413
 Juan Cruz
 Real Betis, ,23, Midfielder
 04 ,65 ,0 ,0 ,0 ,0 ,05 ,824 ,03 ,0 ,613
-413
+414
 Eric Curbelo
 Las Palmas, ,29, Defender
 1 ,90 ,0 ,0 ,0 ,0 ,0 ,962 ,0 ,0 ,612
-414
-Pablo Ibáñez
-Osasuna, ,25, MEC
-37 ,304 ,0 ,0 ,2 ,0 ,07 ,756 ,07 ,0 ,611
 415
 Mohamed0Ali Cho
 Real Sociedad, ,19, DL
@@ -1844,6 +3358,48 @@ Girona, ,23, Midfielder
 Momo Mbaye
 Cadiz, ,25, DFC
 01 ,55 ,0 ,0 ,0 ,0 ,0 ,682 ,0 ,0 ,610
+411
+Álex Centelles
+Almeria, ,24, DFI
+3 ,226 ,0 ,0 ,0 ,0 ,03 ,70 ,1 ,0 ,613
+412
+Raúl Torrente
+Granada, ,22, DFC
+42 ,403 ,0 ,0 ,1 ,0 ,02 ,779 ,1 ,0 ,613
+413
+Juan Cruz
+Real Betis, ,23, Midfielder
+04 ,65 ,0 ,0 ,0 ,0 ,05 ,824 ,03 ,0 ,613
+414
+Eric Curbelo
+Las Palmas, ,29, Defender
+1 ,90 ,0 ,0 ,0 ,0 ,0 ,962 ,0 ,0 ,612
+415
+Mohamed0Ali Cho
+Real Sociedad, ,19, DL
+17 ,209 ,0 ,0 ,0 ,0 ,04 ,681 ,04 ,0 ,611
+416
+Sergi Guardiola
+Cadiz, ,32, DL
+04 ,58 ,0 ,0 ,0 ,0 ,05 ,70 ,03 ,0 ,611
+417
+Ansu Fati
+Barcelona, ,21, MPI,DL
+03 ,47 ,0 ,0 ,0 ,0 ,23 ,852 ,03 ,0 ,610
+418
+Njegos Petrovic
+Granada, ,24, MC
+07 ,86 ,0 ,0 ,0 ,0 ,03 ,811 ,03 ,0 ,610
+419
+Ibrahima Kébé
+Girona, ,23, Midfielder
+01 ,2 ,0 ,0 ,1 ,0 ,0 ,333 ,1 ,0 ,610
+420
+Momo Mbaye
+Cadiz, ,25, DFC
+01 ,55 ,0 ,0 ,0 ,0 ,0 ,682 ,0 ,0 ,610
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 421
 Pablo Torre
 Girona, ,20, Midfielder
@@ -1884,6 +3440,48 @@ Girona, ,23, DFD,MEI
 Ben Brereton
 Villarreal, ,24, MPID,DL
 26 ,211 ,0 ,0 ,2 ,0 ,04 ,828 ,01 ,0 ,606
+421
+Pablo Torre
+Girona, ,20, Midfielder
+08 ,121 ,0 ,0 ,0 ,0 ,06 ,788 ,0 ,0 ,610
+422
+Hugo González
+Valencia, ,20, Midfielder
+04 ,19 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,610
+423
+Hugo Guillamón
+Valencia, ,23, DFC,MC
+06 ,114 ,0 ,0 ,0 ,0 ,0 ,759 ,05 ,0 ,610
+424
+Arsen Zakharyan
+Real Sociedad, ,20, MECID
+15 ,108 ,0 ,0 ,0 ,0 ,05 ,714 ,05 ,0 ,609
+425
+Domingos Duarte
+Getafe, ,28, DFC
+7 ,541 ,0 ,0 ,3 ,1 ,01 ,777 ,11 ,0 ,609
+426
+Mamadou Sylla
+Deportivo Alaves, ,29, DL
+02 ,16 ,0 ,0 ,0 ,0 ,0 ,429 ,15 ,0 ,609
+427
+Roman Yaremchuk
+Valencia, ,27, DL
+23 ,148 ,0 ,0 ,0 ,0 ,02 ,792 ,12 ,0 ,608
+428
+Federico Gattoni
+Sevilla, ,24, DFC
+01 ,8 ,0 ,0 ,0 ,0 ,0 ,833 ,1 ,0 ,608
+429
+Valery Fernández
+Girona, ,23, DFD,MEI
+09 ,176 ,0 ,0 ,0 ,0 ,01 ,888 ,01 ,0 ,608
+430
+Ben Brereton
+Villarreal, ,24, MPID,DL
+26 ,211 ,0 ,0 ,2 ,0 ,04 ,828 ,01 ,0 ,606
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 431
 Manu Trigueros
 Villarreal, ,32, MECID,DL
@@ -1924,6 +3522,48 @@ Real Sociedad, ,27, DL
 Diego Mariño
 Almeria, ,33, POR
 1 ,90 ,0 ,0 ,0 ,0 ,0 ,81 ,0 ,0 ,604
+431
+Manu Trigueros
+Villarreal, ,32, MECID,DL
+12 ,111 ,0 ,0 ,0 ,0 ,1 ,822 ,03 ,0 ,606
+432
+Óscar Melendo
+Granada, ,26, MPCD,DL
+72 ,549 ,0 ,0 ,2 ,0 ,02 ,834 ,03 ,0 ,606
+433
+José Luís Morales
+Villarreal, ,36, DFD,MECID,DL
+26 ,300 ,0 ,0 ,0 ,0 ,09 ,737 ,0 ,0 ,606
+434
+Álex Fernández
+Cadiz, ,31, MECI,DL
+16 ,168 ,0 ,0 ,0 ,0 ,0 ,90 ,01 ,0 ,606
+435
+José Mari Martín
+Cadiz, ,35, MC
+13 ,13 ,0 ,0 ,1 ,0 ,0 ,80 ,0 ,0 ,605
+436
+Fabrizio Angileri
+Getafe, ,29, DFI,MEI
+22 ,76 ,0 ,0 ,1 ,1 ,0 ,742 ,0 ,0 ,605
+437
+Ibrahima Koné
+Almeria, ,24, DL
+26 ,261 ,0 ,0 ,0 ,0 ,04 ,673 ,11 ,0 ,605
+438
+Raúl García
+Athletic Bilbao, ,37, MECID,DL
+04 ,56 ,0 ,0 ,1 ,0 ,08 ,55 ,13 ,0 ,605
+439
+André Silva
+Real Sociedad, ,27, DL
+02 ,30 ,0 ,0 ,0 ,0 ,1 ,80 ,0 ,0 ,605
+440
+Diego Mariño
+Almeria, ,33, POR
+1 ,90 ,0 ,0 ,0 ,0 ,0 ,81 ,0 ,0 ,604
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 441
 Milutin Osmajic
 Cadiz, ,24, DL
@@ -1964,6 +3604,48 @@ Granada, ,32, MPID
 Bernardo Espinosa
 Girona, ,34, DFC
 02 ,2 ,0 ,0 ,0 ,0 ,0 ,875 ,05 ,0 ,600
+441
+Milutin Osmajic
+Cadiz, ,24, DL
+01 ,4 ,0 ,0 ,0 ,0 ,2 ,667 ,1 ,0 ,603
+442
+Santiago García
+Getafe, ,22, Midfielder
+01 ,24 ,0 ,0 ,0 ,0 ,0 ,857 ,0 ,0 ,603
+443
+Miguel Rodríguez
+Celta Vigo, ,20, Forward
+07 ,65 ,0 ,0 ,1 ,0 ,03 ,69 ,0 ,0 ,602
+444
+Cristian Herrera
+Las Palmas, ,32, DL
+12 ,93 ,0 ,0 ,0 ,0 ,0 ,917 ,0 ,0 ,601
+445
+Marciano Sanca
+Almeria, ,19, Forward
+03 ,26 ,0 ,0 ,0 ,0 ,0 ,625 ,1 ,0 ,601
+446
+Gorka Rivera
+Getafe, ,19, Defender
+01 ,2 ,0 ,0 ,0 ,0 ,0 ,80 ,0 ,0 ,601
+447
+Mario Domínguez
+Valencia, ,19, Forward
+03 ,23 ,0 ,0 ,0 ,0 ,1 ,100 ,0 ,0 ,600
+448
+Álex Pozo
+Almeria, ,24, DFD,MED
+44 ,378 ,0 ,0 ,0 ,0 ,01 ,773 ,03 ,0 ,600
+449
+Alberto Perea
+Granada, ,32, MPID
+02 ,2 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,600
+450
+Bernardo Espinosa
+Girona, ,34, DFC
+02 ,2 ,0 ,0 ,0 ,0 ,0 ,875 ,05 ,0 ,600
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 451
 Luis Milla
 Getafe, ,29, MC
@@ -2004,6 +3686,48 @@ Real Sociedad, ,23, Midfielder
 Víctor Díaz
 Granada, ,35, DFCID
 22 ,161 ,0 ,0 ,1 ,0 ,0 ,652 ,08 ,0 ,598
+451
+Luis Milla
+Getafe, ,29, MC
+01 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,600
+452
+Silvi Clua
+Girona, ,18, Midfielder
+01 ,1 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,600
+453
+Yarek Gasiorowski
+Valencia, ,18, Defender
+01 ,1 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,600
+454
+Pablo Gozálbez
+Valencia, ,22, Midfielder
+14 ,100 ,0 ,0 ,0 ,0 ,02 ,533 ,02 ,0 ,600
+455
+Anthony Lozano
+Getafe, ,30, MPI,DL
+05 ,77 ,0 ,0 ,1 ,0 ,06 ,538 ,12 ,0 ,599
+456
+César Montes
+Almeria, ,26, DFC
+5 ,424 ,0 ,0 ,2 ,0 ,06 ,758 ,32 ,0 ,599
+457
+Marezi
+Almeria, ,20, Forward
+01 ,7 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,599
+458
+Alberto Soro
+Granada, ,24, MPID
+01 ,7 ,0 ,0 ,0 ,0 ,0 ,100 ,0 ,0 ,598
+459
+Jon Olasagasti
+Real Sociedad, ,23, Midfielder
+02 ,20 ,0 ,0 ,1 ,0 ,05 ,667 ,0 ,0 ,598
+460
+Víctor Díaz
+Granada, ,35, DFCID
+22 ,161 ,0 ,0 ,1 ,0 ,0 ,652 ,08 ,0 ,598
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 461
 Shon Weissman
 Granada, ,27, DL
@@ -2044,1014 +3768,48 @@ Deportivo Alaves, ,21, Forward
 Yassine Bounou
 Sevilla, ,32, POR
 1 ,90 ,0 ,0 ,0 ,0 ,0 ,593 ,0 ,0 ,589
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
-471
-Raúl Fernández
-Granada, ,35, POR
-3 ,270 ,0 ,0 ,0 ,0 ,0 ,62 ,0 ,0 ,583
-472
-Gabri Veiga
-Celta Vigo, ,21, MPC
-01 ,17 ,0 ,0 ,0 ,0 ,0 ,75 ,0 ,0 ,579
-473
-Fernando Martínez
-Almeria, ,33, POR
-2 ,180 ,0 ,0 ,0 ,0 ,0 ,58 ,0 ,0 ,570
-474
-Miki Bosch
-Granada, ,22, Defender
-01 ,25 ,0 ,0 ,0 ,0 ,0 ,786 ,0 ,0 ,569
-475
-Aitor Fernández
-Osasuna, ,32, POR
-31 ,280 ,0 ,0 ,1 ,0 ,0 ,656 ,0 ,0 ,563
-476
-Jesús Vallejo
-Granada, ,26, DFCD
-11 ,96 ,0 ,0 ,1 ,0 ,0 ,917 ,0 ,0 ,553
+461
+Shon Weissman
+Granada, ,27, DL
+03 ,40 ,0 ,0 ,0 ,0 ,03 ,667 ,03 ,0 ,596
+462
+Miguel de la Fuente
+Deportivo Alaves, ,24, DL
+12 ,65 ,0 ,0 ,0 ,0 ,07 ,467 ,03 ,0 ,596
+463
+Houboulang Mendes
+Almeria, ,25, DFCD
+12 ,122 ,0 ,0 ,0 ,0 ,03 ,762 ,07 ,0 ,595
+464
+Arnau Puigmal
+Almeria, ,22, MPD
+24 ,181 ,0 ,0 ,3 ,0 ,0 ,818 ,02 ,0 ,595
+465
+Lázaro
+Almeria, ,21, MPID,DL
+24 ,149 ,0 ,0 ,0 ,0 ,03 ,882 ,02 ,0 ,594
+466
+Pep Chavarría
+Rayo Vallecano, ,25, Defender
+13 ,21 ,0 ,0 ,1 ,0 ,0 ,818 ,03 ,0 ,594
+467
+Jhon Solís
+Girona, ,19, Midfielder
+02 ,5 ,0 ,0 ,0 ,0 ,0 ,625 ,0 ,0 ,593
+468
+Robert Navarro
+Cadiz, ,21, Midfielder
+22 ,147 ,0 ,0 ,0 ,1 ,03 ,733 ,0 ,0 ,592
+469
+Jon Karrikaburu
+Deportivo Alaves, ,21, Forward
+02 ,14 ,0 ,0 ,0 ,0 ,0 ,50 ,0 ,0 ,590
+470
+Yassine Bounou
+Sevilla, ,32, POR
+1 ,90 ,0 ,0 ,0 ,0 ,0 ,593 ,0 ,0 ,589
+Jugador
+Jgdos Mins Goles Asist Amar Roja TpP AP Aéreos JdelP Rating
 471
 Raúl Fernández
 Granada, ,35, POR

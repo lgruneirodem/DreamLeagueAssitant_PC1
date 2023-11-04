@@ -50,10 +50,6 @@ with open('datospartidos.csv', mode='w', newline='', encoding='utf-8') as csv_fi
 botonPartidos = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[2]')
 botonPartidos.click()
 
-#Abrir desplegable
-#botonMeses = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[4]/div/div/a[2]')
-#botonMeses.click()
-
 #Ir a la última fecha disponible
 for i in range(4):
     try:
@@ -67,8 +63,8 @@ for i in range(4):
     except:
         pass  #Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
-botonPartido = driver.find_element_by_class('result-1 rc')
-botonPartido.click()
+#botonPartido = driver.find_element_by_class('result-1 rc')
+#botonPartido.click()
 
 tablaPartido = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[6]')
 infoPartido = tablaPartido.text
