@@ -33,8 +33,8 @@ boton = driver.find_element(By.CLASS_NAME, 'css-1wc0q5e')
 boton.click()
 
 #Cerrar pop-up inicial
-#boton2 = driver.find_element(By.CLASS_NAME, 'webpush-swal2-close')
-#boton2.click()
+boton2 = driver.find_element(By.CLASS_NAME, 'webpush-swal2-close')
+boton2.click()
 
 #Seleccionar todos los jugadores
 boton_jgdr = driver.find_element(By.XPATH, '/html/body/div[5]/div[5]/div[2]/div[1]/div[2]/dl[2]/dd[2]/a')
