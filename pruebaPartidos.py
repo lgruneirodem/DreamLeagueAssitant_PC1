@@ -13,7 +13,7 @@ url = 'https://es.whoscored.com/Regions/206/Tournaments/4/Seasons/9682/Stages/22
 #Abrir adblock
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
-options.add_argument('load-extension=' + r"C:\Users\Raque\OneDrive\Documentos\Uni\3º\Proyecto I\pythonProject\DreamLeagueAssitant_PC1\adblocker")
+options.add_argument('load-extension=' + r"C:\Users\Raque\OneDrive\Documentos\Uni\3º\Proyecto I\pythonProject\DreamLeagueAssitant_PC1\adblocker"")
 driver = webdriver.Chrome(options=options)
 driver.maximize_window()
 
@@ -47,7 +47,7 @@ with open('datospartidos.csv', mode='w', newline='', encoding='utf-8') as csv_fi
     csv_writer = csv.writer(csv_file)
 
 #Ir a resumen de encuentros
-botonPartidos = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/ul/li[2]')
+botonPartidos = driver.find_element(By.XPATH, '//*[@id="sub-navigation"]/ul/li[2]')
 botonPartidos.click()
 
 #Ir a la última fecha disponible
@@ -63,10 +63,24 @@ for i in range(4):
     except:
         pass  #Si el botón "Siguiente" no se encuentra o no es interactuable, pasa a la siguiente iteración
 
+
 #botonPartido = driver.find_element_by_class('result-1 rc')
 #botonPartido.click()
 
-tablaPartido = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[6]')
+time.sleep(10)
+tabla = driver.find_element(By.XPATH, '//*[@id="tournament-fixture"]')
+partidos = tabla.find_elements(By.CLASS_NAME, 'match-link')
+linkpartidos = []
+for link in partidos:
+    link = link.get_attribute('href')
+    print(link)
+
+
+
+botonPartido = driver.find_element(By.CLASS_NAME, 'result-1 rc')
+botonPartido.click()
+
+tablaPartido = driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[6]')
 infoPartido = tablaPartido.text
 print(tablaPartido.text)
 

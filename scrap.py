@@ -11,7 +11,7 @@ url = 'https://es.whoscored.com/Regions/206/Tournaments/4/Seasons/9682/Stages/22
 #Abrir adblock
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
-options.add_argument('load-extension=' + r"C:\Users\pelay\Desktop\PC1\DreamLeagueAssitant_PC1\adblocker")
+options.add_argument('load-extension=' + r"C:\Users\Raque\OneDrive\Documentos\Uni\3º\Proyecto I\pythonProject\DreamLeagueAssitant_PC1\adblocker"")
 driver = webdriver.Chrome(options=options)
 driver.maximize_window()
 
