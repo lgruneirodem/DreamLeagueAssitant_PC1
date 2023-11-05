@@ -73,11 +73,36 @@ desplegables = tabla.find_elements(By.CLASS_NAME, 'show-incidents')
 for desplegable in desplegables:
     try:
         desplegable.click()
-        time.sleep(3)
+        time.sleep(1)
         desplegable.click()
         driver.execute_script("window.scrollBy(0, 100);")
     except Exception as e:
         pass
+
+    # Encontrar todos los elementos de incidentes y jugadores dentro del desplegable actual
+    incidentes = desplegable.find_elements(By.CLASS_NAME, 'incidents-icon')
+    jugadores = desplegable.find_elements(By.CLASS_NAME, 'incident-player-link')
+
+    goles = []  # Lista para almacenar los goles en este desplegable
+    tarjetas = []  # Lista para almacenar las tarjetas en este desplegable
+
+    # Iterar sobre los incidentes y jugadores y emparejarlos
+    for i in range(len(incidentes)):
+        incidente = incidentes[i].get_attribute("class")
+        jugador = jugadores[i].text
+
+        if "i-goal" in incidente:
+            goles.append(f"Gol: {jugador}")
+        elif "i-rcard" in incidente:
+            tarjetas.append(f"Tarjeta roja: {jugador}")
+        # Puedes agregar más condiciones para otras categorías de tarjetas si es necesario
+
+    # Imprimir o almacenar los goles y tarjetas al final del desplegable
+
+for gol in goles:
+    print(gol)
+for tarjeta in tarjetas:
+    print(tarjeta)
 
 
 # partidos = tabla.find_elements(By.CLASS_NAME, 'match-link')
@@ -89,11 +114,12 @@ for desplegable in desplegables:
 #     driver.get(partido)
 
 
-botonPartido = driver.find_element(By.CLASS_NAME, 'result-1 rc')
-botonPartido.click()
+# botonPartido = driver.find_element(By.CLASS_NAME, 'result-1 rc')
+# botonPartido.click()
 
-tablaPartido = driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[6]')
-infoPartido = tablaPartido.text
-print(tablaPartido.text)
+# tablaPartido = driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div[1]/div[6]')
+# infoPartido = tablaPartido.text
+# print(tablaPartido.text)
 
 #Extraer el resumen de partidos
+driver.quit()
