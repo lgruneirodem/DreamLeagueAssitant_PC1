@@ -1,0 +1,18 @@
+Nombre          ,Equipo             ,Posicion    ,Precio Real ,Sube/Baja ,Precio Puja ,Media Puntos ,Puntos Totales ,Estado
+A. Sivera       ,Alavés             ,Portero     ,6.157.000   ,Sube      ,Vender      ,         4.0 ,            76 ,Apto
+J. Agirrezabala ,Atletic de Bilbao  ,Portero     ,190.000     ,Baja      ,Vender      ,         0.0 ,             0 ,Apto
+H. Traoré       ,Real Sociedad      ,Defensa     ,9.592.000   ,Baja      ,Vender      ,         4.3 ,            82 ,Otro
+J. Aidoo        ,Celta de Vigo      ,Defensa     ,160.000     ,Mantiene  ,Vender      ,         3.0 ,            18 ,Lesionado
+J. Cruz         ,Osasuna            ,Defensa     ,671.000     ,Sube      ,Vender      ,         3.2 ,            42 ,Apto
+Juanpe          ,Girona             ,Defensa     ,253.000     ,Sube      ,Vender      ,         2.1 ,            15 ,Apto
+U. Núñez        ,Celta de Vigo      ,Defensa     ,10.169.000  ,Sube      ,Vender      ,         4.2 ,            79 ,Apto
+B. Soumaré      ,Sevilla            ,Mediocentro ,2.311.000   ,Baja      ,Vender      ,         2.9 ,            32 ,Apto
+D. Brašanac     ,Osasuna            ,Mediocentro ,160.000     ,Baja      ,Vender      ,         0.0 ,             0 ,Apto
+E. Lamela       ,Sevilla            ,Mediocentro ,245.000     ,Baja      ,Vender      ,         4.4 ,            31 ,Duda
+Fernando        ,Desconocido        ,Mediocentro ,168.000     ,Baja      ,Vender      ,         2.5 ,            20 ,Apto
+Vitolo          ,Atletico de Madrid ,Mediocentro ,160.000     ,Baja      ,Vender      ,         0.0 ,             0 ,Lesionado
+Y. Herrera      ,Girona             ,Mediocentro ,11.012.000  ,Baja      ,Vender      ,         5.7 ,            86 ,Duda
+Á. Correa       ,Atletico de Madrid ,Delantero   ,3.405.000   ,Baja      ,Vender      ,         4.3 ,            65 ,Apto
+D. Lukébakio    ,Sevilla            ,Delantero   ,1.680.000   ,Baja      ,Vender      ,         4.4 ,            53 ,Lesionado
+M. Rodríguez    ,Celta de Vigo      ,Delantero   ,160.000     ,Mantiene  ,Vender      ,         1.1 ,             8 ,Apto
+
